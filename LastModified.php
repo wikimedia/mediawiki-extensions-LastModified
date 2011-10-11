@@ -32,7 +32,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'LastModified',
 	'version' => '1.0',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:LastModified',
-	'author' => 'Katie Horn, Jeremy Postlethwaite',
+	'author' => array( 'Katie Horn', 'Jeremy Postlethwaite' ),
 	'descriptionmsg' => 'lastmodified-desc',
 );
 
@@ -70,14 +70,14 @@ $wgHooks['BeforePageDisplay'][] = 'fnLastModified';
 $wgLastModifiedRange = isset( $wgLastModifiedRange ) ? (integer) $wgLastModifiedRange : 0;
 
 function fnLastModified() {
-	global $wgOut, $wgResourceModules, $wgArticle, $wgLastModifiedRange;
+	global $wgOut, $wgArticle, $wgLastModifiedRange;
 
-	if (isset( $wgArticle ) && !empty( $wgArticle ) ){
+	if ( isset( $wgArticle ) && !empty( $wgArticle ) ){
 		$timestamp = $wgArticle->getTimestamp();
 		$wgOut->addMeta( 'last-edited', wfTimestamp ( TS_UNIX, $timestamp ) );
 		$wgOut->addMeta( 'last-modified-range', $wgLastModifiedRange );
 		$wgOut->addModules( 'last.modified' );
-	}	
+	} 
 
 	return true;
 }
