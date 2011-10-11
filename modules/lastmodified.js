@@ -34,7 +34,7 @@ function extensionsLastModified() {
 	
 	// Get the current timestamp and remove the milliseconds
 	var nowStamp = extensionsLastModifiedGetUtcTimeStamp();
-	console.log( 'nowStamp: ' + nowStamp );
+	//console.log( 'nowStamp: ' + nowStamp );
 
 	// Get the difference in the time from when it was last edited.
 	var modifiedDifference = nowStamp - lastEdited;
@@ -56,7 +56,7 @@ function extensionsLastModifiedGetUtcTimeStamp() {
 	
 	// Get the current Date object
 	var now = new Date();
-	console.log( 'now: ' + now );
+	//console.log( 'now: ' + now );
 	
 	return parseInt( now.getTime() / 1000 );
 }
