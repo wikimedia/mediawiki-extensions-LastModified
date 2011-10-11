@@ -112,7 +112,7 @@ function extensionsLastModifiedGetMetaLastEdited() {
  * @param integer	displayRange		The maximum unit of time to display for last updated
  *
  * displayRange
- * - 0: default	- display: years, months, days, hours, minutes, seconds  
+ * - 0: years	- display: years, months, days, hours, minutes, seconds  
  * - 1: months 	- display: months, days, hours, minutes, seconds  
  * - 2: days	- display: days, hours, minutes, seconds  
  * - 3: hours	- display: hours, minutes, seconds  
@@ -136,37 +136,44 @@ function extensionsLastModifiedGetLastModifiedText( modifiedDifference, displayR
 	else if ( modifiedDifference < 3600 ) {
 
 		// minutes
-		lastEdit = parseInt( modifiedDifference / 60 );
-		message = ( mw.msg( 'lastmodified-minutes', myLastEdit ) );
+		if ( displayRange <= 4 ) {
+			lastEdit = parseInt( modifiedDifference / 60 );
+			message = ( mw.msg( 'lastmodified-minutes', myLastEdit ) );
+		}
 		
 	}
 	else if ( modifiedDifference < 86400 ) {
 
 		// hours
-		myLastEdit = parseInt( modifiedDifference / 3600 );
-		message = ( mw.msg( 'lastmodified-hours', myLastEdit ) );
-		
+		if ( displayRange <= 3) {
+			myLastEdit = parseInt( modifiedDifference / 3600 );
+			message = ( mw.msg( 'lastmodified-hours', myLastEdit ) );
+		}		
 	}
 	else if ( modifiedDifference < 2592000 ) {
 		
 		// days
-		myLastEdit = parseInt( modifiedDifference / 86400 );
-		message = ( mw.msg( 'lastmodified-days', myLastEdit ) );
+		if ( displayRange <= 2) {
+			myLastEdit = parseInt( modifiedDifference / 86400 );
+			message = ( mw.msg( 'lastmodified-days', myLastEdit ) );
+		}
 		
 	}
 	else if ( modifiedDifference < 31536000 ) {
 
 		// months
-		myLastEdit = parseInt( modifiedDifference / 2592000 );
-		message = ( mw.msg( 'lastmodified-months', myLastEdit ) );
-		
+		if ( displayRange <= 1) {
+			myLastEdit = parseInt( modifiedDifference / 2592000 );
+			message = ( mw.msg( 'lastmodified-months', myLastEdit ) );
+		}
 	}
 	else {
 
 		// years
-		myLastEdit = parseInt( modifiedDifference / 31536000 );
-		message = ( mw.msg( 'lastmodified-years', myLastEdit ) );
-		
+		if ( displayRange == 0) {
+			myLastEdit = parseInt( modifiedDifference / 31536000 );
+			message = ( mw.msg( 'lastmodified-years', myLastEdit ) );
+		}		
 	}
 	
 	return message;

@@ -28,7 +28,15 @@ $messages = array();
  */
 $messages['en'] = array(
 	'lastmodified-desc' => 'Generates last modified times for articles',
-	'lastmodified' => 'LastModified',
+	'lastmodified' => 'Last Modified',
+	'lastmodified-label-seconds' => 'seconds',
+	'lastmodified-label-minutes' => 'minutes',
+	'lastmodified-label-hours' => 'hours',
+	'lastmodified-label-days' => 'days',
+	'lastmodified-label-months' => 'months',
+	'lastmodified-label-years' => 'years',
+	'lastmodified-options' => 'Options',
+	'lastmodified-display-range-value' => 'Display range value:',
 	'lastmodified-seconds' => 'Last updated $1 seconds ago',
 	'lastmodified-minutes' => 'Last updated $1 minutes ago',
 	'lastmodified-hours' => 'Last updated $1 hours ago',
