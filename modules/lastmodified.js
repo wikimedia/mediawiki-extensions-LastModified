@@ -34,7 +34,7 @@ function extensionsLastModified() {
 	
 	// Get the current timestamp and remove the milliseconds
 	var nowStamp = extensionsLastModifiedGetUtcTimeStamp();
-	//console.log( 'nowStamp: ' + nowStamp );
+	console.log( 'nowStamp: ' + nowStamp );
 
 	// Get the difference in the time from when it was last edited.
 	var modifiedDifference = nowStamp - lastEdited;
@@ -50,30 +50,15 @@ function extensionsLastModified() {
 /**
  * Get the UTC Timestamp without microseconds
  *
- * @todo
- * - What do we need to do about timezones?
- *
  * @return integer
  */
 function extensionsLastModifiedGetUtcTimeStamp() {
 	
 	// Get the current Date object
 	var now = new Date();
-	//console.log( 'now: ' + now );
+	console.log( 'now: ' + now );
 	
 	return parseInt( now.getTime() / 1000 );
-
-	// Return the UTC timestamp
-	return parseInt( 
-		Date.UTC( 
-			now.getUTCFullYear(),
-			now.getUTCMonth(),
-			now.getUTCDay(),
-			now.getUTCHours(),
-			now.getUTCMinutes(),
-			now.getUTCSeconds()
-		) / 1000
-	);
 }
 
 /**
@@ -140,12 +125,12 @@ function extensionsLastModifiedGetLastModifiedText( modifiedDifference, displayR
 
 	// Message to return
 	var message = '';
-	var lastEdit = modifiedDifference;
+	var myLastEdit = modifiedDifference;
 	
 	if ( modifiedDifference < 60 ) {
 
 		// seconds
-		message = ( mw.msg( 'lastmodified-seconds',  lastEdit ) );
+		message = ( mw.msg( 'lastmodified-seconds',  myLastEdit ) );
 		
 	}
 	else if ( modifiedDifference < 3600 ) {
