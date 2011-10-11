@@ -69,14 +69,22 @@ $wgHooks['BeforePageDisplay'][] = 'fnLastModified';
 
 $wgLastModifiedRange = isset( $wgLastModifiedRange ) ? (integer) $wgLastModifiedRange : 0;
 
-function fnLastModified() {
-	global $wgOut, $wgArticle, $wgLastModifiedRange;
+/**
+ * @param $out OutputPage
+ * @param $sk Skin
+ * @return bool
+ */
+function fnLastModified( &$out, &$sk ) {
+	global $wgLastModifiedRange;
 
-	if ( isset( $wgArticle ) && !empty( $wgArticle ) ){
-		$timestamp = $wgArticle->getTimestamp();
-		$wgOut->addMeta( 'last-edited', wfTimestamp ( TS_UNIX, $timestamp ) );
-		$wgOut->addMeta( 'last-modified-range', $wgLastModifiedRange );
-		$wgOut->addModules( 'last.modified' );
+	$context = $out->getContext();
+	$title = $context->getTitle();
+	$article = Article::newFromTitle( $title, $context );
+	if ( $article ){
+		$timestamp = $article->getTimestamp();
+		$out->addMeta( 'last-edited', wfTimestamp ( TS_UNIX, $timestamp ) );
+		$out->addMeta( 'last-modified-range', $wgLastModifiedRange );
+		$out->addModules( 'last.modified' );
 	} 
 
 	return true;
