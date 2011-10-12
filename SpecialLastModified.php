@@ -25,7 +25,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 /**
  * Show LastModified options 
  */
-class SpecialLastModified extends SpecialPage {
+class SpecialLastModified extends UnlistedSpecialPage {
 	
 	public function __construct() {
 		// Register special page
