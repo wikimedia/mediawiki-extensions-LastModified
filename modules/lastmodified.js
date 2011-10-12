@@ -213,13 +213,13 @@ function extensionsLastModifiedInsertHtml( lastModifiedText ) {
 
 	var html = '';
 	
-	html += '<div style="float: right;" class="lastmodified">';
-	html += '<a href="' + historyLink + '" title="View the revision history for this article.">';
+	html += '<div style="float: right; position: absolute; right: 10px; font-size: 85%;" class="lastmodified">';
+	html += '<a href="' + historyLink + '" title="' + mw.msg( 'lastmodified-title-tag' ) + '">';
 	html += lastModifiedText;
 	html += '</a>';
 	html += '</div>';
 	
-	$('.mw-content-ltr').prepend( html );
+	$('#content').prepend( html );
 }
 
 /**

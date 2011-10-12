@@ -37,6 +37,7 @@ $messages['en'] = array(
 	'lastmodified-label-years' => 'years',
 	'lastmodified-options' => 'Options',
 	'lastmodified-display-range-value' => 'Display range value:',
+	'lastmodified-title-tag' => 'View the revision history for this article.',
 	'lastmodified-seconds' => 'Last updated $1 seconds ago',
 	'lastmodified-minutes' => 'Last updated $1 minutes ago',
 	'lastmodified-hours' => 'Last updated $1 hours ago',

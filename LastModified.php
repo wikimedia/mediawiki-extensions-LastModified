@@ -64,6 +64,7 @@ $wgResourceModules['last.modified'] = array(
 		'lastmodified-days',
 		'lastmodified-months',
 		'lastmodified-years',
+		'lastmodified-title-tag',
 	),
 ) + $wgResourceTemplate;
 
@@ -82,7 +83,8 @@ function fnLastModified( &$out, &$sk ) {
 	$context = $out->getContext();
 	$title = $context->getTitle();
 	$article = Article::newFromTitle( $title, $context );
-	if ( $article ){
+
+	if ( $article && ( method_exists( $title, 'getNamespace' ) && $title->getNamespace() == 0 ) ) {
 		$timestamp = $article->getTimestamp();
 		$out->addMeta( 'last-edited', wfTimestamp ( TS_UNIX, $timestamp ) );
 		$out->addMeta( 'last-modified-range', $wgLastModifiedRange );
