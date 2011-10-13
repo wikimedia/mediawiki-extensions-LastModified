@@ -84,9 +84,10 @@ function fnLastModified( &$out, &$sk ) {
 	$title = $context->getTitle();
 	$article = Article::newFromTitle( $title, $context );
 
-	if ( $article && ( method_exists( $title, 'getNamespace' ) && $title->getNamespace() == 0 ) ) {
-		$timestamp = $article->getTimestamp();
-		$out->addMeta( 'last-edited', wfTimestamp ( TS_UNIX, $timestamp ) );
+	if ( $article && ( ( $title instanceof Title ) && $title->getNamespace() == 0 ) ) {
+		$timestamp = wfTimestamp ( TS_UNIX, $article->getTimestamp() );
+		$out->addMeta( 'http:last-modified', date( 'r', $timestamp ) );
+		$out->addMeta( 'last-modified-timestamp', $timestamp );
 		$out->addMeta( 'last-modified-range', $wgLastModifiedRange );
 		$out->addModules( 'last.modified' );
 	} 

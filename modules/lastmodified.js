@@ -24,9 +24,9 @@
  */
 function extensionsLastModified() {
 
-	// Get the last-edit value
-	var lastEdited = extensionsLastModifiedGetMetaLastEdited();
-	//console.log( 'lastEdited: ' + lastEdited );
+	// Get the last-modified-timestamp value
+	var lastModifiedTimestamp = extensionsLastModifiedGetMetaLastModifiedTimestamp();
+	//console.log( 'lastModifiedTimestamp: ' + lastModifiedTimestamp );
 
 	// Get the last-modified-range value
 	var displayRange = extensionsLastModifiedGetMetaRange();
@@ -37,7 +37,7 @@ function extensionsLastModified() {
 	//console.log( 'nowStamp: ' + nowStamp );
 
 	// Get the difference in the time from when it was last edited.
-	var modifiedDifference = nowStamp - lastEdited;
+	var modifiedDifference = nowStamp - lastModifiedTimestamp;
 	//console.log( 'modifiedDifference: ' + modifiedDifference );
 
 	// Get the last modified text
@@ -87,14 +87,14 @@ function extensionsLastModifiedGetArticleHistoryLink() {
 }
 
 /**
- * Get the value from the meta tag: last-edited
+ * Get the value from the meta tag: last-modified-timestamp
  *
  * @return integer
  */
-function extensionsLastModifiedGetMetaLastEdited() {
+function extensionsLastModifiedGetMetaLastModifiedTimestamp() {
 	
 	// Fetch the meta tag
-	var metaTag = $("meta[name=last-edited]");    
+	var metaTag = $("meta[name=last-modified-timestamp]");    
 
 	// If the tag was found, parse the value
 	if ( metaTag ) {
@@ -137,7 +137,7 @@ function extensionsLastModifiedGetLastModifiedText( modifiedDifference, displayR
 
 		// minutes
 		if ( displayRange <= 4 ) {
-			lastEdit = parseInt( modifiedDifference / 60 );
+			myLastEdit = parseInt( modifiedDifference / 60 );
 			message = ( mw.msg( 'lastmodified-minutes', myLastEdit ) );
 		}
 		

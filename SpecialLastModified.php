@@ -49,7 +49,7 @@ class SpecialLastModified extends UnlistedSpecialPage {
 		$out->addHTML( wfMsg( 'lastmodified-display-range-value' ) . ' ' . $wgLastModifiedRange );
 		$out->addHTML( Xml::closeElement( 'p' ) );
 
-		$rangeMessage  = '<p>Display: ';
+		$rangeMessage  = wfMsg( 'lastmodified-display' ) . ' ';
 		$rangeMessageDatetime = '';
 		
 		$displayRange = array(
@@ -62,7 +62,6 @@ class SpecialLastModified extends UnlistedSpecialPage {
 		);
 		
 		// Display seconds
-			
 		foreach ( $displayRange as $key => $value ) {
 
 			// Check to see which values to display.
@@ -77,8 +76,9 @@ class SpecialLastModified extends UnlistedSpecialPage {
 		}
 		
 		$rangeMessage .= $rangeMessageDatetime;
-		$rangeMessage .= '</p>';
 		
+		$out->addHTML( Xml::openElement( 'p' ) );
 		$out->addHTML( $rangeMessage );
+		$out->addHTML( Xml::closeElement( 'p' ) );
 	}
 }
