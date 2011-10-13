@@ -46,3 +46,27 @@ $messages['en'] = array(
 	'lastmodified-months' => 'Last updated $1 months ago',
 	'lastmodified-years' => 'Last updated $1 years ago',
 );
+
+/** Message documentation (Message documentation)
+ * @author Jeremy Postlethwaite
+ */
+$messages['qqq'] = array(
+	'lastmodified-desc' => 'Description of the extension LastModified',
+	'lastmodified' => 'Name of Special:LastModified in Special:SpecialPages and title of Special:LastModified page',
+	'lastmodified-label-seconds' => 'Displayed text "seconds" in Special:LastModified',
+	'lastmodified-label-minutes' => 'Displayed text "minutes"  in Special:LastModified',
+	'lastmodified-label-hours' => 'Displayed text "hours"  in Special:LastModified',
+	'lastmodified-label-days' => 'Displayed text "days"  in Special:LastModified',
+	'lastmodified-label-months' => 'Displayed text "months"  in Special:LastModified',
+	'lastmodified-label-years' => 'Displayed text "years"  in Special:LastModified',
+	'lastmodified-options' => 'Displayed in Special:LastModified',
+	'lastmodified-display' => 'Displayed in Special:LastModified',
+	'lastmodified-display-range-value' => 'Displayed in Special:LastModified',
+	'lastmodified-title-tag' => 'Title tag for the link to the revision history.',
+	'lastmodified-seconds' => 'Text displayed on artcle page if page to show how long ago the page was updated in seconds. NOTE: This will be updated to support PLURAL when the function is available in javascript.',
+	'lastmodified-minutes' => 'Text displayed on artcle page if page to show how long ago the page was updated in minutes. NOTE: This will be updated to support PLURAL when the function is available in javascript.',
+	'lastmodified-hours' => 'Text displayed on artcle page if page to show how long ago the page was updated in hours. NOTE: This will be updated to support PLURAL when the function is available in javascript.',
+	'lastmodified-days' => 'Text displayed on artcle page if page to show how long ago the page was updated in days. NOTE: This will be updated to support PLURAL when the function is available in javascript.',
+	'lastmodified-months' => 'Text displayed on artcle page if page to show how long ago the page was updated in months. NOTE: This will be updated to support PLURAL when the function is available in javascript.',
+	'lastmodified-years' => 'Text displayed on artcle page if page to show how long ago the page was updated in years. NOTE: This will be updated to support PLURAL when the function is available in javascript.',
+);
