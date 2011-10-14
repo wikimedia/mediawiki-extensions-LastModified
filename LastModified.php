@@ -70,7 +70,25 @@ $wgResourceModules['last.modified'] = array(
 
 $wgHooks['BeforePageDisplay'][] = 'fnLastModified';
 
-$wgLastModifiedRange = isset( $wgLastModifiedRange ) ? (integer) $wgLastModifiedRange : 0;
+/**
+ * This variable controls the display range.
+ *
+ * For example, if you only want to display the message for articles that were
+ * updated less than 30 days ago, set this value to 2. This will display a
+ * message like: "Last updated 20 days ago." You will not see this message for
+ * articles that were modifed more than 30 days ago.
+ *
+ * @var integer $wgLastModifiedRange
+ *
+ * $wgLastModifiedRange options:
+ * - 0: years	- display: years, months, days, hours, minutes, seconds  
+ * - 1: months 	- display: months, days, hours, minutes, seconds  
+ * - 2: days	- display: days, hours, minutes, seconds  
+ * - 3: hours	- display: hours, minutes, seconds  
+ * - 4: minutes	- display: minutes, seconds  
+ * - 5: seconds	- display: seconds  
+ */
+$wgLastModifiedRange = 0;
 
 /**
  * @param $out OutputPage
