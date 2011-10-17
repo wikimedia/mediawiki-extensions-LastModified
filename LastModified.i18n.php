@@ -119,9 +119,12 @@ $messages['de'] = array(
 );
 
 /** French (Français)
+ * @author Gomoko
  * @author Grondin
+ * @author Toliño
  */
 $messages['fr'] = array(
+	'lastmodified-desc' => 'Génère les horodatages de dernière modification pour les articles',
 	'lastmodified' => 'Dernière mise à jour',
 	'lastmodified-label-seconds' => 'secondes',
 	'lastmodified-label-minutes' => 'minutes',
@@ -130,7 +133,7 @@ $messages['fr'] = array(
 	'lastmodified-label-months' => 'mois',
 	'lastmodified-label-years' => 'années',
 	'lastmodified-options' => 'Options',
-	'lastmodified-display' => 'Afficher',
+	'lastmodified-display' => 'Afficher :',
 	'lastmodified-display-range-value' => 'Afficher la valeur du rang :',
 	'lastmodified-title-tag' => "Afficher l'historique des révisions pour cet article.",
 	'lastmodified-seconds' => 'Dernière mise à jour depuis $1 secondes',
@@ -138,6 +141,7 @@ $messages['fr'] = array(
 	'lastmodified-hours' => 'Dernière mise à jour depuis {{PLURAL:$1|heure|heures}}',
 	'lastmodified-days' => 'Dernière mise à jour depuis {{PLURAL:$1|jour|jours}}',
 	'lastmodified-months' => 'Dernière mise à jour depuis $1 mois',
+	'lastmodified-years' => 'Dernière modification il y a $1 années',
 );
 
 /** Galician (Galego)
@@ -255,5 +259,26 @@ $messages['nl'] = array(
 	'lastmodified' => 'Deze pagina is het laatst bewerkt op $1.',
 	'lastmodified-options' => 'Opties',
 	'lastmodified-title-tag' => 'De versiegeschiedenis van dit artikel bekijken.',
+);
+
+/** Telugu (తెలుగు)
+ * @author Sunil Mohan
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'lastmodified' => 'ఈ పేజీకి $1న చివరి మార్పు జరిగినది.',
+	'lastmodified-label-seconds' => 'క్షణాలు',
+	'lastmodified-label-minutes' => 'నిమిషాలు',
+	'lastmodified-label-hours' => 'గంటలు',
+	'lastmodified-label-days' => 'రోజులు',
+	'lastmodified-label-months' => 'నెలలు',
+	'lastmodified-label-years' => 'సంవత్సరాలు',
+	'lastmodified-options' => 'ఎంపికలు',
+	'lastmodified-seconds' => 'చివరి మార్పు $1 క్షణాల క్రితం',
+	'lastmodified-minutes' => 'చివరి మార్పు $1 నిమిషాల క్రితం',
+	'lastmodified-hours' => 'చివరి మార్పు $1 గంటల క్రితం',
+	'lastmodified-days' => 'చివరి మార్పు $1 రోజుల క్రితం',
+	'lastmodified-months' => 'చివరి మార్పు $1 నెలల క్రితం',
+	'lastmodified-years' => 'చివరి మార్పు $1 సంవత్సరాల క్రితం',
 );
 
