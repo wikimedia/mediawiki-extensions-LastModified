@@ -266,6 +266,7 @@ $messages['nl'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'lastmodified-desc' => 'వ్యాసాలలో చివరి మార్పు తేదీలను చూపిస్తుంది',
 	'lastmodified' => 'ఈ పేజీకి $1న చివరి మార్పు జరిగినది.',
 	'lastmodified-label-seconds' => 'క్షణాలు',
 	'lastmodified-label-minutes' => 'నిమిషాలు',
@@ -274,6 +275,7 @@ $messages['te'] = array(
 	'lastmodified-label-months' => 'నెలలు',
 	'lastmodified-label-years' => 'సంవత్సరాలు',
 	'lastmodified-options' => 'ఎంపికలు',
+	'lastmodified-title-tag' => 'ఈ వ్యాసపు కూర్పుల చరిత్రను చూడండి',
 	'lastmodified-seconds' => 'చివరి మార్పు $1 క్షణాల క్రితం',
 	'lastmodified-minutes' => 'చివరి మార్పు $1 నిమిషాల క్రితం',
 	'lastmodified-hours' => 'చివరి మార్పు $1 గంటల క్రితం',
