@@ -144,6 +144,22 @@ $messages['fr'] = array(
 	'lastmodified-years' => 'Dernière modification il y a $1 années',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'lastmodified' => 'Dèrriér changement de ceta pâge lo $1.',
+	'lastmodified-label-seconds' => 'secondes',
+	'lastmodified-label-minutes' => 'menutes',
+	'lastmodified-label-hours' => 'hores',
+	'lastmodified-label-days' => 'jorns',
+	'lastmodified-label-months' => 'mês',
+	'lastmodified-label-years' => 'ans',
+	'lastmodified-options' => 'Chouèx',
+	'lastmodified-display' => 'Fâre vêre :',
+	'lastmodified-display-range-value' => 'Fâre vêre la valor du rang :',
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
