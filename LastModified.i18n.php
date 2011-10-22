@@ -188,6 +188,7 @@ $messages['gl'] = array(
  * @author Als-Chlämens
  */
 $messages['gsw'] = array(
+	'lastmodified-desc' => 'Zeigt d Zitspanne syt dr letschte Änderig vo de Syte aa',
 	'lastmodified' => 'Zletscht gänderet',
 	'lastmodified-label-seconds' => 'Sekunde',
 	'lastmodified-label-minutes' => 'Minute',
@@ -197,6 +198,14 @@ $messages['gsw'] = array(
 	'lastmodified-label-years' => 'Joor',
 	'lastmodified-options' => 'Optione',
 	'lastmodified-display' => 'Aazeige:',
+	'lastmodified-display-range-value' => 'Zitspanne aazeige:',
+	'lastmodified-title-tag' => 'D Versionsgschicht vo däm Artikel aaluege.',
+	'lastmodified-seconds' => 'Zum letschte Mool vor $1 Sekunde aktualisiert',
+	'lastmodified-minutes' => 'Zum letschte Mool vor $1 Minute aktualisiert',
+	'lastmodified-hours' => 'Zum letschte Mool vor $1 Stunde aktualisiert',
+	'lastmodified-days' => 'Zum letschte Mool vor $1 Dääg aktualisiert',
+	'lastmodified-months' => 'Zum letschte Mool vor $1 Monet aktualisiert',
+	'lastmodified-years' => 'Zum letschte Mool vor $1 Joor aktualisiert',
 );
 
 /** Interlingua (Interlingua)
