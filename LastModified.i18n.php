@@ -252,6 +252,27 @@ $messages['ksh'] = array(
 	'lastmodified-minutes' => 'Et läz vör {{PLURAL:$1|ein Menutt|$1 Menutte|nit ens ein Menutt}} jeändert.',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'lastmodified' => 'Lescht Ännerung',
+	'lastmodified-label-seconds' => 'Sekonnen',
+	'lastmodified-label-minutes' => 'Minutten',
+	'lastmodified-label-hours' => 'Stonnen',
+	'lastmodified-label-days' => 'Deeg',
+	'lastmodified-label-months' => 'Méint',
+	'lastmodified-label-years' => 'Joer',
+	'lastmodified-options' => 'Optiounen',
+	'lastmodified-display' => 'Weisen:',
+	'lastmodified-seconds' => 'Lescht Ännerung viru(n) $1 Sekonnen',
+	'lastmodified-minutes' => 'Lescht Ännerung viru(n) $1 Minutten',
+	'lastmodified-hours' => 'Lescht Ännerung viru(n) $1 Stonnen',
+	'lastmodified-days' => 'Lescht Ännerung viru(n) $1 Deeg',
+	'lastmodified-months' => 'Lescht Ännerung viru(n) $1 Méint',
+	'lastmodified-years' => 'Lescht Ännerung viru(n) $1 Joer',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -282,8 +303,20 @@ $messages['mk'] = array(
  */
 $messages['nl'] = array(
 	'lastmodified' => 'Deze pagina is het laatst bewerkt op $1.',
+	'lastmodified-label-seconds' => 'seconden',
+	'lastmodified-label-minutes' => 'minuten',
+	'lastmodified-label-hours' => 'uur',
+	'lastmodified-label-days' => 'dagen',
+	'lastmodified-label-months' => 'maanden',
+	'lastmodified-label-years' => 'jaar',
 	'lastmodified-options' => 'Opties',
 	'lastmodified-title-tag' => 'De versiegeschiedenis van dit artikel bekijken.',
+	'lastmodified-seconds' => 'Laatst bijgewerkt $1 seconden geleden',
+	'lastmodified-minutes' => 'Laatst bijgewerkt $1 minuten geleden',
+	'lastmodified-hours' => 'Laatst bijgewerkt $1 uur geleden',
+	'lastmodified-days' => 'Laatst bijgewerkt $1 dagen geleden',
+	'lastmodified-months' => 'Laatst bijgewerkt $1 maanden geleden',
+	'lastmodified-years' => 'Laatst bijgewerkt $1 jaar geleden',
 );
 
 /** Telugu (తెలుగు)
