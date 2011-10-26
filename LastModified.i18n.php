@@ -310,6 +310,8 @@ $messages['nl'] = array(
 	'lastmodified-label-months' => 'maanden',
 	'lastmodified-label-years' => 'jaar',
 	'lastmodified-options' => 'Opties',
+	'lastmodified-display' => 'Weergave:',
+	'lastmodified-display-range-value' => 'Reeks weergeven:',
 	'lastmodified-title-tag' => 'De versiegeschiedenis van dit artikel bekijken.',
 	'lastmodified-seconds' => 'Laatst bijgewerkt $1 seconden geleden',
 	'lastmodified-minutes' => 'Laatst bijgewerkt $1 minuten geleden',
@@ -317,6 +319,30 @@ $messages['nl'] = array(
 	'lastmodified-days' => 'Laatst bijgewerkt $1 dagen geleden',
 	'lastmodified-months' => 'Laatst bijgewerkt $1 maanden geleden',
 	'lastmodified-years' => 'Laatst bijgewerkt $1 jaar geleden',
+);
+
+/** Polish (Polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'lastmodified-desc' => 'Generuje czas ostatniej modyfikacji dla artykułów',
+	'lastmodified' => 'Ostatnio zmodyfikowano',
+	'lastmodified-label-seconds' => 'sekund',
+	'lastmodified-label-minutes' => 'minut',
+	'lastmodified-label-hours' => 'godzin',
+	'lastmodified-label-days' => 'dni',
+	'lastmodified-label-months' => 'miesięcy',
+	'lastmodified-label-years' => 'lata',
+	'lastmodified-options' => 'Opcje',
+	'lastmodified-display' => 'Wyświetl:',
+	'lastmodified-display-range-value' => 'Wyświetlana wartość zakresu:',
+	'lastmodified-title-tag' => 'Zobacz historię edycji dla tego artykułu.',
+	'lastmodified-seconds' => 'Ostatnio zaktualizowano $1 sekund temu',
+	'lastmodified-minutes' => 'Ostatnio zaktualizowano $1 minut temu',
+	'lastmodified-hours' => 'Ostatnio zaktualizowano $1 godzin temu',
+	'lastmodified-days' => 'Ostatnio zaktualizowano $1 dni temu',
+	'lastmodified-months' => 'Ostatnio zaktualizowano $1 miesięcy temu',
+	'lastmodified-years' => 'Ostatnio zaktualizowano $1 lat temu',
 );
 
 /** Telugu (తెలుగు)
