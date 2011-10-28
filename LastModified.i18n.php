@@ -322,21 +322,22 @@ $messages['nl'] = array(
 );
 
 /** Polish (Polski)
+ * @author Sp5uhe
  * @author Woytecr
  */
 $messages['pl'] = array(
 	'lastmodified-desc' => 'Generuje czas ostatniej modyfikacji dla artykułów',
-	'lastmodified' => 'Ostatnio zmodyfikowano',
-	'lastmodified-label-seconds' => 'sekund',
-	'lastmodified-label-minutes' => 'minut',
-	'lastmodified-label-hours' => 'godzin',
+	'lastmodified' => 'Ostatnio modyfikowane',
+	'lastmodified-label-seconds' => 'sekundy',
+	'lastmodified-label-minutes' => 'minuty',
+	'lastmodified-label-hours' => 'godziny',
 	'lastmodified-label-days' => 'dni',
-	'lastmodified-label-months' => 'miesięcy',
+	'lastmodified-label-months' => 'miesiące',
 	'lastmodified-label-years' => 'lata',
 	'lastmodified-options' => 'Opcje',
-	'lastmodified-display' => 'Wyświetl:',
-	'lastmodified-display-range-value' => 'Wyświetlana wartość zakresu:',
-	'lastmodified-title-tag' => 'Zobacz historię edycji dla tego artykułu.',
+	'lastmodified-display' => 'Wygląd',
+	'lastmodified-display-range-value' => 'Zakres wyświetlanych wartości',
+	'lastmodified-title-tag' => 'Zobacz historię zmian tego artykułu.',
 	'lastmodified-seconds' => 'Ostatnio zaktualizowano $1 sekund temu',
 	'lastmodified-minutes' => 'Ostatnio zaktualizowano $1 minut temu',
 	'lastmodified-hours' => 'Ostatnio zaktualizowano $1 godzin temu',
