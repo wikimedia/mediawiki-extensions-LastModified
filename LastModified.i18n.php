@@ -256,6 +256,7 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'lastmodified-desc' => 'Generéiert den Zäitpunkt vun der leschter Ännerung vun Artikelen',
 	'lastmodified' => 'Lescht Ännerung',
 	'lastmodified-label-seconds' => 'Sekonnen',
 	'lastmodified-label-minutes' => 'Minutten',
@@ -265,6 +266,8 @@ $messages['lb'] = array(
 	'lastmodified-label-years' => 'Joer',
 	'lastmodified-options' => 'Optiounen',
 	'lastmodified-display' => 'Weisen:',
+	'lastmodified-display-range-value' => 'Wäert vum Zäitofstand:',
+	'lastmodified-title-tag' => 'Den Historique vun de Versioune vun dësem Artikel weisen.',
 	'lastmodified-seconds' => 'Lescht Ännerung viru(n) $1 Sekonnen',
 	'lastmodified-minutes' => 'Lescht Ännerung viru(n) $1 Minutten',
 	'lastmodified-hours' => 'Lescht Ännerung viru(n) $1 Stonnen',
