@@ -27,7 +27,7 @@ $messages = array();
  * @author Katie Horn, Jeremy Postlethwaite
  */
 $messages['en'] = array(
-	'lastmodified-desc' => 'Generates last modified times for articles',
+	'lastmodified-desc' => 'Generates last modified times for pages',
 	'lastmodified' => 'Last Modified',
 	'lastmodified-label-seconds' => 'seconds',
 	'lastmodified-label-minutes' => 'minutes',
@@ -38,7 +38,7 @@ $messages['en'] = array(
 	'lastmodified-options' => 'Options',
 	'lastmodified-display' => 'Display:',
 	'lastmodified-display-range-value' => 'Display range value:',
-	'lastmodified-title-tag' => 'View the revision history for this article.',
+	'lastmodified-title-tag' => 'View the revision history for this page.',
 	'lastmodified-seconds' => 'Last updated $1 seconds ago',
 	'lastmodified-minutes' => 'Last updated $1 minutes ago',
 	'lastmodified-hours' => 'Last updated $1 hours ago',
