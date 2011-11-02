@@ -305,6 +305,7 @@ $messages['mk'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
+	'lastmodified-desc' => 'Genereert "laatste wijzing"-tijden voor pagina\'s',
 	'lastmodified' => 'Deze pagina is het laatst bewerkt op $1.',
 	'lastmodified-label-seconds' => 'seconden',
 	'lastmodified-label-minutes' => 'minuten',
