@@ -325,6 +325,18 @@ $messages['nl'] = array(
 	'lastmodified-years' => 'Laatst bijgewerkt $1 jaar geleden',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'lastmodified-label-seconds' => 'Sekunde',
+	'lastmodified-label-minutes' => 'Minudde',
+	'lastmodified-label-hours' => 'Schtund',
+	'lastmodified-label-days' => 'Daag',
+	'lastmodified-label-months' => 'Munete',
+	'lastmodified-label-years' => 'Yaahre',
+);
+
 /** Polish (Polski)
  * @author Sp5uhe
  * @author Woytecr
