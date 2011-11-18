@@ -232,6 +232,30 @@ $messages['ia'] = array(
 	'lastmodified-years' => 'Ultime actualisation $1 annos retro',
 );
 
+/** Japanese (日本語)
+ * @author Fryed-peach
+ */
+$messages['ja'] = array(
+	'lastmodified-desc' => 'ページが最後に改編された時刻を生成する',
+	'lastmodified' => '最終更新',
+	'lastmodified-label-seconds' => '秒',
+	'lastmodified-label-minutes' => '分',
+	'lastmodified-label-hours' => '時間',
+	'lastmodified-label-days' => '日',
+	'lastmodified-label-months' => '月',
+	'lastmodified-label-years' => '年',
+	'lastmodified-options' => 'オプション',
+	'lastmodified-display' => '表示:',
+	'lastmodified-display-range-value' => '表示範囲:',
+	'lastmodified-title-tag' => 'このページの変更履歴を表示します。',
+	'lastmodified-seconds' => '$1秒前に最終更新',
+	'lastmodified-minutes' => '$1分前に最終更新',
+	'lastmodified-hours' => '$1時間前に最終更新',
+	'lastmodified-days' => '$1日前に最終更新',
+	'lastmodified-months' => '$1か月前に最終更新',
+	'lastmodified-years' => '$1年前に最終更新',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
