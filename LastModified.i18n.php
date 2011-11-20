@@ -208,6 +208,30 @@ $messages['gsw'] = array(
 	'lastmodified-years' => 'Zum letschte Mool vor $1 Joor aktualisiert',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'lastmodified-desc' => 'Pokazuje časy poslednich změnow za strony',
+	'lastmodified' => 'Posledni raz změnjeny',
+	'lastmodified-label-seconds' => 'sekundow',
+	'lastmodified-label-minutes' => 'mjeńšin',
+	'lastmodified-label-hours' => 'hodźin',
+	'lastmodified-label-days' => 'dnjow',
+	'lastmodified-label-months' => 'měsacow',
+	'lastmodified-label-years' => 'lět',
+	'lastmodified-options' => 'Opcije',
+	'lastmodified-display' => 'Zwobraznjenje:',
+	'lastmodified-display-range-value' => 'Wotrězk časa zwobraznić:',
+	'lastmodified-title-tag' => 'Wersijowu historiju tuteje strony zwobraznić.',
+	'lastmodified-seconds' => 'Před $1 {{PLURAL:$1|sekundom|sekundomaj|sekundami|sekundami}} zaktualizowana.',
+	'lastmodified-minutes' => 'Před $1 {{PLURAL:$1|mjeńšinu|mjeńšinomaj|mjeńšinami|mjeńšinami}} zaktualizowana.',
+	'lastmodified-hours' => 'Před $1 {{PLURAL:$1|hodźinu|hodźinomaj|hodźinami|hodźinami}} zaktualizowana.',
+	'lastmodified-days' => 'Před $1 {{PLURAL:$1|dnjom|dnjomaj|dnjemi|dnjemi}} zaktualizowana.',
+	'lastmodified-months' => 'Před $1 {{PLURAL:$1|měsacom|měsacomaj|měsacami|měsacami}} zaktualizowana.',
+	'lastmodified-years' => 'Před $1 {{PLURAL:$1|lětom|lětomaj|lětami|lětami}} zaktualizowana.',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
