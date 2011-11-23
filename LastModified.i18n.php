@@ -94,6 +94,13 @@ $messages['br'] = array(
 	'lastmodified-years' => 'Hizivaet da ziwezhañ $1 bloaz zo',
 );
 
+/** Catalan (Català)
+ * @author Martorell
+ */
+$messages['ca'] = array(
+	'lastmodified' => 'Darrera modificació de la pàgina: $1.',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -116,6 +123,13 @@ $messages['de'] = array(
 	'lastmodified-days' => 'Zuletzt vor $1 Tagen aktualisiert',
 	'lastmodified-months' => 'Zuletzt vor $1 Monaten aktualisiert',
 	'lastmodified-years' => 'Zuletzt vor $1 Jahren aktualisiert',
+);
+
+/** Faroese (Føroyskt)
+ * @author לערי ריינהארט
+ */
+$messages['fo'] = array(
+	'lastmodified' => 'Hendan síðan varð seinast broytt $1.',
 );
 
 /** French (Français)
@@ -208,6 +222,13 @@ $messages['gsw'] = array(
 	'lastmodified-years' => 'Zum letschte Mool vor $1 Joor aktualisiert',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author לערי ריינהארט
+ */
+$messages['gu'] = array(
+	'lastmodified' => 'આ પાના ને છેલ્લે $1 પર બદલવામાં આવ્યુ હતુ.',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
@@ -230,6 +251,13 @@ $messages['hsb'] = array(
 	'lastmodified-days' => 'Před $1 {{PLURAL:$1|dnjom|dnjomaj|dnjemi|dnjemi}} zaktualizowana.',
 	'lastmodified-months' => 'Před $1 {{PLURAL:$1|měsacom|měsacomaj|měsacami|měsacami}} zaktualizowana.',
 	'lastmodified-years' => 'Před $1 {{PLURAL:$1|lětom|lětomaj|lětami|lětami}} zaktualizowana.',
+);
+
+/** Armenian (Հայերեն)
+ * @author Togaed
+ */
+$messages['hy'] = array(
+	'lastmodified' => 'Այս էջը վերջին անգամ ենթարկվել է փոփոխության` $1։',
 );
 
 /** Interlingua (Interlingua)
@@ -256,6 +284,13 @@ $messages['ia'] = array(
 	'lastmodified-years' => 'Ultime actualisation $1 annos retro',
 );
 
+/** Icelandic (Íslenska)
+ * @author לערי ריינהארט
+ */
+$messages['is'] = array(
+	'lastmodified' => 'Þessari síðu var síðast breytt $1.',
+);
+
 /** Japanese (日本語)
  * @author Fryed-peach
  */
@@ -278,6 +313,20 @@ $messages['ja'] = array(
 	'lastmodified-days' => '$1日前に最終更新',
 	'lastmodified-months' => '$1か月前に最終更新',
 	'lastmodified-years' => '$1年前に最終更新',
+);
+
+/** Georgian (ქართული)
+ * @author Alsandro
+ */
+$messages['ka'] = array(
+	'lastmodified' => 'გვერდი ბოლოს განახლდა $1.',
+);
+
+/** Korean (한국어)
+ * @author Klutzy
+ */
+$messages['ko'] = array(
+	'lastmodified' => '이 문서는 $1에 마지막으로 바뀌었습니다.',
 );
 
 /** Colognian (Ripoarisch)
@@ -324,6 +373,13 @@ $messages['lb'] = array(
 	'lastmodified-years' => 'Lescht Ännerung viru(n) $1 Joer',
 );
 
+/** Latvian (Latviešu)
+ * @author Yyy
+ */
+$messages['lv'] = array(
+	'lastmodified' => 'Šajā lapā pēdējās izmaiņas izdarītas $1.',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -346,6 +402,20 @@ $messages['mk'] = array(
 	'lastmodified-days' => 'Подновено пред $1 дена',
 	'lastmodified-months' => 'Подновено пред $1 месеци',
 	'lastmodified-years' => 'Подновено пред $1 години',
+);
+
+/** Low German (Plattdüütsch)
+ * @author לערי ריינהארט
+ */
+$messages['nds'] = array(
+	'lastmodified' => 'Disse Siet is toletzt üm $1 ännert worrn.',
+);
+
+/** Nedersaksisch (Nedersaksisch)
+ * @author לערי ריינהארט
+ */
+$messages['nds-nl'] = array(
+	'lastmodified' => 'De leste wieziging op disse pagina was op $1.',
 );
 
 /** Dutch (Nederlands)
@@ -373,6 +443,13 @@ $messages['nl'] = array(
 	'lastmodified-years' => 'Laatst bijgewerkt $1 jaar geleden',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['no'] = array(
+	'lastmodified' => 'Denne siden ble sist endret $1.',
+);
+
 /** Deitsch (Deitsch)
  * @author Xqt
  */
@@ -383,6 +460,13 @@ $messages['pdc'] = array(
 	'lastmodified-label-days' => 'Daag',
 	'lastmodified-label-months' => 'Munete',
 	'lastmodified-label-years' => 'Yaahre',
+);
+
+/** Pälzisch (Pälzisch)
+ * @author SPS
+ */
+$messages['pfl'] = array(
+	'lastmodified' => 'Die Seid isch um $1 es letschde Mol geännert worre.',
 );
 
 /** Polish (Polski)
@@ -410,6 +494,32 @@ $messages['pl'] = array(
 	'lastmodified-years' => 'Ostatnio zaktualizowano $1 lat temu',
 );
 
+/** Romani (Romani)
+ * @author לערי ריינהארט
+ */
+$messages['rmy'] = array(
+	'lastmodified' => 'O palutno paruvipen $1.',
+);
+
+/** Romanian (Română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'lastmodified' => 'Ultima modificare efectuată la $1.',
+);
+
+/** Slovak (Slovenčina) */
+$messages['sk'] = array(
+	'lastmodified' => 'Čas poslednej úpravy tejto stránky je $1.',
+);
+
+/** Swedish (Svenska)
+ * @author Sannab
+ */
+$messages['sv'] = array(
+	'lastmodified' => 'Sidan ändrades senast $1.',
+);
+
 /** Telugu (తెలుగు)
  * @author Sunil Mohan
  * @author Veeven
@@ -431,5 +541,17 @@ $messages['te'] = array(
 	'lastmodified-days' => 'చివరి మార్పు $1 రోజుల క్రితం',
 	'lastmodified-months' => 'చివరి మార్పు $1 నెలల క్రితం',
 	'lastmodified-years' => 'చివరి మార్పు $1 సంవత్సరాల క్రితం',
+);
+
+/** Tagalog (Tagalog)
+ * @author לערי ריינהארט
+ */
+$messages['tl'] = array(
+	'lastmodified' => 'Huling binago ang pahinang ito noong $1.',
+);
+
+/** Vèneto (Vèneto) */
+$messages['vec'] = array(
+	'lastmodified' => 'Ultima modifica $1.',
 );
 
