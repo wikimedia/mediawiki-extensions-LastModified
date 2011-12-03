@@ -125,6 +125,16 @@ $messages['de'] = array(
 	'lastmodified-years' => 'Zuletzt vor $1 Jahren aktualisiert',
 );
 
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'lastmodified-label-seconds' => 'ثانیه‌ها',
+	'lastmodified-label-minutes' => 'دقیقه‌ها',
+	'lastmodified-label-hours' => 'ساعت‌ها',
+	'lastmodified-label-days' => 'روزها',
+);
+
 /** Faroese (Føroyskt)
  * @author לערי ריינהארט
  */
