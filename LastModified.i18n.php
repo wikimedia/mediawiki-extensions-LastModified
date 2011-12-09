@@ -263,6 +263,30 @@ $messages['hsb'] = array(
 	'lastmodified-years' => 'Před $1 {{PLURAL:$1|lětom|lětomaj|lětami|lětami}} zaktualizowana.',
 );
 
+/** Hungarian (Magyar)
+ * @author Dj
+ */
+$messages['hu'] = array(
+	'lastmodified-desc' => 'Lapok utolsó módosítási idejének generálása',
+	'lastmodified' => 'Utoljára módosítva',
+	'lastmodified-label-seconds' => 'másodperc',
+	'lastmodified-label-minutes' => 'perc',
+	'lastmodified-label-hours' => 'óra',
+	'lastmodified-label-days' => 'nap',
+	'lastmodified-label-months' => 'hónap',
+	'lastmodified-label-years' => 'év',
+	'lastmodified-options' => 'Beállítások',
+	'lastmodified-display' => 'Megjelenítés:',
+	'lastmodified-display-range-value' => 'Megjelenített tartomány:',
+	'lastmodified-title-tag' => 'Laptörténet megjelenítése.',
+	'lastmodified-seconds' => 'Utoljára $1 másodperce módosítva',
+	'lastmodified-minutes' => 'Utoljára $1 perce módosítva',
+	'lastmodified-hours' => 'Utoljára $1 órája módosítva',
+	'lastmodified-days' => 'Utoljára $1 napja módosítva',
+	'lastmodified-months' => 'Utoljára $1 hónapja módosítva',
+	'lastmodified-years' => 'Utoljára $1 éve módosítva',
+);
+
 /** Armenian (Հայերեն)
  * @author Togaed
  */
