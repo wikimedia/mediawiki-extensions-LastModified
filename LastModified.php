@@ -31,7 +31,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'LastModified',
 	'version' => '1.0',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:LastModified',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:LastModified',
 	'author' => array( 'Katie Horn', 'Jeremy Postlethwaite' ),
 	'descriptionmsg' => 'lastmodified-desc',
 );
