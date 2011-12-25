@@ -1,5 +1,10 @@
 <?php
 /**
+ * Aliases for Special:LastModified
+ *
+ * @file
+ * @ingroup Extensions
+ *
  * Wikimedia Foundation
  *
  * LICENSE
@@ -17,13 +22,6 @@
  * @author Katie Horn <khorn@wikimedia.org>, Jeremy Postlethwaite <jpostlethwaite@wikimedia.org>
  */
 
-/**
- * Aliases for Special:LastModified
- *
- * @file
- * @ingroup Extensions
- */
-
 $specialPageAliases = array();
 
 /** English (English) */
@@ -31,7 +29,27 @@ $specialPageAliases['en'] = array(
 	'LastModified' => array( 'LastModified' ),
 );
 
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'LastModified' => array( 'Letztmalige_Änderung' ),
+);
+
+/** Galician (Galego) */
+$specialPageAliases['gl'] = array(
+	'LastModified' => array( 'Última_modificación' ),
+);
+
+/** Japanese (日本語) */
+$specialPageAliases['ja'] = array(
+	'LastModified' => array( '最終更新' ),
+);
+
+/** Macedonian (Македонски) */
+$specialPageAliases['mk'] = array(
+	'LastModified' => array( 'ПоследнаИзмена' ),
+);
+
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'LastModified' => array( 'LaatsteWijziging' ),
+);
