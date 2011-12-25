@@ -40,7 +40,7 @@ $dir = dirname( __FILE__ ) . '/';
 
 $wgAutoloadClasses['SpecialLastModified'] = $dir . 'SpecialLastModified.php';
 $wgExtensionMessagesFiles['LastModified'] = $dir . 'LastModified.i18n.php';
-$wgExtensionAliasesFiles['LastModified'] = $dir . 'LastModified.alias.php';
+$wgExtensionMessagesFiles['LastModifiedAlias'] = $dir . 'LastModified.alias.php';
 $wgSpecialPages['LastModified'] = 'SpecialLastModified';
 
 /**
