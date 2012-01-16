@@ -71,6 +71,18 @@ $messages['qqq'] = array(
 	'lastmodified-years' => 'Text displayed on artcle page if page to show how long ago the page was updated in years. NOTE: This will be updated to support PLURAL when the function is available in JavaScript.',
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'lastmodified-desc' => 'Генэруецца час апошняй зьмены для старонак',
+	'lastmodified' => 'Зьмененыя апошнімі',
+	'lastmodified-label-seconds' => 'сэкунд',
+	'lastmodified-label-minutes' => 'хвілінаў',
+	'lastmodified-label-hours' => 'гадзін',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
@@ -438,6 +450,13 @@ $messages['mk'] = array(
 	'lastmodified-years' => 'Подновено пред $1 години',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'lastmodified' => 'Denne siden ble sist endret $1.',
+);
+
 /** Low German (Plattdüütsch)
  * @author לערי ריינהארט
  */
@@ -475,13 +494,6 @@ $messages['nl'] = array(
 	'lastmodified-days' => 'Laatst bijgewerkt $1 dagen geleden',
 	'lastmodified-months' => 'Laatst bijgewerkt $1 maanden geleden',
 	'lastmodified-years' => 'Laatst bijgewerkt $1 jaar geleden',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'lastmodified' => 'Denne siden ble sist endret $1.',
 );
 
 /** Deitsch (Deitsch)
