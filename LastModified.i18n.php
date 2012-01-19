@@ -251,6 +251,25 @@ $messages['gu'] = array(
 	'lastmodified' => 'આ પાના ને છેલ્લે $1 પર બદલવામાં આવ્યુ હતુ.',
 );
 
+/** Hebrew (עברית)
+ * @author Ofekalef
+ */
+$messages['he'] = array(
+	'lastmodified-label-seconds' => 'שניות',
+	'lastmodified-label-minutes' => 'דקות',
+	'lastmodified-label-hours' => 'שעות',
+	'lastmodified-label-days' => 'ימים',
+	'lastmodified-label-months' => 'חודשים',
+	'lastmodified-label-years' => 'שנים',
+	'lastmodified-options' => 'אפשרויות',
+	'lastmodified-seconds' => 'עודכן לאחרונה לפני $1 שניות',
+	'lastmodified-minutes' => 'עודכן לאחרונה לפני $1 דקות',
+	'lastmodified-hours' => 'עודכן לאחרונה לפני $1 שעות',
+	'lastmodified-days' => 'עודכן לאחרונה לפני $1 ימים',
+	'lastmodified-months' => 'עודכן לאחרונה לפני $1 חודשים',
+	'lastmodified-years' => 'עודכן לאחרונה לפני $1 שנים',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
