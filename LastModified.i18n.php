@@ -83,6 +83,14 @@ $messages['be-tarask'] = array(
 	'lastmodified-label-hours' => 'гадзін',
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'lastmodified-label-seconds' => 'секунди',
+	'lastmodified-label-minutes' => 'минути',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
