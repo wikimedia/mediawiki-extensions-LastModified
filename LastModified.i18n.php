@@ -260,9 +260,11 @@ $messages['gu'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Nirofir
  * @author Ofekalef
  */
 $messages['he'] = array(
+	'lastmodified' => 'שינוי אחרון',
 	'lastmodified-label-seconds' => 'שניות',
 	'lastmodified-label-minutes' => 'דקות',
 	'lastmodified-label-hours' => 'שעות',
