@@ -39,12 +39,12 @@ $messages['en'] = array(
 	'lastmodified-display' => 'Display:',
 	'lastmodified-display-range-value' => 'Display range value:',
 	'lastmodified-title-tag' => 'View the revision history for this page.',
-	'lastmodified-seconds' => 'Last updated $1 seconds ago',
-	'lastmodified-minutes' => 'Last updated $1 minutes ago',
-	'lastmodified-hours' => 'Last updated $1 hours ago',
-	'lastmodified-days' => 'Last updated $1 days ago',
-	'lastmodified-months' => 'Last updated $1 months ago',
-	'lastmodified-years' => 'Last updated $1 years ago',
+	'lastmodified-seconds' => 'Last updated {{PLURAL:$1|$1 second|$1 seconds}} ago',
+	'lastmodified-minutes' => 'Last updated {{PLURAL:$1|$1 minute|$1 minutes}} ago',
+	'lastmodified-hours' => 'Last updated {{PLURAL:$1|$1 hour|$1 hours}} ago',
+	'lastmodified-days' => 'Last updated {{PLURAL:$1|$1 day|$1 days}} ago',
+	'lastmodified-months' => 'Last updated {{PLURAL:$1|$1 month|$1 months}} ago',
+	'lastmodified-years' => 'Last updated {{PLURAL:$1|$1 year|$1 years}} ago',
 );
 
 /** Message documentation (Message documentation)
