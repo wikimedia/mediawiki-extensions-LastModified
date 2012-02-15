@@ -137,12 +137,12 @@ $messages['de'] = array(
 	'lastmodified-display' => 'Anzeige:',
 	'lastmodified-display-range-value' => 'Zeitspanne anzeigen:',
 	'lastmodified-title-tag' => 'Die Versionsgeschichte dieser Seite anzeigen.',
-	'lastmodified-seconds' => 'Zuletzt vor $1 Sekunden aktualisiert',
-	'lastmodified-minutes' => 'Zuletzt vor $1 Minuten aktualisiert',
-	'lastmodified-hours' => 'Zuletzt vor $1 Stunden aktualisiert',
-	'lastmodified-days' => 'Zuletzt vor $1 Tagen aktualisiert',
-	'lastmodified-months' => 'Zuletzt vor $1 Monaten aktualisiert',
-	'lastmodified-years' => 'Zuletzt vor $1 Jahren aktualisiert',
+	'lastmodified-seconds' => 'Zuletzt vor {{PLURAL:$1|einer Sekunde|$1 Sekunden}} aktualisiert',
+	'lastmodified-minutes' => 'Zuletzt vor {{PLURAL:$1|einer Minute|$1 Minuten}} aktualisiert',
+	'lastmodified-hours' => 'Zuletzt vor {{PLURAL:$1|einer Stunde|$1 Stunden}} aktualisiert',
+	'lastmodified-days' => 'Zuletzt vor {{PLURAL:$1|einem Tag|$1 Tag}} aktualisiert',
+	'lastmodified-months' => 'Zuletzt vor {{PLURAL:$1|einem Monat|$1 Monaten}} aktualisiert',
+	'lastmodified-years' => 'Zuletzt vor {{PLURAL:$1|einem Jahr|$1 Jahren}} aktualisiert',
 );
 
 /** Persian (فارسی)
@@ -180,12 +180,12 @@ $messages['fr'] = array(
 	'lastmodified-display' => 'Afficher :',
 	'lastmodified-display-range-value' => 'Afficher la valeur du rang :',
 	'lastmodified-title-tag' => "Afficher l'historique des révisions pour cet article.",
-	'lastmodified-seconds' => 'Dernière mise à jour depuis $1 secondes',
-	'lastmodified-minutes' => 'Dernière mise à jour depuis {{PLURAL:$1|minute|minutes}}',
-	'lastmodified-hours' => 'Dernière mise à jour depuis {{PLURAL:$1|heure|heures}}',
-	'lastmodified-days' => 'Dernière mise à jour depuis {{PLURAL:$1|jour|jours}}',
-	'lastmodified-months' => 'Dernière mise à jour depuis $1 mois',
-	'lastmodified-years' => 'Dernière modification il y a $1 années',
+	'lastmodified-seconds' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 seconde|$1 secondes}}',
+	'lastmodified-minutes' => 'Dernière mise à jour il y a {{PLURAL:$1|minute|minutes}}',
+	'lastmodified-hours' => 'Dernière mise à jour il y a {{PLURAL:$1|heure|heures}}',
+	'lastmodified-days' => 'Dernière mise à jour il y a {{PLURAL:$1|jour|jours}}',
+	'lastmodified-months' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 mois|$1 mois}}',
+	'lastmodified-years' => 'Dernière modification il y a {{PLURAL:$1|$1 année|$1 années}}',
 );
 
 /** Franco-Provençal (Arpetan)
@@ -220,12 +220,12 @@ $messages['gl'] = array(
 	'lastmodified-display' => 'Mostrar:',
 	'lastmodified-display-range-value' => 'Mostrar o valor do rango:',
 	'lastmodified-title-tag' => 'Ollar o historial de revisións deste artigo.',
-	'lastmodified-seconds' => 'Última actualización hai $1 segundos',
-	'lastmodified-minutes' => 'Última actualización hai $1 minutos',
-	'lastmodified-hours' => 'Última actualización hai $1 horas',
-	'lastmodified-days' => 'Última actualización hai $1 días',
-	'lastmodified-months' => 'Última actualización hai $1 meses',
-	'lastmodified-years' => 'Última actualización hai $1 anos',
+	'lastmodified-seconds' => 'Última actualización hai {{PLURAL:$1|$1 segundo|$1 segundos}}',
+	'lastmodified-minutes' => 'Última actualización hai {{PLURAL:$1|$1 minuto|$1 minutos}}',
+	'lastmodified-hours' => 'Última actualización hai {{PLURAL:$1|$1 hora|$1 horas}}',
+	'lastmodified-days' => 'Última actualización hai {{PLURAL:$1|$1 día|$1 días}}',
+	'lastmodified-months' => 'Última actualización hai {{PLURAL:$1|$1 mes|$1 meses}}',
+	'lastmodified-years' => 'Última actualización hai {{PLURAL:$1|$1 ano|$1 anos}}',
 );
 
 /** Swiss German (Alemannisch)
@@ -351,12 +351,12 @@ $messages['ia'] = array(
 	'lastmodified-display' => 'Presentation:',
 	'lastmodified-display-range-value' => 'Valor del intervallo monstrate:',
 	'lastmodified-title-tag' => 'Vider le historia de versiones de iste articulo.',
-	'lastmodified-seconds' => 'Ultime actualisation $1 secundas retro',
-	'lastmodified-minutes' => 'Ultime actualisation $1 minutas retro',
-	'lastmodified-hours' => 'Ultime actualisation $1 horas retro',
-	'lastmodified-days' => 'Ultime actualisation $1 dies retro',
-	'lastmodified-months' => 'Ultime actualisation $1 menses retro',
-	'lastmodified-years' => 'Ultime actualisation $1 annos retro',
+	'lastmodified-seconds' => 'Ultime actualisation {{PLURAL:$1|$1 secunda|$1 secundas}} retro',
+	'lastmodified-minutes' => 'Ultime actualisation {{PLURAL:$1|$1 minuta|$1 minutas}} retro',
+	'lastmodified-hours' => 'Ultime actualisation {{PLURAL:$1|$1 hora|$1 horas}} retro',
+	'lastmodified-days' => 'Ultime actualisation {{PLURAL:$1|$1 die|$1 dies}} retro',
+	'lastmodified-months' => 'Ultime actualisation {{PLURAL:$1|$1 mense|$1 menses}} retro',
+	'lastmodified-years' => 'Ultime actualisation {{PLURAL:$1|$1 anno|$1 annos}} retro',
 );
 
 /** Icelandic (Íslenska)
@@ -471,12 +471,12 @@ $messages['mk'] = array(
 	'lastmodified-display' => 'Прикажи:',
 	'lastmodified-display-range-value' => 'Прикажи опсежна вредност:',
 	'lastmodified-title-tag' => 'Преглед на историјата на промени во статијата.',
-	'lastmodified-seconds' => 'Подновено пред $1 секунди',
-	'lastmodified-minutes' => 'Подновено пред $1 минути',
-	'lastmodified-hours' => 'Подновено пред $1 часа',
-	'lastmodified-days' => 'Подновено пред $1 дена',
-	'lastmodified-months' => 'Подновено пред $1 месеци',
-	'lastmodified-years' => 'Подновено пред $1 години',
+	'lastmodified-seconds' => 'Подновено пред {{PLURAL:$1|$1 секунда|$1 секунди}}',
+	'lastmodified-minutes' => 'Подновено пред {{PLURAL:$1|$1 минута|$1 минути}}',
+	'lastmodified-hours' => 'Подновено пред $1 {{PLURAL:$1|$1 час|$1 часа}}',
+	'lastmodified-days' => 'Подновено пред $1 {{PLURAL:$1|$1 ден|$1 дена}}',
+	'lastmodified-months' => 'Подновено пред {{PLURAL:$1|$1 месец|$1 месеци}}',
+	'lastmodified-years' => 'Подновено пред $1 {{PLURAL:$1|$1 година|$1 години}}',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -545,6 +545,7 @@ $messages['pfl'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Sp5uhe
  * @author Woytecr
  */
@@ -561,12 +562,12 @@ $messages['pl'] = array(
 	'lastmodified-display' => 'Wygląd',
 	'lastmodified-display-range-value' => 'Zakres wyświetlanych wartości',
 	'lastmodified-title-tag' => 'Zobacz historię zmian tego artykułu.',
-	'lastmodified-seconds' => 'Ostatnio zaktualizowano $1 sekund temu',
-	'lastmodified-minutes' => 'Ostatnio zaktualizowano $1 minut temu',
-	'lastmodified-hours' => 'Ostatnio zaktualizowano $1 godzin temu',
-	'lastmodified-days' => 'Ostatnio zaktualizowano $1 dni temu',
-	'lastmodified-months' => 'Ostatnio zaktualizowano $1 miesięcy temu',
-	'lastmodified-years' => 'Ostatnio zaktualizowano $1 lat temu',
+	'lastmodified-seconds' => 'Ostatnio zaktualizowano {{PLURAL:$1|sekundę|$1 sekundy|$1 sekund}} temu',
+	'lastmodified-minutes' => 'Ostatnio zaktualizowano {{PLURAL:$1|minutę|$1 minuty|$1 minut}} temu',
+	'lastmodified-hours' => 'Ostatnio zaktualizowano {{PLURAL:$1|godzinę|$1 godziny|$1 godzin}} temu',
+	'lastmodified-days' => 'Ostatnio zaktualizowano {{PLURAL:$1|dzień|$1 dni|$1 dni}} temu',
+	'lastmodified-months' => 'Ostatnio zaktualizowano {{PLURAL:$1|miesiąc|$1 miesiące|$1 miesięcy}} temu',
+	'lastmodified-years' => 'Ostatnio zaktualizowano {{PLURAL:$1|rok|$1 lata|$1 lat}} temu',
 );
 
 /** Romani (Romani)
