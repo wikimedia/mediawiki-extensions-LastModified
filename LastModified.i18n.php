@@ -81,6 +81,19 @@ $messages['be-tarask'] = array(
 	'lastmodified-label-seconds' => 'сэкунд',
 	'lastmodified-label-minutes' => 'хвілінаў',
 	'lastmodified-label-hours' => 'гадзін',
+	'lastmodified-label-days' => 'дні',
+	'lastmodified-label-months' => 'месяцы',
+	'lastmodified-label-years' => 'гады',
+	'lastmodified-options' => 'Налады',
+	'lastmodified-display' => 'Паказаць:',
+	'lastmodified-display-range-value' => 'Паказаць дыяпазон значэньняў:',
+	'lastmodified-title-tag' => 'Паказаць апошнюю вэрсію гэтай старонкі.',
+	'lastmodified-seconds' => 'Апошніяе абнаўленьне — {{PLURAL:$1|$1 сэкунду|$1 сэкунды|$1 сэкундаў}} таму',
+	'lastmodified-minutes' => 'Апошняе абнаўленьне — {{PLURAL:$1|$1 хвіліну|$1 хвіліны|$1 хвілінаў}} таму',
+	'lastmodified-hours' => 'Апошніяе абнаўленьне — {{PLURAL:$1|$1 гадзіну|$1 гадзіны|$1 гадзінаў}} таму',
+	'lastmodified-days' => 'Апошняе абнаўленьне — {{PLURAL:$1|$1 дзень|$1 дні|$1 дзён}} таму',
+	'lastmodified-months' => 'Апошніяе абнаўленьне — {{PLURAL:$1|$1 месяц|$1 месяцы|$1 месяцаў}} таму',
+	'lastmodified-years' => 'Апошніяе абнаўленьне — {{PLURAL:$1|$1 год|$1 гады|$1 гадоў}} таму',
 );
 
 /** Bulgarian (Български)
@@ -440,12 +453,12 @@ $messages['lb'] = array(
 	'lastmodified-display' => 'Weisen:',
 	'lastmodified-display-range-value' => 'Wäert vum Zäitofstand:',
 	'lastmodified-title-tag' => 'Den Historique vun de Versioune vun dësem Artikel weisen.',
-	'lastmodified-seconds' => 'Lescht Ännerung viru(n) $1 Sekonnen',
-	'lastmodified-minutes' => 'Lescht Ännerung viru(n) $1 Minutten',
-	'lastmodified-hours' => 'Lescht Ännerung viru(n) $1 Stonnen',
-	'lastmodified-days' => 'Lescht Ännerung viru(n) $1 Deeg',
-	'lastmodified-months' => 'Lescht Ännerung viru(n) $1 Méint',
-	'lastmodified-years' => 'Lescht Ännerung viru(n) $1 Joer',
+	'lastmodified-seconds' => 'Lescht Ännerung  {{PLURAL:$1|virun 1 Sekonn|viru(n) $1 Sekonnen}}',
+	'lastmodified-minutes' => 'Lescht Ännerung {{PLURAL:$1|virun 1 Minutt|viru(n) $1 Minutten}}',
+	'lastmodified-hours' => 'Lescht Ännerung {{PLURAL:$1|virun 1 Stonn|viru(n) $1 Stonnen}}',
+	'lastmodified-days' => 'Lescht Ännerung {{PLURAL:$1|virun 1 Dag|viru(n) $1 Deeg}}',
+	'lastmodified-months' => 'Lescht Ännerung {{PLURAL:$1|virun 1 Mount|viru(n) $1 Méint}}',
+	'lastmodified-years' => 'Lescht Ännerung {{PLURAL:$1|virun 1 Joer|viru(n) $1 Joer}}',
 );
 
 /** Latvian (Latviešu)
