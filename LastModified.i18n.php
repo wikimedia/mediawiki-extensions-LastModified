@@ -530,12 +530,12 @@ $messages['nl'] = array(
 	'lastmodified-display' => 'Weergave:',
 	'lastmodified-display-range-value' => 'Reeks weergeven:',
 	'lastmodified-title-tag' => 'De versiegeschiedenis van dit artikel bekijken.',
-	'lastmodified-seconds' => 'Laatst bijgewerkt $1 seconden geleden',
-	'lastmodified-minutes' => 'Laatst bijgewerkt $1 minuten geleden',
-	'lastmodified-hours' => 'Laatst bijgewerkt $1 uur geleden',
-	'lastmodified-days' => 'Laatst bijgewerkt $1 dagen geleden',
-	'lastmodified-months' => 'Laatst bijgewerkt $1 maanden geleden',
-	'lastmodified-years' => 'Laatst bijgewerkt $1 jaar geleden',
+	'lastmodified-seconds' => 'Laatst bijgewerkt {{PLURAL:$1|één seconde|$1 seconden}} geleden',
+	'lastmodified-minutes' => 'Laatst bijgewerkt {{PLURAL:$1|één minuut|$1 minuten}} geleden',
+	'lastmodified-hours' => 'Laatst bijgewerkt {{PLURAL:$1|één uur|$1 uur}} geleden',
+	'lastmodified-days' => 'Laatst bijgewerkt {{PLURAL:$1|één dag|$1 dagen}} geleden',
+	'lastmodified-months' => 'Laatst bijgewerkt {{PLURAL:$1|één maand|$1 maanden}} geleden',
+	'lastmodified-years' => 'Laatst bijgewerkt {{PLURAL:$1|één jaar|$1 jaar}} geleden',
 );
 
 /** Deitsch (Deitsch)
