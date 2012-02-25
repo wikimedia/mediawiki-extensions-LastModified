@@ -158,6 +158,21 @@ $messages['de'] = array(
 	'lastmodified-years' => 'Zuletzt vor {{PLURAL:$1|einem Jahr|$1 Jahren}} aktualisiert',
 );
 
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'lastmodified' => 'Última modificación',
+	'lastmodified-label-seconds' => 'segundos',
+	'lastmodified-label-minutes' => 'minutos',
+	'lastmodified-label-hours' => 'horas',
+	'lastmodified-label-days' => 'días',
+	'lastmodified-label-months' => 'meses',
+	'lastmodified-label-years' => 'años',
+	'lastmodified-options' => 'Opciones',
+	'lastmodified-display' => 'Mostrar:',
+);
+
 /** Persian (فارسی)
  * @author ZxxZxxZ
  */
