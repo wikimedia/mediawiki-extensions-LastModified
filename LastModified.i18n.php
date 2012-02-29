@@ -162,6 +162,7 @@ $messages['de'] = array(
  * @author Armando-Martin
  */
 $messages['es'] = array(
+	'lastmodified-desc' => 'Genera las fechas de la última modificación de los artículos',
 	'lastmodified' => 'Última modificación',
 	'lastmodified-label-seconds' => 'segundos',
 	'lastmodified-label-minutes' => 'minutos',
@@ -171,6 +172,14 @@ $messages['es'] = array(
 	'lastmodified-label-years' => 'años',
 	'lastmodified-options' => 'Opciones',
 	'lastmodified-display' => 'Mostrar:',
+	'lastmodified-display-range-value' => 'Mostrar el valor del rango:',
+	'lastmodified-title-tag' => 'Ver el historial de revisión de esta página.',
+	'lastmodified-seconds' => 'Última actualización hace  {{PLURAL:$1|$1 segundo|$1 segundos}}',
+	'lastmodified-minutes' => 'Última actualización hace {{PLURAL:$1|$1 minuto|$1 minutos}}',
+	'lastmodified-hours' => 'Última actualización hace {{PLURAL:$1|$1 hora|$1 horas}}',
+	'lastmodified-days' => 'Última actualización hace {{PLURAL:$1|$1 día|$1 días}}',
+	'lastmodified-months' => 'Última actualización hace {{PLURAL:$1|$1 mes|$1 meses}}',
+	'lastmodified-years' => 'Última actualización hace {{PLURAL:$1|$1 año|$1 años}}',
 );
 
 /** Persian (فارسی)
@@ -348,12 +357,12 @@ $messages['hu'] = array(
 	'lastmodified-display' => 'Megjelenítés:',
 	'lastmodified-display-range-value' => 'Megjelenített tartomány:',
 	'lastmodified-title-tag' => 'Laptörténet megjelenítése.',
-	'lastmodified-seconds' => 'Utoljára $1 másodperce módosítva',
-	'lastmodified-minutes' => 'Utoljára $1 perce módosítva',
-	'lastmodified-hours' => 'Utoljára $1 órája módosítva',
-	'lastmodified-days' => 'Utoljára $1 napja módosítva',
-	'lastmodified-months' => 'Utoljára $1 hónapja módosítva',
-	'lastmodified-years' => 'Utoljára $1 éve módosítva',
+	'lastmodified-seconds' => 'Utoljára {{PLURAL:$1|egy másodperce|$1 másodperce}} módosítva',
+	'lastmodified-minutes' => 'Utoljára {{PLURAL:$1|egy perce|$1 perce}} módosítva',
+	'lastmodified-hours' => 'Utoljára {{PLURAL:$1|egy órája|$1 órája}} módosítva',
+	'lastmodified-days' => 'Utoljára {{PLURAL:$1|egy napja|$1 napja}} módosítva',
+	'lastmodified-months' => 'Utoljára {{PLURAL:$1|egy hónapja|$1 hónapja}} módosítva',
+	'lastmodified-years' => 'Utoljára {{PLURAL:$1|egy éve|$1 éve}} módosítva',
 );
 
 /** Armenian (Հայերեն)
