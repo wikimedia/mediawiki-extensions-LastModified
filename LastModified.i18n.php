@@ -554,12 +554,12 @@ $messages['nl'] = array(
 	'lastmodified-display' => 'Weergave:',
 	'lastmodified-display-range-value' => 'Reeks weergeven:',
 	'lastmodified-title-tag' => 'De versiegeschiedenis van dit artikel bekijken.',
-	'lastmodified-seconds' => 'Laatst bijgewerkt {{PLURAL:$1|één seconde|$1 seconden}} geleden',
-	'lastmodified-minutes' => 'Laatst bijgewerkt {{PLURAL:$1|één minuut|$1 minuten}} geleden',
-	'lastmodified-hours' => 'Laatst bijgewerkt {{PLURAL:$1|één uur|$1 uur}} geleden',
-	'lastmodified-days' => 'Laatst bijgewerkt {{PLURAL:$1|één dag|$1 dagen}} geleden',
-	'lastmodified-months' => 'Laatst bijgewerkt {{PLURAL:$1|één maand|$1 maanden}} geleden',
-	'lastmodified-years' => 'Laatst bijgewerkt {{PLURAL:$1|één jaar|$1 jaar}} geleden',
+	'lastmodified-seconds' => '{{PLURAL:$1|Eén seconde|$1 seconden}} geleden voor het laatst bijgewerkt',
+	'lastmodified-minutes' => '{{PLURAL:$1|Eén minuut|$1 minuten}} geleden voor het laatst bijgewerkt',
+	'lastmodified-hours' => '{{PLURAL:$1|Eén uur|$1 uur}} geleden voor het laatst bijgewerkt',
+	'lastmodified-days' => '{{PLURAL:$1|Gisteren|$1 dagen geleden}} voor het laatst bijgewerkt',
+	'lastmodified-months' => '{{PLURAL:$1|Eén maand|$1 maanden}} geleden voor het laatst bijgewerkt',
+	'lastmodified-years' => '{{PLURAL:$1|Eén jaar|$1 jaar}} geleden voor het laatst bijgewerkt',
 );
 
 /** Deitsch (Deitsch)
