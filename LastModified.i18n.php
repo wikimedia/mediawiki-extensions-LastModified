@@ -186,10 +186,24 @@ $messages['es'] = array(
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
+	'lastmodified-desc' => 'زمان آخرین ویرایش برای صفحه‌ها را تولید می‌کند',
+	'lastmodified' => 'آخرین ویرایش',
 	'lastmodified-label-seconds' => 'ثانیه‌ها',
 	'lastmodified-label-minutes' => 'دقیقه‌ها',
 	'lastmodified-label-hours' => 'ساعت‌ها',
 	'lastmodified-label-days' => 'روزها',
+	'lastmodified-label-months' => 'ماه‌ها',
+	'lastmodified-label-years' => 'سال‌ها',
+	'lastmodified-options' => 'گزینه‌ها',
+	'lastmodified-display' => 'نمایش:',
+	'lastmodified-display-range-value' => 'مقدار محدودهٔ نمایش:',
+	'lastmodified-title-tag' => 'نمایش تاریخچهٔ ویرایش‌های این صفحه.',
+	'lastmodified-seconds' => 'آخرین به‌روزرسانی در {{PLURAL:$1|$1 ثانیهٔ|$1 ثانیهٔ}} پیش',
+	'lastmodified-minutes' => 'آخرین ویرایش در {{PLURAL:$1|$1 دقیقهٔ|$1 دقیقهٔ}} پیش',
+	'lastmodified-hours' => 'آخرین ویرایش در {{PLURAL:$1|$1 ساعت|$1 ساعت}} پیش',
+	'lastmodified-days' => 'آخرین ویرایش در {{PLURAL:$1|$1 روز|$1 روز}} پیش',
+	'lastmodified-months' => 'آخرین ویرایش در {{PLURAL:$1|$1 ماه|$1 ماه}} پیش',
+	'lastmodified-years' => 'آخرین ویرایش در {{PLURAL:$1|$1 سال|$1 سال}} پیش',
 );
 
 /** Faroese (Føroyskt)
