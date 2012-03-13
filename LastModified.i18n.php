@@ -232,9 +232,9 @@ $messages['fr'] = array(
 	'lastmodified-display-range-value' => 'Afficher la valeur du rang :',
 	'lastmodified-title-tag' => "Afficher l'historique des révisions pour cet article.",
 	'lastmodified-seconds' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 seconde|$1 secondes}}',
-	'lastmodified-minutes' => 'Dernière mise à jour il y a {{PLURAL:$1|minute|minutes}}',
-	'lastmodified-hours' => 'Dernière mise à jour il y a {{PLURAL:$1|heure|heures}}',
-	'lastmodified-days' => 'Dernière mise à jour il y a {{PLURAL:$1|jour|jours}}',
+	'lastmodified-minutes' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 minute|$1 minutes}}',
+	'lastmodified-hours' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 heure|$1 heures}}',
+	'lastmodified-days' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 jour|$1 jours}}',
 	'lastmodified-months' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 mois|$1 mois}}',
 	'lastmodified-years' => 'Dernière modification il y a {{PLURAL:$1|$1 année|$1 années}}',
 );
