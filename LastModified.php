@@ -56,6 +56,7 @@ $wgResourceTemplate = array(
 $wgResourceModules['last.modified'] = array(
 	'scripts' => 'lastmodified.js',
 	'position' => 'top',
+	'dependencies' => array( 'mediawiki.jqueryMsg' ),
 	'messages' => array(
 		'lastmodified-seconds',
 		'lastmodified-hours',
