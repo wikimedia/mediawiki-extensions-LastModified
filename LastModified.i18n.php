@@ -682,3 +682,27 @@ $messages['vec'] = array(
 	'lastmodified' => 'Ultima modifica $1.',
 );
 
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Linforest
+ */
+$messages['zh-hans'] = array(
+	'lastmodified-desc' => '生成页面的最后修订时间',
+	'lastmodified' => '最后修订',
+	'lastmodified-label-seconds' => '秒',
+	'lastmodified-label-minutes' => '分钟',
+	'lastmodified-label-hours' => '小时',
+	'lastmodified-label-days' => '天',
+	'lastmodified-label-months' => '个月',
+	'lastmodified-label-years' => '年',
+	'lastmodified-options' => '选项',
+	'lastmodified-display' => '显示：',
+	'lastmodified-display-range-value' => '显示范围取值：',
+	'lastmodified-title-tag' => '查看此页面的修订历史。',
+	'lastmodified-seconds' => '最后更新于{{PLURAL:$1|$1秒|$1秒}}之前',
+	'lastmodified-minutes' => '最后更新于{{PLURAL:$1|$1分钟|$1分钟}}之前',
+	'lastmodified-hours' => '最后更新于{{PLURAL:$1|$1小时|$1小时}}之前',
+	'lastmodified-days' => '最后更新于{{PLURAL:$1|$1天|$1天}}之前',
+	'lastmodified-months' => '最后更新于{{PLURAL:$1|$1个月|$1个月}}之前',
+	'lastmodified-years' => '最后更新于{{PLURAL:$1|$1年|$1年}}之前',
+);
+
