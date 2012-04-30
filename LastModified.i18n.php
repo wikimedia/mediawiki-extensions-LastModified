@@ -158,6 +158,30 @@ $messages['de'] = array(
 	'lastmodified-years' => 'Zuletzt vor {{PLURAL:$1|einem Jahr|$1 Jahren}} aktualisiert',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'lastmodified-desc' => 'Pokazujo case slědnych změnow za boki',
+	'lastmodified' => 'Slědny raz změnjony',
+	'lastmodified-label-seconds' => 'sekundow',
+	'lastmodified-label-minutes' => 'minutow',
+	'lastmodified-label-hours' => 'góźinow',
+	'lastmodified-label-days' => 'dnjow',
+	'lastmodified-label-months' => 'mjasecow',
+	'lastmodified-label-years' => 'lět',
+	'lastmodified-options' => 'Opcije',
+	'lastmodified-display' => 'Zwobraznjenje',
+	'lastmodified-display-range-value' => 'Casowy wótrězk zwobrazniś:',
+	'lastmodified-title-tag' => 'Wersijowu historiju toś togo boka zwobrazniś.',
+	'lastmodified-seconds' => 'Pśed {{PLURAL:$1|$1 sekundu|$1 sekundoma|$1 sekundami|sekundami}} zaktualizěrowany.',
+	'lastmodified-minutes' => 'Pśed {{PLURAL:$1|$1 minutu|$1 minutoma|$1 minutami|minutami}} zaktualizěrowany.',
+	'lastmodified-hours' => 'Pśed $1 {{PLURAL:$1|góźinu|góźinoma|góźinami|góźinami}} zaktualizěrowany.',
+	'lastmodified-days' => 'Pśed $1 {{PLURAL:$1|dnjom|dnjoma|dnjami|dnjami}} zaktualizěrowany.',
+	'lastmodified-months' => 'Pśed $1 {{PLURAL:$1|mjasecom|mjasecoma|mjasecami|mjasecami}} zaktualizěrowany.',
+	'lastmodified-years' => 'Pśed $1 {{PLURAL:$1|lětom|lětoma|lětami|lětami}} zaktualizěrowany.',
+);
+
 /** Spanish (Español)
  * @author Armando-Martin
  */
