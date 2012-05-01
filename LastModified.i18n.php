@@ -182,6 +182,17 @@ $messages['dsb'] = array(
 	'lastmodified-years' => 'Pśed $1 {{PLURAL:$1|lětom|lětoma|lětami|lětami}} zaktualizěrowany.',
 );
 
+/** Greek (Ελληνικά)
+ * @author Crazymadlover
+ */
+$messages['el'] = array(
+	'lastmodified-label-seconds' => 'δευτερόλεπτα',
+	'lastmodified-label-minutes' => 'λεπτά',
+	'lastmodified-label-hours' => 'ώρες',
+	'lastmodified-label-days' => 'ημέρες',
+	'lastmodified-label-months' => 'μήνες',
+);
+
 /** Spanish (Español)
  * @author Armando-Martin
  */
