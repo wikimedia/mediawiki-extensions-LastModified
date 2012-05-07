@@ -446,10 +446,25 @@ $messages['ia'] = array(
 );
 
 /** Icelandic (Íslenska)
+ * @author Snævar
  * @author לערי ריינהארט
  */
 $messages['is'] = array(
 	'lastmodified' => 'Þessari síðu var síðast breytt $1.',
+	'lastmodified-label-seconds' => 'sekúndur',
+	'lastmodified-label-minutes' => 'mínótur',
+	'lastmodified-label-hours' => 'klukkutímar',
+	'lastmodified-label-days' => 'dagar',
+	'lastmodified-label-months' => 'mánuðir',
+	'lastmodified-label-years' => 'ár',
+	'lastmodified-options' => 'Valmöguleikar',
+	'lastmodified-display' => 'Sýna:',
+	'lastmodified-seconds' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 sekúndu|$1 sekúndum}} síðan',
+	'lastmodified-minutes' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 mínótu|$1 mínótum}} síðan',
+	'lastmodified-hours' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 klukkutíma|$1 klukkutímum}} síðan',
+	'lastmodified-days' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 dag|$1 dögum}} síðan',
+	'lastmodified-months' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 mánuði|$1 mánuðum}} síðan',
+	'lastmodified-years' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 ári|$1 árum}} síðan',
 );
 
 /** Japanese (日本語)
