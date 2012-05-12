@@ -728,6 +728,17 @@ $messages['tl'] = array(
 	'lastmodified' => 'Huling binago ang pahinang ito noong $1.',
 );
 
+/** Turkish (Türkçe)
+ * @author Suelnur
+ */
+$messages['tr'] = array(
+	'lastmodified-label-seconds' => 'saniyeler',
+	'lastmodified-label-minutes' => 'dakikalar',
+	'lastmodified-label-hours' => 'saatler',
+	'lastmodified-label-months' => 'aylar',
+	'lastmodified-label-years' => 'yıllar',
+);
+
 /** Vèneto (Vèneto) */
 $messages['vec'] = array(
 	'lastmodified' => 'Ultima modifica $1.',
