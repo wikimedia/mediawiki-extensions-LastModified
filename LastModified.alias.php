@@ -39,14 +39,34 @@ $specialPageAliases['gl'] = array(
 	'LastModified' => array( 'Última_modificación' ),
 );
 
+/** Swiss German (Alemannisch) */
+$specialPageAliases['gsw'] = array(
+	'LastModified' => array( 'Zletscht_gänderet' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'LastModified' => array( '最終更新' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'LastModified' => array( 'Lescht_Ännerung' ),
+);
+
 /** Macedonian (Македонски) */
 $specialPageAliases['mk'] = array(
 	'LastModified' => array( 'ПоследнаИзмена' ),
+);
+
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'LastModified' => array( 'അവസാനംമെച്ചപ്പെടുത്തിയത്' ),
+);
+
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'LastModified' => array( 'Sist_endret', 'Sist_endra' ),
 );
 
 /** Dutch (Nederlands) */
