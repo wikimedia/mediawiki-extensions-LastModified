@@ -24,7 +24,7 @@
 		return (
 
 			// The current user has not opted out
-			!( mw.user.options.get('vector-noexperiments') )
+			!( mw.user.options.get('vector-noexperiments') === "1" )
 
 			// We're on an article page
 			&& mw.config.get( 'wgIsArticle' )
@@ -46,7 +46,7 @@
 			&& mw.util.getParamValue( 'oldid' ) === null
 
 			// The article is in the experiment sample
-			&& inSample( mw.config.get( 'wgIsArticle' ) )
+			&& inSample( mw.config.get('wgArticleId') + '', 0.006 )
 		);
 	}
 
