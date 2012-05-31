@@ -26,6 +26,7 @@ $wgExtensionCredits['specialpage'][] = array(
   'descriptionmsg' => 'E3 Experiment Loader',
 );
 
+// This extension requires that the ClickTracking extension is installed
 $wgResourceModules['ext.E3Experiments'] = array(
   'scripts' => array( 'js/murmurhash2_gc.js', 'js/ext.E3Experiments.Timestamp.js' ),
   'dependencies' => array( 'jquery.clickTracking' ),
@@ -39,6 +40,6 @@ function loadExperiments( $out ) {
   $out->addModules( 'ext.E3Experiments' );
 
   // Hack. If we defer loading to the Resource Loader, we get FOUCs.
-  $out->addInlineStyle( '.lastmodified { display: none; }' );
+  $out->addInlineStyle( '#mwe-lastmodified { display: none; }' );
   return true;
 }

@@ -16,24 +16,26 @@
  * @author		Katie Horn <khorn@wikimedia.org>, Jeremy Postlethwaite <jpostlethwaite@wikimedia.org>
  */
 
+( function( global ) {
+
 /**
- * Run the last modified helper.
+ * Find out when the article was last modified and insert it into the page.
  *
  * This is the primary function for this script.
  *
  */
-function extensionsLastModified() {
+function render() {
 
 	// Get the last-modified-timestamp value
-	var lastModifiedTimestamp = extensionsLastModifiedGetMetaLastModifiedTimestamp();
+	var lastModifiedTimestamp = getMetaLastModifiedTimestamp();
 	//console.log( 'lastModifiedTimestamp: ' + lastModifiedTimestamp );
 
 	// Get the last-modified-range value
-	var displayRange = extensionsLastModifiedGetMetaRange();
+	var displayRange = getMetaRange();
 	//console.log( 'displayRange: ' + displayRange );
 	
 	// Get the current timestamp and remove the milliseconds
-	var nowStamp = extensionsLastModifiedGetUtcTimeStamp();
+	var nowStamp = getUtcTimeStamp();
 	//console.log( 'nowStamp: ' + nowStamp );
 
 	// Get the difference in the time from when it was last edited.
@@ -41,18 +43,30 @@ function extensionsLastModified() {
 	//console.log( 'modifiedDifference: ' + modifiedDifference );
 
 	// Get the last modified text
-	var lastModifiedText = extensionsLastModifiedGetLastModifiedText( modifiedDifference, displayRange );
+	var lastModifiedText = getLastModifiedText( modifiedDifference, displayRange );
 	//console.log( 'lastModifiedText: ' + lastModifiedText );
-	
-	// Insert the text on the web page
-	extensionsLastModifiedInsertHtml( lastModifiedText );
+
+	// Get the article history link
+	var historyLink = getArticleHistoryLink();
+	//console.log( 'historyLink: ' + historyLink );
+
+	// Construct the HTML
+	var html = '';
+	html += '<div style="float:right; font-size: 0.5em;" id="mwe-lastmodified">';
+	html += '<a href="' + historyLink + '" title="' + mw.msg( 'lastmodified-title-tag' ) + '">';
+	html += lastModifiedText;
+	html += '</a>';
+	html += '</div>';
+
+	// Insert the HTML into the web page
+	$( '#firstHeading' ).append( html );
 }
 /**
  * Get the UTC Timestamp without microseconds
  *
  * @return integer
  */
-function extensionsLastModifiedGetUtcTimeStamp() {
+function getUtcTimeStamp() {
 	
 	// Get the current Date object
 	var now = new Date();
@@ -66,7 +80,7 @@ function extensionsLastModifiedGetUtcTimeStamp() {
  *
  * @return string	Return the article title
  */
-function extensionsLastModifiedGetArticleHistoryLink() {
+function getArticleHistoryLink() {
 
 	var href = $(location).attr('href');
 
@@ -81,8 +95,6 @@ function extensionsLastModifiedGetArticleHistoryLink() {
 
 	query += 'action=history';
 	
-	//console.log( 'href: ' + href );
-	
 	return href + query;
 }
 
@@ -91,14 +103,13 @@ function extensionsLastModifiedGetArticleHistoryLink() {
  *
  * @return integer
  */
-function extensionsLastModifiedGetMetaLastModifiedTimestamp() {
+function getMetaLastModifiedTimestamp() {
 	
 	// Fetch the meta tag
 	var metaTag = $("meta[name=last-modified-timestamp]");    
 
 	// If the tag was found, parse the value
 	if ( metaTag ) {
-		
 		return parseInt( metaTag.attr( 'content' ) );
 	}
 	
@@ -121,10 +132,14 @@ function extensionsLastModifiedGetMetaLastModifiedTimestamp() {
  *
  * @return string
  */
-function extensionsLastModifiedGetLastModifiedText( modifiedDifference, displayRange ) {
+function getLastModifiedText( modifiedDifference, displayRange ) {
 
 	// Message to return
 	var message = '';
+	// The modifiedDifference should never be less than 0
+	if ( modifiedDifference < 0 ) {
+		modifiedDifference = 0;
+	}
 	var myLastEdit = modifiedDifference;
 	
 	if ( modifiedDifference < 60 ) {
@@ -132,8 +147,7 @@ function extensionsLastModifiedGetLastModifiedText( modifiedDifference, displayR
 		// seconds
 		message = ( mw.msg( 'lastmodified-seconds',  myLastEdit ) );
 		
-	}
-	else if ( modifiedDifference < 3600 ) {
+	} else if ( modifiedDifference < 3600 ) {
 
 		// minutes
 		if ( displayRange <= 4 ) {
@@ -141,16 +155,14 @@ function extensionsLastModifiedGetLastModifiedText( modifiedDifference, displayR
 			message = ( mw.msg( 'lastmodified-minutes', myLastEdit ) );
 		}
 		
-	}
-	else if ( modifiedDifference < 86400 ) {
+	} else if ( modifiedDifference < 86400 ) {
 
 		// hours
 		if ( displayRange <= 3) {
 			myLastEdit = parseInt( modifiedDifference / 3600 );
 			message = ( mw.msg( 'lastmodified-hours', myLastEdit ) );
 		}		
-	}
-	else if ( modifiedDifference < 2592000 ) {
+	} else if ( modifiedDifference < 2592000 ) {
 		
 		// days
 		if ( displayRange <= 2) {
@@ -158,16 +170,14 @@ function extensionsLastModifiedGetLastModifiedText( modifiedDifference, displayR
 			message = ( mw.msg( 'lastmodified-days', myLastEdit ) );
 		}
 		
-	}
-	else if ( modifiedDifference < 31536000 ) {
+	} else if ( modifiedDifference < 31536000 ) {
 
 		// months
 		if ( displayRange <= 1) {
 			myLastEdit = parseInt( modifiedDifference / 2592000 );
 			message = ( mw.msg( 'lastmodified-months', myLastEdit ) );
 		}
-	}
-	else {
+	} else {
 
 		// years
 		if ( displayRange == 0) {
@@ -184,14 +194,13 @@ function extensionsLastModifiedGetLastModifiedText( modifiedDifference, displayR
  *
  * @return integer
  */
-function extensionsLastModifiedGetMetaRange() {
+function getMetaRange() {
 
 	// Fetch the meta tag
-	var metaTag = $("meta[name=last-modified-range]");    
+	var metaTag = $( 'meta[name=last-modified-range]' );
 
 	// If the tag was found, parse the value
 	if ( metaTag ) {
-		
 		return parseInt( metaTag.attr( 'content' ) );
 	}
 	
@@ -199,34 +208,10 @@ function extensionsLastModifiedGetMetaRange() {
 }
 
 /**
- * Insert the last modified text with jQuery
- *
- * @param string	lastModifiedText	The string of text to display in the container.
- */
-function extensionsLastModifiedInsertHtml( lastModifiedText ) {
-
-	//http://en.wikipedia.org/w/index.php?title=San_Francisco&action=history
-	
-	// Get the article history link
-	var historyLink = extensionsLastModifiedGetArticleHistoryLink();
-	//console.log( 'historyLink: ' + historyLink );
-
-	var html = '';
-	
-	html += '<div style="float: right; position: absolute; right: 10px; font-size: 85%;" class="lastmodified">';
-	html += '<a href="' + historyLink + '" title="' + mw.msg( 'lastmodified-title-tag' ) + '">';
-	html += lastModifiedText;
-	html += '</a>';
-	html += '</div>';
-	
-	$('#content').prepend( html );
-}
-
-/**
  * Display the last modified link on the page.
- *
  */
-$(document).ready(function(){
-	extensionsLastModified();	
-});
+$( document ).ready( function() {
+	render();
+} );
 
+}( this ));
