@@ -31,7 +31,7 @@ $wgResourceModules['ext.E3Experiments'] = array(
   'scripts' => array( 'js/murmurhash2_gc.js', 'js/ext.E3Experiments.Timestamp.js' ),
   'dependencies' => array( 'jquery.clickTracking' ),
   'localBasePath' => dirname( __FILE__ ),
-  'remoteExtPath' => 'E3Experiments'
+  'remoteExtPath' => 'LastModified/E3Experiments'
 );
 
 $wgHooks['BeforePageDisplay'][] = 'loadExperiments';
