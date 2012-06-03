@@ -158,6 +158,13 @@ $messages['de'] = array(
 	'lastmodified-years' => 'Zuletzt vor {{PLURAL:$1|einem Jahr|$1 Jahren}} aktualisiert',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'lastmodified-days' => 'Newekerdışo peyen verde {{PLURAL:$1|$1 roco|$1 rocano}}',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */

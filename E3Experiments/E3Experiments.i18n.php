@@ -37,3 +37,10 @@ $messages['qqq'] = array(
 	'e3experiments-desc' => '{{desc}}',
 );
 
+/** German (Deutsch)
+ * @author Metalhead64
+ */
+$messages['de'] = array(
+	'e3experiments-desc' => "Stellt ein Gerüst für Mitglieder des [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments ''Editor Engagement Experiments''] bereit, um einfache Experimente einzusetzen.",
+);
+
