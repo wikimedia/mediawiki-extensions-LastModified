@@ -44,3 +44,10 @@ $messages['de'] = array(
 	'e3experiments-desc' => "Stellt ein Gerüst für Mitglieder des [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments ''Editor Engagement Experiments''] bereit, um einfache Experimente einzusetzen.",
 );
 
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'e3experiments-desc' => 'Дава подлога за вршење на прости опити што ќе ги спроведуваат членовите на [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Опити за привлекување на уредници]',
+);
+
