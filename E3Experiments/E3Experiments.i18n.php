@@ -38,10 +38,32 @@ $messages['qqq'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author Metalhead64
  */
 $messages['de'] = array(
-	'e3experiments-desc' => "Stellt ein Gerüst für Mitglieder des [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments ''Editor Engagement Experiments''] bereit, um einfache Experimente einzusetzen.",
+	'e3experiments-desc' => 'Stellt eine Experimentierumgebung für Mitglieder des [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments „Editor Engagement Experiments“] bereit',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'e3experiments-desc' => 'Staja róšty za čłonow [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experiments] k dispoziciji, zo by jednore eksperimenty zasadźiło',
+);
+
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'e3experiments-desc' => 'Fornisce una struttura per i membri della [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experiments] da utilizzare durante la distribuzione di semplici esperimenti',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'e3experiments-desc' => 'Brängk e Jeröß för de Metmaacher bei de <i lang="en">[https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experiments]</i> för eijfach jät zom Ußprobeere ze livvere.',
 );
 
 /** Macedonian (македонски)

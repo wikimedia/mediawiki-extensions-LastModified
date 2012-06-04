@@ -530,7 +530,7 @@ $messages['ksh'] = array(
 	'lastmodified-display-range-value' => 'Donn de Door aanzeije:',
 	'lastmodified-title-tag' => 'Donn en leß met de Versione un de Verjangeheit vun heh dä Sigg aanzeije.',
 	'lastmodified-seconds' => 'Et läz vör {{PLURAL:$1|eine Sekond|$1 Sekonde|nit ens ein Sekond}} jeändert.',
-	'lastmodified-minutes' => 'Et läz vör {{PLURAL:$1|ein Menutt|$1 Menutte|nit ens ein Menutt}} jeändert.',
+	'lastmodified-minutes' => '!Et läz vör {{PLURAL:$1|ein Menutt|$1 Menutte|nit ens ein Menutt}} jeändert.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
