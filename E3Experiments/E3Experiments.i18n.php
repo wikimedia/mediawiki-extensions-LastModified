@@ -45,6 +45,20 @@ $messages['de'] = array(
 	'e3experiments-desc' => 'Stellt eine Experimentierumgebung für Mitglieder des [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments „Editor Engagement Experiments“] bereit',
 );
 
+/** French (français)
+ * @author DavidL
+ */
+$messages['fr'] = array(
+	'e3experiments-desc' => "Fournit un échafaudage pour les membres des [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments expériences d'engagement éditeur] à utiliser lors du déploiement d'expériences simples",
+);
+
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'e3experiments-desc' => 'Proporciona unha infraestrutura para os membros dos [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments experimentos de compromiso dos editores] ao levar a cabo experimentos simples',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
