@@ -100,6 +100,8 @@
 
 			// Show the last modified message
 			el.css( getStyleOverrides() ).show();
+
+			$.trackAction( 'timestamp-impression' );
 		} );
 	}
 
