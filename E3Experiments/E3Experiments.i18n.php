@@ -73,6 +73,13 @@ $messages['it'] = array(
 	'e3experiments-desc' => 'Fornisce una struttura per i membri della [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experiments] da utilizzare durante la distribuzione di semplici esperimenti',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'e3experiments-desc' => '간단한 실험을 전개하는 [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments 편집자 교전 실험]의 구성원을 위한 발판을 제공',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
