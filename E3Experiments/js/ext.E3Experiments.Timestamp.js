@@ -50,6 +50,33 @@
 		);
 	}
 
+	// The space where we plop the timestamp is subject to contention by
+	// various other widgets, extensions and templates, so we need to
+	// inspect the dom and make adjustments to CSS according to what we
+	// discover.
+	function getStyleOverrides() {
+		var overrides = {}, icon, offset;
+
+		// Identifiy the leftmost top icon, if present, by passing
+		// a custom comparison function to Array.sort.
+		icon = Array.prototype.sort.call( $( '.topicon' ), function ( a, b ) {
+			return $(a).position().left - $(b).position.left;
+		} ).last();
+
+		// If there are any top icons, we'l shift the timestamp to the
+		// right of the leftmost one.
+		if ( icon.length ) {
+			offset = icon.parent().width() - icon.position().left;
+			// As a sanity check, make sure we aren't offsetting by
+			// more space than we have available.
+			if ( offset < $('#bodyContent').width() ) {
+				overrides['margin-right'] = offset;
+				overrides['padding-right'] = 20;
+			}
+		}
+		return overrides;
+	}
+
 	function trackTimestamp() {
 		$( function () {
 			var el = $( '#mwe-lastmodified' );
@@ -72,7 +99,7 @@
 			a.attr( 'href', newUrl );
 
 			// Show the last modified message
-			el.show();
+			el.css( getStyleOverrides() ).show();
 		} );
 	}
 
