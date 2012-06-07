@@ -23,7 +23,7 @@
 		// murmurhash2_32_gc generates hashes in the 32-bit unsigned
 		// integer range ( 0 - 2^32 ).
 		var sample = fraction * 4294967296,  // 2^32
-			hash = murmurhash2_32_gc( str );
+			hash = murmurhash2_32_gc( str , 1 );
 		return ( hash <= sample );
 	}
 
