@@ -94,3 +94,10 @@ $messages['mk'] = array(
 	'e3experiments-desc' => 'Дава подлога за вршење на прости опити што ќе ги спроведуваат членовите на [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Опити за привлекување на уредници]',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'e3experiments-desc' => 'Biedt een raamwerk voor het [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experimentsteam]',
+);
+
