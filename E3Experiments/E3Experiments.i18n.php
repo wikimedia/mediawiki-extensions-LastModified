@@ -45,6 +45,13 @@ $messages['de'] = array(
 	'e3experiments-desc' => 'Stellt eine Experimentierumgebung für Mitglieder des [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments „Editor Engagement Experiments“] bereit',
 );
 
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'e3experiments-desc' => 'Proporciona una infraestructura para los miembros de los [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments experimentos de compromiso de los editores] al llevar a cabo experimentos simples',
+);
+
 /** French (français)
  * @author DavidL
  */
@@ -64,6 +71,13 @@ $messages['gl'] = array(
  */
 $messages['hsb'] = array(
 	'e3experiments-desc' => 'Staja róšty za čłonow [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experiments] k dispoziciji, zo by jednore eksperimenty zasadźiło',
+);
+
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'e3experiments-desc' => 'Forni un scafoltage pro membros del [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experiments] a usar durante le distribution de simple experimentos',
 );
 
 /** Italian (italiano)
@@ -99,5 +113,12 @@ $messages['mk'] = array(
  */
 $messages['nl'] = array(
 	'e3experiments-desc' => 'Biedt een raamwerk voor het [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experimentsteam]',
+);
+
+/** Polish (polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'e3experiments-desc' => 'Dostarcza framework dla członków [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Eksperymentów Zaangażowanych Edytorów] do wykorzystania we wdrożeniu prostych eksperymentów',
 );
 

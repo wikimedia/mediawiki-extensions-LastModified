@@ -533,6 +533,16 @@ $messages['ksh'] = array(
 	'lastmodified-minutes' => '!Et läz vör {{PLURAL:$1|ein Menutt|$1 Menutte|nit ens ein Menutt}} jeändert.',
 );
 
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'lastmodified-label-days' => 'roj',
+	'lastmodified-label-months' => 'meh',
+	'lastmodified-label-years' => 'sal',
+	'lastmodified-options' => 'Vebijêrk',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
