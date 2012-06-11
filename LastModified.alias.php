@@ -29,9 +29,19 @@ $specialPageAliases['en'] = array(
 	'LastModified' => array( 'LastModified' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'LastModified' => array( 'آخر_تعديل' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'LastModified' => array( 'Letztmalige_Änderung' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'LastModified' => array( 'TimaroPeyên' ),
 );
 
 /** Galician (Galego) */
@@ -49,12 +59,17 @@ $specialPageAliases['ja'] = array(
 	'LastModified' => array( '最終更新' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'LastModified' => array( '최근수정' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
 	'LastModified' => array( 'Lescht_Ännerung' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'LastModified' => array( 'ПоследнаИзмена' ),
 );
@@ -64,7 +79,7 @@ $specialPageAliases['ml'] = array(
 	'LastModified' => array( 'അവസാനംമെച്ചപ്പെടുത്തിയത്' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'LastModified' => array( 'Sist_endret', 'Sist_endra' ),
 );
