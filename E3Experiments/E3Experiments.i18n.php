@@ -122,3 +122,17 @@ $messages['pl'] = array(
 	'e3experiments-desc' => 'Dostarcza framework dla członków [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Eksperymentów Zaangażowanych Edytorów] do wykorzystania we wdrożeniu prostych eksperymentów',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'e3experiments-desc' => "A dà na strutura për ij mémber ëd [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experiments] da dovré quand ch'as distribuisso dj'esperiment sempi",
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'e3experiments-desc' => 'Nagbibigay ng isang labayan para sa mga kasapi ng [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experiments] (Mga Eksperimento sa Pagtitipan ng mga Patnugot) na gagamitin kapag nagpapakawala ng mga eksperimento',
+);
+
