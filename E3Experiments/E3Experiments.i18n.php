@@ -123,10 +123,11 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'e3experiments-desc' => "A dà na strutura për ij mémber ëd [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experiments] da dovré quand ch'as distribuisso dj'esperiment sempi",
+	'e3experiments-desc' => "A dà na strutura për ij mémber dj'[https://www.mediawiki.org/wiki/Editor_Engagement_Experiments esperiment d'angagg Editor] da dovré quand ch'as dësrolo dj'esperiment sempi",
 );
 
 /** Tagalog (Tagalog)
