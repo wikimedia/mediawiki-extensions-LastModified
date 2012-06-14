@@ -96,7 +96,7 @@ $messages['be-tarask'] = array(
 	'lastmodified-years' => 'Апошніяе абнаўленьне — {{PLURAL:$1|$1 год|$1 гады|$1 гадоў}} таму',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -104,7 +104,7 @@ $messages['bg'] = array(
 	'lastmodified-label-minutes' => 'минути',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -127,7 +127,7 @@ $messages['br'] = array(
 	'lastmodified-years' => 'Hizivaet da ziwezhañ $1 bloaz zo',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Martorell
  */
 $messages['ca'] = array(
@@ -200,7 +200,7 @@ $messages['el'] = array(
 	'lastmodified-label-months' => 'μήνες',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -248,14 +248,14 @@ $messages['fa'] = array(
 	'lastmodified-years' => 'آخرین ویرایش در {{PLURAL:$1|$1 سال|$1 سال}} پیش',
 );
 
-/** Faroese (Føroyskt)
+/** Faroese (føroyskt)
  * @author לערי ריינהארט
  */
 $messages['fo'] = array(
 	'lastmodified' => 'Hendan síðan varð seinast broytt $1.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  * @author Grondin
  * @author Toliño
@@ -281,7 +281,7 @@ $messages['fr'] = array(
 	'lastmodified-years' => 'Dernière modification il y a {{PLURAL:$1|$1 année|$1 années}}',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -397,7 +397,7 @@ $messages['hsb'] = array(
 	'lastmodified-years' => 'Před $1 {{PLURAL:$1|lětom|lětomaj|lětami|lětami}} zaktualizowana.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  */
 $messages['hu'] = array(
@@ -428,7 +428,7 @@ $messages['hy'] = array(
 	'lastmodified' => 'Այս էջը վերջին անգամ ենթարկվել է փոփոխության` $1։',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -452,7 +452,7 @@ $messages['ia'] = array(
 	'lastmodified-years' => 'Ultime actualisation {{PLURAL:$1|$1 anno|$1 annos}} retro',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author Snævar
  * @author לערי ריינהארט
  */
@@ -567,14 +567,14 @@ $messages['lb'] = array(
 	'lastmodified-years' => 'Lescht Ännerung {{PLURAL:$1|virun 1 Joer|viru(n) $1 Joer}}',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Yyy
  */
 $messages['lv'] = array(
 	'lastmodified' => 'Šajā lapā pēdējās izmaiņas izdarītas $1.',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -663,7 +663,7 @@ $messages['pfl'] = array(
 	'lastmodified' => 'Die Seid isch um $1 es letschde Mol geännert worre.',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Sp5uhe
  * @author Woytecr
@@ -696,19 +696,19 @@ $messages['rmy'] = array(
 	'lastmodified' => 'O palutno paruvipen $1.',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Minisarm
  */
 $messages['ro'] = array(
 	'lastmodified' => 'Ultima modificare efectuată la $1.',
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $messages['sk'] = array(
 	'lastmodified' => 'Čas poslednej úpravy tejto stránky je $1.',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Sannab
  */
 $messages['sv'] = array(
@@ -756,7 +756,7 @@ $messages['tr'] = array(
 	'lastmodified-label-years' => 'yıllar',
 );
 
-/** Vèneto (Vèneto) */
+/** vèneto (vèneto) */
 $messages['vec'] = array(
 	'lastmodified' => 'Ultima modifica $1.',
 );
@@ -784,7 +784,7 @@ $messages['yi'] = array(
 	'lastmodified-years' => 'לעצט דערהײַנטיקט פֿאַר {{PLURAL:$1|$1 יאָר|$1 יאָר}}',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
  */
 $messages['zh-hans'] = array(
