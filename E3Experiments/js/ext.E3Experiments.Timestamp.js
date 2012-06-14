@@ -9,21 +9,20 @@
 	"use strict";
 
 	var VERSION = 1;
-	var bucket = null;
+
+	var bucket_name;
 
 	function generateEvent( event_type ) {
 		var id = [ 'ext.lastModified', VERSION ].join('@');
-		return [ id, bucket, event_type ].join('-');
+		return [ id, bucket_name, event_type ].join('-');
 	}
 
-	var event_id = 'timestamp-history-view';
-
 	// Simple random sampling using murmurhash2
-	function inSample( str, fraction ) {
+	function inSample( key, fraction ) {
 		// murmurhash2_32_gc generates hashes in the 32-bit unsigned
 		// integer range ( 0 - 2^32 ).
-		var sample = fraction * 4294967296,  // 2^32
-			hash = murmurhash2_32_gc( str , 1 );
+		var sample = fraction * 4294967296;  // 2^32
+		var hash = murmurhash2_32_gc( key.toString() , 1 );
 		return ( hash <= sample );
 	}
 
@@ -32,7 +31,7 @@
 		return (
 
 			// The current user has not opted out
-			!( mw.user.options.get('vector-noexperiments') === "1" )
+			mw.user.options.get('vector-noexperiments') !== "1"
 
 			// We're on an article page
 			&& mw.config.get( 'wgIsArticle' )
@@ -52,9 +51,6 @@
 			// We're not viewing a diff
 			&& mw.util.getParamValue( 'diff' ) === null
 			&& mw.util.getParamValue( 'oldid' ) === null
-
-			// The article is in the experiment sample
-			&& inSample( mw.config.get('wgArticleId') + '', 0.006 )
 		);
 	}
 
@@ -117,6 +113,9 @@
 		} );
 	}
 
+	var article_in_sample = inSample( mw.config.get('wgArticleId'), 0.006 );
+	var user_is_eligible = isEligible();
+
 	// Register the experiment as a campaign with the clicktracking extension
 	mw.activeCampaigns = mw.activeCampaigns || {};
 	mw.activeCampaigns.lastModified  = {
@@ -128,17 +127,18 @@
 			ctrl1 : 1
 		},
 		expr1 : function () {
-			bucket = 'expr1';
-			if ( isEligible() ) {
+			bucket_name = 'expr1';
+			if ( article_in_sample && user_is_eligible ) {
 				mw.loader.using( 'last.modified', trackTimestamp );
 			}
 		},
 		ctrl1 : function () {
-			bucket = 'ctrl1';
+			bucket_name = 'ctrl1';
 		},
 		allActive : function () {
-			$.trackAction( generateEvent('impression') );
+			if ( article_in_sample && user_is_eligible ) {
+				$.trackAction( generateEvent('impression') );
+			}
 		}
 	};
-
 }( this ));
