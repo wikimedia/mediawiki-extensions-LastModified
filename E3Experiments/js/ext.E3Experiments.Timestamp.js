@@ -58,11 +58,11 @@ function isSamplingSane() {
 // 1) sampling is sane
 // 2) the user has been bucketed
 // 3) only one automatic event is ever emitted.
-var trackAction = ( function ( e ) {
+var trackAction = ( function ( ) {
 	// A counter of emitted events, wrapped in a closure to make it private
 	var _events = 0;
 
-	return function () {
+	return function ( e ) {
 		//
 		// Safety Checks
 		//
