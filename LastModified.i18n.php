@@ -761,6 +761,29 @@ $messages['vec'] = array(
 	'lastmodified' => 'Ultima modifica $1.',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'lastmodified-desc' => 'גענערירט לעצט מאדיפיצירטע צײַטן פאר בלעטער',
+	'lastmodified' => 'לעצט מאדיפיצירט',
+	'lastmodified-label-seconds' => 'סעקונדעס',
+	'lastmodified-label-minutes' => 'מינוט',
+	'lastmodified-label-hours' => "שעה'ן",
+	'lastmodified-label-days' => 'טעג',
+	'lastmodified-label-months' => 'מאנאַטן',
+	'lastmodified-label-years' => 'יאָרן',
+	'lastmodified-options' => 'ברירות',
+	'lastmodified-display' => 'אויסשטעלונג:',
+	'lastmodified-title-tag' => 'באקוקן די רעוויזיע היסטאריע פאר דעם בלאט.',
+	'lastmodified-seconds' => 'לעצט דערהײַנטיקט פֿאַר {{PLURAL:$1|$1 סעקונדע|$1 סעקונדעס}}',
+	'lastmodified-minutes' => 'לעצט דערהײַנטיקט פֿאַר {{PLURAL:$1|$1 מינוט|$1 מינוט}}',
+	'lastmodified-hours' => "לעצט דערהײַנטיקט פֿאַר {{PLURAL:$1|$1 שעה|$1 שעה'ן}}",
+	'lastmodified-days' => 'לעצט דערהײַנטיקט פֿאַר {{PLURAL:$1|$1 טאָג|$1 טעג}}',
+	'lastmodified-months' => 'לעצט דערהײַנטיקט פֿאַר {{PLURAL:$1|$1 מאנאַט|$1 מאנאַטן}}',
+	'lastmodified-years' => 'לעצט דערהײַנטיקט פֿאַר {{PLURAL:$1|$1 יאָר|$1 יאָר}}',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Linforest
  */
