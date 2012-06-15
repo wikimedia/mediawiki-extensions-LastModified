@@ -66,6 +66,13 @@ $messages['gl'] = array(
 	'e3experiments-desc' => 'Proporciona unha infraestrutura para os membros dos [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments experimentos de compromiso dos editores] ao levar a cabo experimentos simples',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'e3experiments-desc' => 'יצירת בסיס לחברי צוות [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments ניסויים בהפעלת עורכים] להעמדת ניסויים פשוטים',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */

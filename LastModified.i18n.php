@@ -48,10 +48,12 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Beta16
  * @author Jeremy Postlethwaite
  */
 $messages['qqq'] = array(
-	'lastmodified-desc' => 'Description of the extension LastModified',
+	'lastmodified-desc' => '{{desc}}
+Description of the extension LastModified',
 	'lastmodified' => 'Name of Special:LastModified in Special:SpecialPages and title of Special:LastModified page',
 	'lastmodified-label-seconds' => 'Displayed text "seconds" in Special:LastModified',
 	'lastmodified-label-minutes' => 'Displayed text "minutes" in Special:LastModified',
@@ -353,10 +355,12 @@ $messages['gu'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Nirofir
  * @author Ofekalef
  */
 $messages['he'] = array(
+	'lastmodified-desc' => 'יצירת זמן השינוי האחרון של דפים',
 	'lastmodified' => 'שינוי אחרון',
 	'lastmodified-label-seconds' => 'שניות',
 	'lastmodified-label-minutes' => 'דקות',
@@ -365,12 +369,15 @@ $messages['he'] = array(
 	'lastmodified-label-months' => 'חודשים',
 	'lastmodified-label-years' => 'שנים',
 	'lastmodified-options' => 'אפשרויות',
-	'lastmodified-seconds' => 'עודכן לאחרונה לפני $1 שניות',
-	'lastmodified-minutes' => 'עודכן לאחרונה לפני $1 דקות',
-	'lastmodified-hours' => 'עודכן לאחרונה לפני $1 שעות',
-	'lastmodified-days' => 'עודכן לאחרונה לפני $1 ימים',
-	'lastmodified-months' => 'עודכן לאחרונה לפני $1 חודשים',
-	'lastmodified-years' => 'עודכן לאחרונה לפני $1 שנים',
+	'lastmodified-display' => 'להציג:',
+	'lastmodified-display-range-value' => 'להציג ערכי טווח:',
+	'lastmodified-title-tag' => 'הצגת היסטוריית שינויים לדף הזה.',
+	'lastmodified-seconds' => 'עודכן לאחרונה לפני {{PLURAL:$1|שנייה אחת|$1 שניות}}',
+	'lastmodified-minutes' => 'עודכן לאחרונה לפני {{PLURAL:$1|דקה אחת|$1 דקות}}',
+	'lastmodified-hours' => 'עודכן לאחרונה לפני {{PLURAL:$1|שעה אחת|$1 שעות|שעתיים}}',
+	'lastmodified-days' => 'עודכן לאחרונה לפני {{PLURAL:$1|יום אחד|$1 ימים|יומיים}}',
+	'lastmodified-months' => 'עודכן לאחרונה לפני {{PLURAL:$1|חודש אחד|$1 חודשים|חודשיים}}',
+	'lastmodified-years' => 'עודכן לאחרונה לפני {{PLURAL:$1|שנה אחת|$1 שנים|שנתיים}}',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -472,6 +479,30 @@ $messages['is'] = array(
 	'lastmodified-days' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 dag|$1 dögum}} síðan',
 	'lastmodified-months' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 mánuði|$1 mánuðum}} síðan',
 	'lastmodified-years' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 ári|$1 árum}} síðan',
+);
+
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'lastmodified-desc' => "Genera l'ora dell'ultima modifica per le pagine",
+	'lastmodified' => 'Ultima modifica',
+	'lastmodified-label-seconds' => 'secondi',
+	'lastmodified-label-minutes' => 'minuti',
+	'lastmodified-label-hours' => 'ore',
+	'lastmodified-label-days' => 'giorni',
+	'lastmodified-label-months' => 'mesi',
+	'lastmodified-label-years' => 'anni',
+	'lastmodified-options' => 'Opzioni',
+	'lastmodified-display' => 'Mostra:',
+	'lastmodified-display-range-value' => 'Mostra intervallo valori:',
+	'lastmodified-title-tag' => 'Visualizza la cronologia delle versioni per questa pagina.',
+	'lastmodified-seconds' => 'Ultima modifica {{PLURAL:$1|$1 secondo|$1 secondi}} fa',
+	'lastmodified-minutes' => 'Ultima modifica {{PLURAL:$1|$1 minuto|$1 minuti}} fa',
+	'lastmodified-hours' => 'Ultima modifica {{PLURAL:$1|$1 ora|$1 ore}} fa',
+	'lastmodified-days' => 'Ultima modifica {{PLURAL:$1|$1 giorno|$1 giorni}} fa',
+	'lastmodified-months' => 'Ultima modifica {{PLURAL:$1|$1 mese|$1 mesi}} fa',
+	'lastmodified-years' => 'Ultima modifica {{PLURAL:$1|$1 anno|$1 anni}} fa',
 );
 
 /** Japanese (日本語)
@@ -754,6 +785,22 @@ $messages['tr'] = array(
 	'lastmodified-label-hours' => 'saatler',
 	'lastmodified-label-months' => 'aylar',
 	'lastmodified-label-years' => 'yıllar',
+);
+
+/** Ukrainian (українська)
+ * @author A1
+ */
+$messages['uk'] = array(
+	'lastmodified' => 'Останні зміни',
+	'lastmodified-label-seconds' => 'секунд',
+	'lastmodified-label-minutes' => 'хвилин',
+	'lastmodified-label-hours' => 'годин',
+	'lastmodified-label-days' => 'днів',
+	'lastmodified-label-months' => 'місяців',
+	'lastmodified-label-years' => 'років',
+	'lastmodified-options' => 'Налаштування',
+	'lastmodified-display' => 'Показати:',
+	'lastmodified-seconds' => 'Останнє оновлення  {{PLURAL:$1|   $1  секунд| $1  секунд}} тому',
 );
 
 /** vèneto (vèneto) */
