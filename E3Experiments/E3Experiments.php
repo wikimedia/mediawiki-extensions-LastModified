@@ -26,6 +26,8 @@ $wgExtensionCredits['specialpage'][] = array(
 	'descriptionmsg' => 'e3experiments-desc',
 );
 
+$wgExtensionMessagesFiles['E3Experiments'] = dirname(__FILE__) . '/E3Experiments.i18n.php';
+
 // This extension requires that the ClickTracking extension is installed
 $wgResourceModules['ext.E3Experiments'] = array(
 	'scripts' => array( 'js/murmurhash2_gc.js', 'js/ext.E3Experiments.Timestamp.js' ),
