@@ -177,8 +177,6 @@ function trackTimestamp() {
 		// but older MediaWiki skins don't use the 'ca-history' id.
 		if ( historyAnchor.length ) {
 			uri = historyAnchor.attr( 'href' );
-			newUrl = $.trackActionURL( encodeURI(uri), generateEvent('history_tab_link-click') );
-			historyAnchor.attr( 'href', newUrl );
 		} else {
 			uri = a.attr( 'href' );
 		}
@@ -193,6 +191,13 @@ function trackTimestamp() {
 		// Show the last modified message
 		el.css( getStyleOverrides() ).show();
 
+	} );
+}
+
+function updateHistoryUrl() {
+	$( '#ca-history a' ).attr( 'href', function ( idx, href ) {
+		var e = generateEvent( 'history_tab_link-click' );
+		return $.trackActionURL( encodeURI(href), e );
 	} );
 }
 
@@ -221,6 +226,7 @@ mw.activeCampaigns.lastModified  = {
 	allActive : function () {
 		if ( article_in_sample && user_is_eligible ) {
 			trackAction( generateEvent('impression') );
+			updateHistoryUrl();
 		}
 	}
 };
