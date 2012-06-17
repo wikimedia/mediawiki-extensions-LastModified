@@ -789,6 +789,7 @@ $messages['tr'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Olvin
  */
 $messages['uk'] = array(
 	'lastmodified' => 'Останні зміни',
@@ -800,7 +801,7 @@ $messages['uk'] = array(
 	'lastmodified-label-years' => 'років',
 	'lastmodified-options' => 'Налаштування',
 	'lastmodified-display' => 'Показати:',
-	'lastmodified-seconds' => 'Останнє оновлення  {{PLURAL:$1|   $1  секунд| $1  секунд}} тому',
+	'lastmodified-seconds' => 'Останнє оновлення $1 {{PLURAL:$1|секунду|секунди|секунд}} назад',
 );
 
 /** vèneto (vèneto) */
