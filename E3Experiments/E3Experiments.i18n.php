@@ -144,3 +144,10 @@ $messages['tl'] = array(
 	'e3experiments-desc' => 'Nagbibigay ng isang labayan para sa mga kasapi ng [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments Editor Engagement Experiments] (Mga Eksperimento sa Pagtitipan ng mga Patnugot) na gagamitin kapag nagpapakawala ng mga eksperimento',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'e3experiments-desc' => 'Cung cấp cơ sở hạ tầng để cho các thành viên nhóm [https://www.mediawiki.org/wiki/Editor_engagement_experiments?uselang=vi Thí nghiệm Thu hút Người sửa đổi] sử dụng khi triển khai các thí nghiệm đơn giản',
+);
+

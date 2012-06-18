@@ -809,6 +809,30 @@ $messages['vec'] = array(
 	'lastmodified' => 'Ultima modifica $1.',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'lastmodified-desc' => 'Tính ra lúc sửa đổi cuối cùng của các trang',
+	'lastmodified' => 'Sửa đổi lần cuối',
+	'lastmodified-label-seconds' => 'giây',
+	'lastmodified-label-minutes' => 'phút',
+	'lastmodified-label-hours' => 'giờ',
+	'lastmodified-label-days' => 'ngày',
+	'lastmodified-label-months' => 'tháng',
+	'lastmodified-label-years' => 'năm',
+	'lastmodified-options' => 'Tùy chọn',
+	'lastmodified-display' => 'Hiển thị:',
+	'lastmodified-display-range-value' => 'Hiển thị dãy giá trị:',
+	'lastmodified-title-tag' => 'Xem lịch sử thay đổi của trang này.',
+	'lastmodified-seconds' => 'Cập nhật lần cuối cách đây $1 giây',
+	'lastmodified-minutes' => 'Cập nhật lần cuối cách đây $1 phút',
+	'lastmodified-hours' => 'Cập nhật lần cuối cách đây $1 giờ',
+	'lastmodified-days' => 'Cập nhật lần cuối cách đây $1 ngày',
+	'lastmodified-months' => 'Cập nhật lần cuối cách đây $1 tháng',
+	'lastmodified-years' => 'Cập nhật lần cuối cách đây $1 năm',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
