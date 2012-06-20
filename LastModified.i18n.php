@@ -629,6 +629,13 @@ $messages['mk'] = array(
 	'lastmodified-years' => 'Подновено пред $1 {{PLURAL:$1|$1 година|$1 години}}',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Praveenp
+ */
+$messages['ml'] = array(
+	'lastmodified-label-seconds' => 'സെക്കൻഡ്',
+);
+
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
