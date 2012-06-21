@@ -78,24 +78,10 @@ function getUtcTimeStamp() {
 /**
  * Get the article history link
  *
- * @return string	Return the article title
+ * @return string      Return the article title
  */
 function getArticleHistoryLink() {
-
-	var href = $(location).attr('href');
-
-	var query = '';
-	
-	if (href.indexOf('?') == -1) {
-		query += '?';
-	}
-	else {
-		query += '&amp;';
-	}
-
-	query += 'action=history';
-	
-	return href + query;
+       return mw.util.wikiGetlink( mw.config.get('wgMainPageTitle') ) + '&action=history';
 }
 
 /**
