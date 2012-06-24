@@ -65,12 +65,12 @@ Description of the extension LastModified',
 	'lastmodified-display' => 'Displayed in Special:LastModified',
 	'lastmodified-display-range-value' => 'Displayed in Special:LastModified',
 	'lastmodified-title-tag' => 'Title tag for the link to the revision history.',
-	'lastmodified-seconds' => 'Text displayed on artcle page if page to show how long ago the page was updated in seconds. NOTE: This will be updated to support PLURAL when the function is available in JavaScript.',
-	'lastmodified-minutes' => 'Text displayed on artcle page if page to show how long ago the page was updated in minutes. NOTE: This will be updated to support PLURAL when the function is available in JavaScript.',
-	'lastmodified-hours' => 'Text displayed on artcle page if page to show how long ago the page was updated in hours. NOTE: This will be updated to support PLURAL when the function is available in JavaScript.',
-	'lastmodified-days' => 'Text displayed on artcle page if page to show how long ago the page was updated in days. NOTE: This will be updated to support PLURAL when the function is available in JavaScript.',
-	'lastmodified-months' => 'Text displayed on artcle page if page to show how long ago the page was updated in months. NOTE: This will be updated to support PLURAL when the function is available in JavaScript.',
-	'lastmodified-years' => 'Text displayed on artcle page if page to show how long ago the page was updated in years. NOTE: This will be updated to support PLURAL when the function is available in JavaScript.',
+	'lastmodified-seconds' => 'Text displayed on artcle page if page to show how long ago the page was updated in seconds.',
+	'lastmodified-minutes' => 'Text displayed on artcle page if page to show how long ago the page was updated in minutes.',
+	'lastmodified-hours' => 'Text displayed on artcle page if page to show how long ago the page was updated in hours.',
+	'lastmodified-days' => 'Text displayed on artcle page if page to show how long ago the page was updated in days.',
+	'lastmodified-months' => 'Text displayed on artcle page if page to show how long ago the page was updated in months.',
+	'lastmodified-years' => 'Text displayed on artcle page if page to show how long ago the page was updated in years.',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
