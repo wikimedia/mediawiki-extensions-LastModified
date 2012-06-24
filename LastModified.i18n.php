@@ -50,20 +50,21 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Beta16
  * @author Jeremy Postlethwaite
+ * @author Lloffiwr
  */
 $messages['qqq'] = array(
 	'lastmodified-desc' => '{{desc}}
 Description of the extension LastModified',
 	'lastmodified' => 'Name of Special:LastModified in Special:SpecialPages and title of Special:LastModified page',
-	'lastmodified-label-seconds' => 'Displayed text "seconds" in Special:LastModified',
-	'lastmodified-label-minutes' => 'Displayed text "minutes" in Special:LastModified',
-	'lastmodified-label-hours' => 'Displayed text "hours" in Special:LastModified',
-	'lastmodified-label-days' => 'Displayed text "days" in Special:LastModified',
-	'lastmodified-label-months' => 'Displayed text "months" in Special:LastModified',
-	'lastmodified-label-years' => 'Displayed text "years" in Special:LastModified',
-	'lastmodified-options' => 'Displayed in Special:LastModified',
-	'lastmodified-display' => 'Displayed in Special:LastModified',
-	'lastmodified-display-range-value' => 'Displayed in Special:LastModified',
+	'lastmodified-label-seconds' => 'Displayed text "seconds" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
+	'lastmodified-label-minutes' => 'Displayed text "minutes" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
+	'lastmodified-label-hours' => 'Displayed text "hours" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
+	'lastmodified-label-days' => 'Displayed text "days" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
+	'lastmodified-label-months' => 'Displayed text "months" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
+	'lastmodified-label-years' => 'Displayed text "years" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
+	'lastmodified-options' => 'Displayed in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
+	'lastmodified-display' => 'Displayed in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
+	'lastmodified-display-range-value' => 'Displayed in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
 	'lastmodified-title-tag' => 'Title tag for the link to the revision history.',
 	'lastmodified-seconds' => 'Text displayed on artcle page if page to show how long ago the page was updated in seconds.',
 	'lastmodified-minutes' => 'Text displayed on artcle page if page to show how long ago the page was updated in minutes.',
@@ -121,12 +122,12 @@ $messages['br'] = array(
 	'lastmodified-display' => 'Diskwel :',
 	'lastmodified-display-range-value' => 'Diskwel talvoudenn ar renk',
 	'lastmodified-title-tag' => 'Gwelet istor an adweladennoù evit ar pennad-mañ.',
-	'lastmodified-seconds' => 'Hizivaet da ziwezhañ $1 eilenn zo',
-	'lastmodified-minutes' => 'Hizivaet da ziwezhañ $1 munutenn zo',
-	'lastmodified-hours' => 'Hizivaet da ziwezhañ $1 eurvezh zo',
-	'lastmodified-days' => 'Hizivaet da ziwezhañ $1 devezh zo',
-	'lastmodified-months' => 'Hizivaet da ziwezhañ $1 miz zo',
-	'lastmodified-years' => 'Hizivaet da ziwezhañ $1 bloaz zo',
+	'lastmodified-seconds' => 'Hizivaet da ziwezhañ {{PLURAL:$1|$1 eilenn|$1 eilenn}} zo',
+	'lastmodified-minutes' => 'Hizivaet da ziwezhañ {{PLURAL:$1|$1 vunutenn|$1 munutenn}} zo',
+	'lastmodified-hours' => 'Hizivaet da ziwezhañ {{PLURAL:$1|$1 eurvezh|$1 eurvezh}} zo',
+	'lastmodified-days' => 'Hizivaet da ziwezhañ {{PLURAL:$1|$1 devezh|$1 devezh}} zo',
+	'lastmodified-months' => 'Hizivaet da ziwezhañ {{PLURAL:$1|$1 miz|$1 miz}} zo',
+	'lastmodified-years' => 'Hizivaet da ziwezhañ {{PLURAL:$1|$1 bloaz|$1 bloaz}} zo',
 );
 
 /** Catalan (català)
