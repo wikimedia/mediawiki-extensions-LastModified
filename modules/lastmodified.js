@@ -53,7 +53,7 @@ function render() {
 	// Construct the HTML
 	var html = '';
 	html += '<div style="float:right; font-size: 0.5em;" id="mwe-lastmodified">';
-	html += '<a href="' + historyLink + '" title="' + mw.msg( 'lastmodified-title-tag' ) + '">';
+	html += '<a href="' + historyLink + '" title="' + mw.message( 'lastmodified-title-tag' ).escaped() + '">';
 	html += lastModifiedText;
 	html += '</a>';
 	html += '</div>';
