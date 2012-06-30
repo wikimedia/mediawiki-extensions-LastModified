@@ -34,6 +34,11 @@ $specialPageAliases['ar'] = array(
 	'LastModified' => array( 'آخر_تعديل' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'LastModified' => array( 'অন্তিম_সংশোধন' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'LastModified' => array( 'Letztmalige_Änderung' ),
@@ -44,7 +49,7 @@ $specialPageAliases['diq'] = array(
 	'LastModified' => array( 'TimaroPeyên' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'LastModified' => array( 'Última_modificación' ),
 );
