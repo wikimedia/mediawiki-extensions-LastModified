@@ -74,7 +74,7 @@ Description of the extension LastModified',
 	'lastmodified-years' => 'Text displayed on artcle page if page to show how long ago the page was updated in years.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Wizardist
  */
@@ -168,7 +168,7 @@ $messages['diq'] = array(
 	'lastmodified-days' => 'Newekerdışo peyen verde {{PLURAL:$1|$1 roco|$1 rocano}}',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -300,7 +300,7 @@ $messages['frp'] = array(
 	'lastmodified-display-range-value' => 'Fâre vêre la valor du rang :',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -381,7 +381,7 @@ $messages['he'] = array(
 	'lastmodified-years' => 'עודכן לאחרונה לפני {{PLURAL:$1|שנה אחת|$1 שנים|שנתיים}}',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -866,12 +866,13 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'lastmodified-desc' => '生成页面的最后修订时间',
 	'lastmodified' => '最后修订',
 	'lastmodified-label-seconds' => '秒',
-	'lastmodified-label-minutes' => '分钟',
+	'lastmodified-label-minutes' => '分',
 	'lastmodified-label-hours' => '小时',
 	'lastmodified-label-days' => '天',
 	'lastmodified-label-months' => '个月',

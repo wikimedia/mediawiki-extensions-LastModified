@@ -59,7 +59,7 @@ $messages['fr'] = array(
 	'e3experiments-desc' => "Fournit un échafaudage pour les membres des [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments expériences d'engagement éditeur] à utiliser lors du déploiement d'expériences simples",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -73,7 +73,7 @@ $messages['he'] = array(
 	'e3experiments-desc' => 'יצירת בסיס לחברי צוות [https://www.mediawiki.org/wiki/Editor_Engagement_Experiments ניסויים בהפעלת עורכים] להעמדת ניסויים פשוטים',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
