@@ -540,9 +540,27 @@ $messages['ka'] = array(
 
 /** Korean (한국어)
  * @author Klutzy
+ * @author 아라
  */
 $messages['ko'] = array(
+	'lastmodified-desc' => '문서에 대한 마지막으로 수정한 시간 생성',
 	'lastmodified' => '이 문서는 $1에 마지막으로 바뀌었습니다.',
+	'lastmodified-label-seconds' => '초',
+	'lastmodified-label-minutes' => '분',
+	'lastmodified-label-hours' => '시간',
+	'lastmodified-label-days' => '일',
+	'lastmodified-label-months' => '월',
+	'lastmodified-label-years' => '년',
+	'lastmodified-options' => '옵션',
+	'lastmodified-display' => '보기:',
+	'lastmodified-display-range-value' => '범위 값 보기:',
+	'lastmodified-title-tag' => '이 문서에 대한 판 역사를 봅니다.',
+	'lastmodified-seconds' => '최근 $1초 전에 업데이트함',
+	'lastmodified-minutes' => '최근 $1분 전에 업데이트함',
+	'lastmodified-hours' => '최근 $1시간 전에 업데이트함',
+	'lastmodified-days' => '최근 $1일 전에 업데이트함',
+	'lastmodified-months' => '최근 $1월 전에 업데이트함',
+	'lastmodified-years' => '최근 $1년 전에 업데이트함',
 );
 
 /** Colognian (Ripoarisch)
