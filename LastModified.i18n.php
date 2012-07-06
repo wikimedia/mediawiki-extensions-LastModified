@@ -864,7 +864,7 @@ $messages['vi'] = array(
  */
 $messages['yi'] = array(
 	'lastmodified-desc' => 'גענערירט לעצט מאדיפיצירטע צײַטן פאר בלעטער',
-	'lastmodified' => 'לעצט מאדיפיצירט',
+	'lastmodified' => 'לעצט געענדערט',
 	'lastmodified-label-seconds' => 'סעקונדעס',
 	'lastmodified-label-minutes' => 'מינוט',
 	'lastmodified-label-hours' => "שעה'ן",
