@@ -581,6 +581,10 @@ $messages['ksh'] = array(
 	'lastmodified-title-tag' => 'Donn en leß met de Versione un de Verjangeheit vun heh dä Sigg aanzeije.',
 	'lastmodified-seconds' => 'Et läz vör {{PLURAL:$1|eine Sekond|$1 Sekonde|nit ens ein Sekond}} jeändert.',
 	'lastmodified-minutes' => '!Et läz vör {{PLURAL:$1|ein Menutt|$1 Menutte|nit ens ein Menutt}} jeändert.',
+	'lastmodified-hours' => 'Et läz vör {{PLURAL:$1|ener Schtund|$1 Schtunde|nit ens ein Schtund}} jeändert.',
+	'lastmodified-days' => 'Et läz vör {{PLURAL:$1|enem Daach|$1 Dääsch|nit ens enem Daach}} jeändert.',
+	'lastmodified-months' => 'Et läz vör {{PLURAL:$1|enem Mohnd|$1 Mohnde|nit ens enem Mohnd}} jeändert.',
+	'lastmodified-years' => 'Et läz vör {{PLURAL:$1|enem Johr|$1 Johre|nit ens enem Johr}} jeändert.',
 );
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
