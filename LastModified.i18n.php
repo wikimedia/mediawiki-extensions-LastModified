@@ -659,9 +659,7 @@ $messages['ml'] = array(
 	'lastmodified-label-seconds' => 'സെക്കൻഡ്',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'lastmodified' => 'Denne siden ble sist endret $1.',
 );
