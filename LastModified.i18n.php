@@ -798,10 +798,28 @@ $messages['te'] = array(
 );
 
 /** Tagalog (Tagalog)
+ * @author AnakngAraw
  * @author לערי ריינהארט
  */
 $messages['tl'] = array(
+	'lastmodified-desc' => 'Lumilikha ng mga ulit ng huling pagbago para sa pahina',
 	'lastmodified' => 'Huling binago ang pahinang ito noong $1.',
+	'lastmodified-label-seconds' => 'mga segundo',
+	'lastmodified-label-minutes' => 'mga minuto',
+	'lastmodified-label-hours' => 'mga oras',
+	'lastmodified-label-days' => 'mga araw',
+	'lastmodified-label-months' => 'mga buwan',
+	'lastmodified-label-years' => 'mga taon',
+	'lastmodified-options' => 'Mga mapagpipilian',
+	'lastmodified-display' => 'Ipakita:',
+	'lastmodified-display-range-value' => 'Ipakita ang halaga ng saklaw:',
+	'lastmodified-title-tag' => 'Tingnan ang kasaysayan ng rebisyon para sa pahinang ito.',
+	'lastmodified-seconds' => 'Huling naisapanahon noong {{PLURAL:$1|$1 segundo|$1 mga segundo}} na ang nakakalipas',
+	'lastmodified-minutes' => 'Huling naisapanahon {{PLURAL:$1|$1 minuto|$1 mga minuto}} na ang nakakalipas',
+	'lastmodified-hours' => 'Huling naisapanahon {{PLURAL:$1|$1 oras|$1 mga oras}} na ang nakakalipas',
+	'lastmodified-days' => 'Huling naisapanahon {{PLURAL:$1|$1 araw|$1 mga araw}} na ang nakakalipas',
+	'lastmodified-months' => 'Huling naisapanahon {{PLURAL:$1|$1 buwan|$1 mga buwan}} na ang nakakalipas',
+	'lastmodified-years' => 'Huling naisapanahon {{PLURAL:$1|$1 taon|$1 mga taon}} na ang nakakalipas',
 );
 
 /** Turkish (Türkçe)
