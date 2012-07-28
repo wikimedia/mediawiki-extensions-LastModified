@@ -38,10 +38,8 @@ $wgExtensionCredits['specialpage'][] = array(
 
 $dir = dirname( __FILE__ ) . '/';
 
-$wgAutoloadClasses['SpecialLastModified'] = $dir . 'SpecialLastModified.php';
 $wgExtensionMessagesFiles['LastModified'] = $dir . 'LastModified.i18n.php';
 $wgExtensionMessagesFiles['LastModifiedAlias'] = $dir . 'LastModified.alias.php';
-$wgSpecialPages['LastModified'] = 'SpecialLastModified';
 
 /**
  * ADDITIONAL MAGICAL GLOBALS 
