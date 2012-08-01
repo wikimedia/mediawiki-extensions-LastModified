@@ -647,7 +647,15 @@ $messages['mk'] = array(
  * @author Praveenp
  */
 $messages['ml'] = array(
-	'lastmodified-label-seconds' => 'സെക്കൻഡ്',
+	'lastmodified-desc' => 'താളുകൾ അവസാനം പുതുക്കിയ സമയം നിർമ്മിക്കുന്നു',
+	'lastmodified' => 'അവസാനം പുതുക്കിയത്',
+	'lastmodified-title-tag' => 'ഈ താളിന്റെ പതിപ്പുകളുടെ നാൾവഴി കാണുക.',
+	'lastmodified-seconds' => '{{PLURAL:$1|ഒരു സെക്കൻഡ്|$1 സെക്കൻഡ്}} മുമ്പാണ് അവസാനം പുതുക്കിയത്',
+	'lastmodified-minutes' => '{{PLURAL:$1|ഒരു മിനിറ്റ്|$1 മിനിറ്റ്}} മുമ്പാണ് അവസാനം പുതുക്കിയത്',
+	'lastmodified-hours' => '{{PLURAL:$1|ഒരു മണിക്കൂർ|$1 മണിക്കൂർ}} മുമ്പാണ് അവസാനം പുതുക്കിയത്',
+	'lastmodified-days' => '{{PLURAL:$1|ഒരു ദിവസം|$1 ദിവസം}} മുമ്പാണ് അവസാനം പുതുക്കിയത്',
+	'lastmodified-months' => '{{PLURAL:$1|ഒരു മാസം|$1 മാസം}} മുമ്പാണ് അവസാനം പുതുക്കിയത്',
+	'lastmodified-years' => '{{PLURAL:$1|ഒരു വർഷം|$1 വർഷം}} മുമ്പാണ് അവസാനം പുതുക്കിയത്',
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬) */
@@ -663,10 +671,11 @@ $messages['nds'] = array(
 );
 
 /** Nedersaksisch (Nedersaksisch)
+ * @author Servien
  * @author לערי ריינהארט
  */
 $messages['nds-nl'] = array(
-	'lastmodified' => 'De leste wieziging op disse pagina was op $1.',
+	'lastmodified' => 'De leste wieziging op disse zied was op $1.',
 );
 
 /** Dutch (Nederlands)
