@@ -27,7 +27,7 @@ EOT;
 }
 
 // Extension credits that will show up on Special:Version
-$wgExtensionCredits['specialpage'][] = array(
+$wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'LastModified',
 	'version' => '1.0',
@@ -39,7 +39,6 @@ $wgExtensionCredits['specialpage'][] = array(
 $dir = dirname( __FILE__ ) . '/';
 
 $wgExtensionMessagesFiles['LastModified'] = $dir . 'LastModified.i18n.php';
-$wgExtensionMessagesFiles['LastModifiedAlias'] = $dir . 'LastModified.alias.php';
 
 /**
  * ADDITIONAL MAGICAL GLOBALS 
