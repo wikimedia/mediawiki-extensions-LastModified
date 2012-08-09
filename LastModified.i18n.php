@@ -524,9 +524,16 @@ $messages['ja'] = array(
 
 /** Georgian (ქართული)
  * @author Alsandro
+ * @author David1010
  */
 $messages['ka'] = array(
 	'lastmodified' => 'გვერდი ბოლოს განახლდა $1.',
+	'lastmodified-seconds' => 'ბოლოს განახლებული {{PLURAL:$1|$1 წამის|$1 წამის}} წინ',
+	'lastmodified-minutes' => 'ბოლოს განახლებული {{PLURAL:$1|$1 წუთის|$1 წუთის}} წინ',
+	'lastmodified-hours' => 'ბოლოს განახლებული {{PLURAL:$1|$1 საათის|$1 საათის}} წინ',
+	'lastmodified-days' => 'ბოლოს განახლებული {{PLURAL:$1|$1 დღის|$1 დღის}} წინ',
+	'lastmodified-months' => 'ბოლოს განახლებული {{PLURAL:$1|$1 თვის|$1 თვის}} წინ',
+	'lastmodified-years' => 'ბოლოს განახლებული {{PLURAL:$1|$1 წლის|$1 წლის}} წინ',
 );
 
 /** Korean (한국어)
@@ -925,5 +932,18 @@ $messages['zh-hans'] = array(
 	'lastmodified-days' => '最后更新于{{PLURAL:$1|$1天|$1天}}之前',
 	'lastmodified-months' => '最后更新于{{PLURAL:$1|$1个月|$1个月}}之前',
 	'lastmodified-years' => '最后更新于{{PLURAL:$1|$1年|$1年}}之前',
+);
+
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'lastmodified-title-tag' => '查看此頁的修訂歷史。',
+	'lastmodified-seconds' => '最後更新於$1秒前',
+	'lastmodified-minutes' => '最後更新於$1分鐘前',
+	'lastmodified-hours' => '最後更新於$1小時前',
+	'lastmodified-days' => '最後更新於$1天前',
+	'lastmodified-months' => '最後更新於$1個月前',
+	'lastmodified-years' => '最後更新於$1年前',
 );
 
