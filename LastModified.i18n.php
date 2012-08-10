@@ -65,6 +65,19 @@ Description of the extension LastModified',
 	'lastmodified-years' => 'Text displayed on artcle page if page to show how long ago the page was updated in years.',
 );
 
+/** Bashkir (башҡортса)
+ * @author Haqmar
+ */
+$messages['ba'] = array(
+	'lastmodified' => 'Һуңғы үҙгәртеү',
+	'lastmodified-seconds' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 секунд}} элек',
+	'lastmodified-minutes' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 минут}} элек',
+	'lastmodified-hours' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 сәғәт}} элек',
+	'lastmodified-days' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 көн}} элек',
+	'lastmodified-months' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 ай}} элек',
+	'lastmodified-years' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 йыл}} элек',
+);
+
 /** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Wizardist
@@ -663,6 +676,21 @@ $messages['ml'] = array(
 	'lastmodified-days' => '{{PLURAL:$1|ഒരു ദിവസം|$1 ദിവസം}} മുമ്പാണ് അവസാനം പുതുക്കിയത്',
 	'lastmodified-months' => '{{PLURAL:$1|ഒരു മാസം|$1 മാസം}} മുമ്പാണ് അവസാനം പുതുക്കിയത്',
 	'lastmodified-years' => '{{PLURAL:$1|ഒരു വർഷം|$1 വർഷം}} മുമ്പാണ് അവസാനം പുതുക്കിയത്',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'lastmodified-desc' => 'Menjana waktu halaman kali terakhir diubah',
+	'lastmodified' => 'Kali Terakhir Diubah',
+	'lastmodified-title-tag' => 'Lihat sejarah semakan halaman ini.',
+	'lastmodified-seconds' => 'Kali terakhir dikemaskinikan $1 saat lalu',
+	'lastmodified-minutes' => 'Kali terakhir dikemaskinikan $1 minit lalu',
+	'lastmodified-hours' => 'Kali terakhir dikemaskinikan $1 jam lalu',
+	'lastmodified-days' => 'Kali terakhir dikemaskinikan $1 hari lalu',
+	'lastmodified-months' => 'Kali terakhir dikemaskinikan $1 bulan lalu',
+	'lastmodified-years' => 'Kali terakhir dikemaskinikan $1 tahun lalu',
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬) */
