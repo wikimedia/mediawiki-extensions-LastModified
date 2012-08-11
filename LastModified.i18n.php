@@ -106,6 +106,21 @@ $messages['ca'] = array(
 	'lastmodified' => 'Darrera modificació de la pàgina: $1.',
 );
 
+/** Czech (česky)
+ * @author Jkjk
+ */
+$messages['cs'] = array(
+	'lastmodified-desc' => 'Přidává na stránku čas od poslední změny',
+	'lastmodified' => 'Poslední změna',
+	'lastmodified-title-tag' => 'Zobrazit historii verzí této stránky.',
+	'lastmodified-seconds' => 'Naposledy změněno před {{PLURAL:$1|$1 sekundou|$1 sekundami}}',
+	'lastmodified-minutes' => 'Naposledy změněno před {{PLURAL:$1|$1 minutou|$1 minutami}}',
+	'lastmodified-hours' => 'Naposledy změněno před {{PLURAL:$1|$1 hodinou|$1 hodinami}}',
+	'lastmodified-days' => 'Naposledy změněno před {{PLURAL:$1|$1 dnem|$1 dny}}',
+	'lastmodified-months' => 'Naposledy změněno před {{PLURAL:$1|$1 měsícem|$1 měsíci}}',
+	'lastmodified-years' => 'Naposledy změněno před {{PLURAL:$1|$1 rokem|$1 roky}}',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -539,6 +554,13 @@ $messages['rmy'] = array(
  */
 $messages['ro'] = array(
 	'lastmodified' => 'Ultima modificare efectuată la $1.',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'lastmodified' => 'අන්තිමට වෙනස් කලේ',
 );
 
 /** Slovak (slovenčina) */
