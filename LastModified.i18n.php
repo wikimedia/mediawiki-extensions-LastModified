@@ -47,15 +47,6 @@ $messages['qqq'] = array(
 	'lastmodified-desc' => '{{desc}}
 Description of the extension LastModified',
 	'lastmodified' => 'Name of Special:LastModified in Special:SpecialPages and title of Special:LastModified page',
-	'lastmodified-label-seconds' => 'Displayed text "seconds" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
-	'lastmodified-label-minutes' => 'Displayed text "minutes" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
-	'lastmodified-label-hours' => 'Displayed text "hours" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
-	'lastmodified-label-days' => 'Displayed text "days" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
-	'lastmodified-label-months' => 'Displayed text "months" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
-	'lastmodified-label-years' => 'Displayed text "years" in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
-	'lastmodified-options' => 'Displayed in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
-	'lastmodified-display' => 'Displayed in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
-	'lastmodified-display-range-value' => 'Displayed in [http://en.wikipedia.org/wiki/Special:LastModified Special:LastModified]',
 	'lastmodified-title-tag' => 'Title tag for the link to the revision history.',
 	'lastmodified-seconds' => 'Text displayed on artcle page if page to show how long ago the page was updated in seconds.',
 	'lastmodified-minutes' => 'Text displayed on artcle page if page to show how long ago the page was updated in minutes.',
@@ -85,15 +76,6 @@ $messages['ba'] = array(
 $messages['be-tarask'] = array(
 	'lastmodified-desc' => 'Генэруецца час апошняй зьмены для старонак',
 	'lastmodified' => 'Зьмененыя апошнімі',
-	'lastmodified-label-seconds' => 'сэкунд',
-	'lastmodified-label-minutes' => 'хвілінаў',
-	'lastmodified-label-hours' => 'гадзін',
-	'lastmodified-label-days' => 'дні',
-	'lastmodified-label-months' => 'месяцы',
-	'lastmodified-label-years' => 'гады',
-	'lastmodified-options' => 'Налады',
-	'lastmodified-display' => 'Паказаць:',
-	'lastmodified-display-range-value' => 'Паказаць дыяпазон значэньняў:',
 	'lastmodified-title-tag' => 'Паказаць апошнюю вэрсію гэтай старонкі.',
 	'lastmodified-seconds' => 'Апошніяе абнаўленьне — {{PLURAL:$1|$1 сэкунду|$1 сэкунды|$1 сэкундаў}} таму',
 	'lastmodified-minutes' => 'Апошняе абнаўленьне — {{PLURAL:$1|$1 хвіліну|$1 хвіліны|$1 хвілінаў}} таму',
@@ -103,28 +85,11 @@ $messages['be-tarask'] = array(
 	'lastmodified-years' => 'Апошніяе абнаўленьне — {{PLURAL:$1|$1 год|$1 гады|$1 гадоў}} таму',
 );
 
-/** Bulgarian (български)
- * @author DCLXVI
- */
-$messages['bg'] = array(
-	'lastmodified-label-seconds' => 'секунди',
-	'lastmodified-label-minutes' => 'минути',
-);
-
 /** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'lastmodified' => 'Kemmet da ziwezhañ',
-	'lastmodified-label-seconds' => 'eilenn',
-	'lastmodified-label-minutes' => 'munutenn',
-	'lastmodified-label-hours' => 'eurvezh',
-	'lastmodified-label-days' => 'deiz',
-	'lastmodified-label-months' => 'miz',
-	'lastmodified-label-years' => 'bloaz',
-	'lastmodified-options' => 'Dibarzhioù',
-	'lastmodified-display' => 'Diskwel :',
-	'lastmodified-display-range-value' => 'Diskwel talvoudenn ar renk',
 	'lastmodified-title-tag' => 'Gwelet istor an adweladennoù evit ar pennad-mañ.',
 	'lastmodified-seconds' => 'Hizivaet da ziwezhañ {{PLURAL:$1|$1 eilenn|$1 eilenn}} zo',
 	'lastmodified-minutes' => 'Hizivaet da ziwezhañ {{PLURAL:$1|$1 vunutenn|$1 munutenn}} zo',
@@ -147,15 +112,6 @@ $messages['ca'] = array(
 $messages['de'] = array(
 	'lastmodified-desc' => 'Ermöglicht die Anzeige der Zeitspanne seit der letzten Änderung der Wikiseite',
 	'lastmodified' => 'Zuletzt geändert',
-	'lastmodified-label-seconds' => 'Sekunden',
-	'lastmodified-label-minutes' => 'Minuten',
-	'lastmodified-label-hours' => 'Stunden',
-	'lastmodified-label-days' => 'Tage',
-	'lastmodified-label-months' => 'Monate',
-	'lastmodified-label-years' => 'Jahre',
-	'lastmodified-options' => 'Optionen',
-	'lastmodified-display' => 'Anzeige:',
-	'lastmodified-display-range-value' => 'Zeitspanne anzeigen:',
 	'lastmodified-title-tag' => 'Die Versionsgeschichte dieser Seite anzeigen.',
 	'lastmodified-seconds' => 'Zuletzt vor {{PLURAL:$1|einer Sekunde|$1 Sekunden}} aktualisiert',
 	'lastmodified-minutes' => 'Zuletzt vor {{PLURAL:$1|einer Minute|$1 Minuten}} aktualisiert',
@@ -178,15 +134,6 @@ $messages['diq'] = array(
 $messages['dsb'] = array(
 	'lastmodified-desc' => 'Pokazujo case slědnych změnow za boki',
 	'lastmodified' => 'Slědny raz změnjony',
-	'lastmodified-label-seconds' => 'sekundow',
-	'lastmodified-label-minutes' => 'minutow',
-	'lastmodified-label-hours' => 'góźinow',
-	'lastmodified-label-days' => 'dnjow',
-	'lastmodified-label-months' => 'mjasecow',
-	'lastmodified-label-years' => 'lět',
-	'lastmodified-options' => 'Opcije',
-	'lastmodified-display' => 'Zwobraznjenje',
-	'lastmodified-display-range-value' => 'Casowy wótrězk zwobrazniś:',
 	'lastmodified-title-tag' => 'Wersijowu historiju toś togo boka zwobrazniś.',
 	'lastmodified-seconds' => 'Pśed {{PLURAL:$1|$1 sekundu|$1 sekundoma|$1 sekundami|sekundami}} zaktualizěrowany.',
 	'lastmodified-minutes' => 'Pśed {{PLURAL:$1|$1 minutu|$1 minutoma|$1 minutami|minutami}} zaktualizěrowany.',
@@ -196,32 +143,12 @@ $messages['dsb'] = array(
 	'lastmodified-years' => 'Pśed $1 {{PLURAL:$1|lětom|lětoma|lětami|lětami}} zaktualizěrowany.',
 );
 
-/** Greek (Ελληνικά)
- * @author Crazymadlover
- */
-$messages['el'] = array(
-	'lastmodified-label-seconds' => 'δευτερόλεπτα',
-	'lastmodified-label-minutes' => 'λεπτά',
-	'lastmodified-label-hours' => 'ώρες',
-	'lastmodified-label-days' => 'ημέρες',
-	'lastmodified-label-months' => 'μήνες',
-);
-
 /** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
 	'lastmodified-desc' => 'Genera las fechas de la última modificación de los artículos',
 	'lastmodified' => 'Última modificación',
-	'lastmodified-label-seconds' => 'segundos',
-	'lastmodified-label-minutes' => 'minutos',
-	'lastmodified-label-hours' => 'horas',
-	'lastmodified-label-days' => 'días',
-	'lastmodified-label-months' => 'meses',
-	'lastmodified-label-years' => 'años',
-	'lastmodified-options' => 'Opciones',
-	'lastmodified-display' => 'Mostrar:',
-	'lastmodified-display-range-value' => 'Mostrar el valor del rango:',
 	'lastmodified-title-tag' => 'Ver el historial de revisión de esta página.',
 	'lastmodified-seconds' => 'Última actualización hace  {{PLURAL:$1|$1 segundo|$1 segundos}}',
 	'lastmodified-minutes' => 'Última actualización hace {{PLURAL:$1|$1 minuto|$1 minutos}}',
@@ -237,15 +164,6 @@ $messages['es'] = array(
 $messages['fa'] = array(
 	'lastmodified-desc' => 'زمان آخرین ویرایش برای صفحه‌ها را تولید می‌کند',
 	'lastmodified' => 'آخرین ویرایش',
-	'lastmodified-label-seconds' => 'ثانیه‌ها',
-	'lastmodified-label-minutes' => 'دقیقه‌ها',
-	'lastmodified-label-hours' => 'ساعت‌ها',
-	'lastmodified-label-days' => 'روزها',
-	'lastmodified-label-months' => 'ماه‌ها',
-	'lastmodified-label-years' => 'سال‌ها',
-	'lastmodified-options' => 'گزینه‌ها',
-	'lastmodified-display' => 'نمایش:',
-	'lastmodified-display-range-value' => 'مقدار محدودهٔ نمایش:',
 	'lastmodified-title-tag' => 'نمایش تاریخچهٔ ویرایش‌های این صفحه.',
 	'lastmodified-seconds' => 'آخرین به‌روزرسانی در {{PLURAL:$1|$1 ثانیهٔ|$1 ثانیهٔ}} پیش',
 	'lastmodified-minutes' => 'آخرین ویرایش در {{PLURAL:$1|$1 دقیقهٔ|$1 دقیقهٔ}} پیش',
@@ -270,15 +188,6 @@ $messages['fo'] = array(
 $messages['fr'] = array(
 	'lastmodified-desc' => 'Génère les horodatages de dernière modification pour les articles',
 	'lastmodified' => 'Dernière mise à jour',
-	'lastmodified-label-seconds' => 'secondes',
-	'lastmodified-label-minutes' => 'minutes',
-	'lastmodified-label-hours' => 'heures',
-	'lastmodified-label-days' => 'jours',
-	'lastmodified-label-months' => 'mois',
-	'lastmodified-label-years' => 'années',
-	'lastmodified-options' => 'Options',
-	'lastmodified-display' => 'Afficher :',
-	'lastmodified-display-range-value' => 'Afficher la valeur du rang :',
 	'lastmodified-title-tag' => "Afficher l'historique des révisions pour cet article.",
 	'lastmodified-seconds' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 seconde|$1 secondes}}',
 	'lastmodified-minutes' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 minute|$1 minutes}}',
@@ -293,15 +202,6 @@ $messages['fr'] = array(
  */
 $messages['frp'] = array(
 	'lastmodified' => 'Dèrriér changement de ceta pâge lo $1.',
-	'lastmodified-label-seconds' => 'secondes',
-	'lastmodified-label-minutes' => 'menutes',
-	'lastmodified-label-hours' => 'hores',
-	'lastmodified-label-days' => 'jorns',
-	'lastmodified-label-months' => 'mês',
-	'lastmodified-label-years' => 'ans',
-	'lastmodified-options' => 'Chouèx',
-	'lastmodified-display' => 'Fâre vêre :',
-	'lastmodified-display-range-value' => 'Fâre vêre la valor du rang :',
 );
 
 /** Galician (galego)
@@ -310,15 +210,6 @@ $messages['frp'] = array(
 $messages['gl'] = array(
 	'lastmodified-desc' => 'Xera a data de última modificación dos artigos',
 	'lastmodified' => 'Última modificación',
-	'lastmodified-label-seconds' => 'segundos',
-	'lastmodified-label-minutes' => 'minutos',
-	'lastmodified-label-hours' => 'horas',
-	'lastmodified-label-days' => 'días',
-	'lastmodified-label-months' => 'meses',
-	'lastmodified-label-years' => 'anos',
-	'lastmodified-options' => 'Opcións',
-	'lastmodified-display' => 'Mostrar:',
-	'lastmodified-display-range-value' => 'Mostrar o valor do rango:',
 	'lastmodified-title-tag' => 'Ollar o historial de revisións deste artigo.',
 	'lastmodified-seconds' => 'Última actualización hai {{PLURAL:$1|$1 segundo|$1 segundos}}',
 	'lastmodified-minutes' => 'Última actualización hai {{PLURAL:$1|$1 minuto|$1 minutos}}',
@@ -334,15 +225,6 @@ $messages['gl'] = array(
 $messages['gsw'] = array(
 	'lastmodified-desc' => 'Zeigt d Zitspanne syt dr letschte Änderig vo de Syte aa',
 	'lastmodified' => 'Zletscht gänderet',
-	'lastmodified-label-seconds' => 'Sekunde',
-	'lastmodified-label-minutes' => 'Minute',
-	'lastmodified-label-hours' => 'Stunde',
-	'lastmodified-label-days' => 'Täg',
-	'lastmodified-label-months' => 'Monet',
-	'lastmodified-label-years' => 'Joor',
-	'lastmodified-options' => 'Optione',
-	'lastmodified-display' => 'Aazeige:',
-	'lastmodified-display-range-value' => 'Zitspanne aazeige:',
 	'lastmodified-title-tag' => 'D Versionsgschicht vo däm Artikel aaluege.',
 	'lastmodified-seconds' => 'Zum letschte Mool vor $1 Sekunde aktualisiert',
 	'lastmodified-minutes' => 'Zum letschte Mool vor $1 Minute aktualisiert',
@@ -367,15 +249,6 @@ $messages['gu'] = array(
 $messages['he'] = array(
 	'lastmodified-desc' => 'יצירת זמן השינוי האחרון של דפים',
 	'lastmodified' => 'שינוי אחרון',
-	'lastmodified-label-seconds' => 'שניות',
-	'lastmodified-label-minutes' => 'דקות',
-	'lastmodified-label-hours' => 'שעות',
-	'lastmodified-label-days' => 'ימים',
-	'lastmodified-label-months' => 'חודשים',
-	'lastmodified-label-years' => 'שנים',
-	'lastmodified-options' => 'אפשרויות',
-	'lastmodified-display' => 'להציג:',
-	'lastmodified-display-range-value' => 'להציג ערכי טווח:',
 	'lastmodified-title-tag' => 'הצגת היסטוריית שינויים לדף הזה.',
 	'lastmodified-seconds' => 'עודכן לאחרונה לפני {{PLURAL:$1|שנייה אחת|$1 שניות}}',
 	'lastmodified-minutes' => 'עודכן לאחרונה לפני {{PLURAL:$1|דקה אחת|$1 דקות}}',
@@ -391,15 +264,6 @@ $messages['he'] = array(
 $messages['hsb'] = array(
 	'lastmodified-desc' => 'Pokazuje časy poslednich změnow za strony',
 	'lastmodified' => 'Posledni raz změnjeny',
-	'lastmodified-label-seconds' => 'sekundow',
-	'lastmodified-label-minutes' => 'mjeńšin',
-	'lastmodified-label-hours' => 'hodźin',
-	'lastmodified-label-days' => 'dnjow',
-	'lastmodified-label-months' => 'měsacow',
-	'lastmodified-label-years' => 'lět',
-	'lastmodified-options' => 'Opcije',
-	'lastmodified-display' => 'Zwobraznjenje:',
-	'lastmodified-display-range-value' => 'Wotrězk časa zwobraznić:',
 	'lastmodified-title-tag' => 'Wersijowu historiju tuteje strony zwobraznić.',
 	'lastmodified-seconds' => 'Před $1 {{PLURAL:$1|sekundom|sekundomaj|sekundami|sekundami}} zaktualizowana.',
 	'lastmodified-minutes' => 'Před $1 {{PLURAL:$1|mjeńšinu|mjeńšinomaj|mjeńšinami|mjeńšinami}} zaktualizowana.',
@@ -415,15 +279,6 @@ $messages['hsb'] = array(
 $messages['hu'] = array(
 	'lastmodified-desc' => 'Lapok utolsó módosítási idejének generálása',
 	'lastmodified' => 'Utoljára módosítva',
-	'lastmodified-label-seconds' => 'másodperc',
-	'lastmodified-label-minutes' => 'perc',
-	'lastmodified-label-hours' => 'óra',
-	'lastmodified-label-days' => 'nap',
-	'lastmodified-label-months' => 'hónap',
-	'lastmodified-label-years' => 'év',
-	'lastmodified-options' => 'Beállítások',
-	'lastmodified-display' => 'Megjelenítés:',
-	'lastmodified-display-range-value' => 'Megjelenített tartomány:',
 	'lastmodified-title-tag' => 'Laptörténet megjelenítése.',
 	'lastmodified-seconds' => 'Utoljára {{PLURAL:$1|egy másodperce|$1 másodperce}} módosítva',
 	'lastmodified-minutes' => 'Utoljára {{PLURAL:$1|egy perce|$1 perce}} módosítva',
@@ -446,15 +301,6 @@ $messages['hy'] = array(
 $messages['ia'] = array(
 	'lastmodified-desc' => 'Genera horas de ultime modification pro articulos',
 	'lastmodified' => 'Ultime modification',
-	'lastmodified-label-seconds' => 'secundas',
-	'lastmodified-label-minutes' => 'minutas',
-	'lastmodified-label-hours' => 'horas',
-	'lastmodified-label-days' => 'dies',
-	'lastmodified-label-months' => 'menses',
-	'lastmodified-label-years' => 'annos',
-	'lastmodified-options' => 'Optiones',
-	'lastmodified-display' => 'Presentation:',
-	'lastmodified-display-range-value' => 'Valor del intervallo monstrate:',
 	'lastmodified-title-tag' => 'Vider le historia de versiones de iste articulo.',
 	'lastmodified-seconds' => 'Ultime actualisation {{PLURAL:$1|$1 secunda|$1 secundas}} retro',
 	'lastmodified-minutes' => 'Ultime actualisation {{PLURAL:$1|$1 minuta|$1 minutas}} retro',
@@ -470,14 +316,6 @@ $messages['ia'] = array(
  */
 $messages['is'] = array(
 	'lastmodified' => 'Þessari síðu var síðast breytt $1.',
-	'lastmodified-label-seconds' => 'sekúndur',
-	'lastmodified-label-minutes' => 'mínótur',
-	'lastmodified-label-hours' => 'klukkutímar',
-	'lastmodified-label-days' => 'dagar',
-	'lastmodified-label-months' => 'mánuðir',
-	'lastmodified-label-years' => 'ár',
-	'lastmodified-options' => 'Valmöguleikar',
-	'lastmodified-display' => 'Sýna:',
 	'lastmodified-seconds' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 sekúndu|$1 sekúndum}} síðan',
 	'lastmodified-minutes' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 mínótu|$1 mínótum}} síðan',
 	'lastmodified-hours' => 'Síðast uppfærð fyrir {{PLURAL:$1|$1 klukkutíma|$1 klukkutímum}} síðan',
@@ -492,15 +330,6 @@ $messages['is'] = array(
 $messages['it'] = array(
 	'lastmodified-desc' => "Genera l'ora dell'ultima modifica per le pagine",
 	'lastmodified' => 'Ultima modifica',
-	'lastmodified-label-seconds' => 'secondi',
-	'lastmodified-label-minutes' => 'minuti',
-	'lastmodified-label-hours' => 'ore',
-	'lastmodified-label-days' => 'giorni',
-	'lastmodified-label-months' => 'mesi',
-	'lastmodified-label-years' => 'anni',
-	'lastmodified-options' => 'Opzioni',
-	'lastmodified-display' => 'Mostra:',
-	'lastmodified-display-range-value' => 'Mostra intervallo valori:',
 	'lastmodified-title-tag' => 'Visualizza la cronologia delle versioni per questa pagina.',
 	'lastmodified-seconds' => 'Ultima modifica {{PLURAL:$1|$1 secondo|$1 secondi}} fa',
 	'lastmodified-minutes' => 'Ultima modifica {{PLURAL:$1|$1 minuto|$1 minuti}} fa',
@@ -517,15 +346,6 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'lastmodified-desc' => 'ページが最後に変更された時刻を生成',
 	'lastmodified' => '最終更新',
-	'lastmodified-label-seconds' => '秒',
-	'lastmodified-label-minutes' => '分',
-	'lastmodified-label-hours' => '時間',
-	'lastmodified-label-days' => '日',
-	'lastmodified-label-months' => '月',
-	'lastmodified-label-years' => '年',
-	'lastmodified-options' => 'オプション',
-	'lastmodified-display' => '表示:',
-	'lastmodified-display-range-value' => '表示範囲:',
 	'lastmodified-title-tag' => 'このページの変更履歴を表示します。',
 	'lastmodified-seconds' => '{{PLURAL:$1|$1秒}}前に最終更新',
 	'lastmodified-minutes' => '{{PLURAL:$1|$1分}}前に最終更新',
@@ -556,15 +376,6 @@ $messages['ka'] = array(
 $messages['ko'] = array(
 	'lastmodified-desc' => '문서에 대한 마지막으로 수정한 시간 생성',
 	'lastmodified' => '이 문서는 $1에 마지막으로 바뀌었습니다.',
-	'lastmodified-label-seconds' => '초',
-	'lastmodified-label-minutes' => '분',
-	'lastmodified-label-hours' => '시간',
-	'lastmodified-label-days' => '일',
-	'lastmodified-label-months' => '월',
-	'lastmodified-label-years' => '년',
-	'lastmodified-options' => '옵션',
-	'lastmodified-display' => '보기:',
-	'lastmodified-display-range-value' => '범위 값 보기:',
 	'lastmodified-title-tag' => '이 문서에 대한 판 역사를 봅니다.',
 	'lastmodified-seconds' => '최근 $1초 전에 업데이트함',
 	'lastmodified-minutes' => '최근 $1분 전에 업데이트함',
@@ -580,15 +391,6 @@ $messages['ko'] = array(
 $messages['ksh'] = array(
 	'lastmodified-desc' => 'Määd_et müjjelesch, för jeede Sigg em Wikki aanzezeije, wi lang et her es, dat se et läz jeändert woode es.',
 	'lastmodified' => 'Et lez verändert',
-	'lastmodified-label-seconds' => 'Sekonde',
-	'lastmodified-label-minutes' => 'Menutte',
-	'lastmodified-label-hours' => 'Stunde',
-	'lastmodified-label-days' => 'Dääsch',
-	'lastmodified-label-months' => 'Moohnde',
-	'lastmodified-label-years' => 'Johre',
-	'lastmodified-options' => 'Enstellunge',
-	'lastmodified-display' => 'Zeije:',
-	'lastmodified-display-range-value' => 'Donn de Door aanzeije:',
 	'lastmodified-title-tag' => 'Donn en leß met de Versione un de Verjangeheit vun heh dä Sigg aanzeije.',
 	'lastmodified-seconds' => 'Et läz vör {{PLURAL:$1|eine Sekond|$1 Sekonde|nit ens ein Sekond}} jeändert.',
 	'lastmodified-minutes' => '!Et läz vör {{PLURAL:$1|ein Menutt|$1 Menutte|nit ens ein Menutt}} jeändert.',
@@ -598,31 +400,12 @@ $messages['ksh'] = array(
 	'lastmodified-years' => 'Et läz vör {{PLURAL:$1|enem Johr|$1 Johre|nit ens enem Johr}} jeändert.',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
- * @author George Animal
- */
-$messages['ku-latn'] = array(
-	'lastmodified-label-days' => 'roj',
-	'lastmodified-label-months' => 'meh',
-	'lastmodified-label-years' => 'sal',
-	'lastmodified-options' => 'Vebijêrk',
-);
-
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
 $messages['lb'] = array(
 	'lastmodified-desc' => 'Generéiert den Zäitpunkt vun der leschter Ännerung vun Artikelen',
 	'lastmodified' => 'Lescht Ännerung',
-	'lastmodified-label-seconds' => 'Sekonnen',
-	'lastmodified-label-minutes' => 'Minutten',
-	'lastmodified-label-hours' => 'Stonnen',
-	'lastmodified-label-days' => 'Deeg',
-	'lastmodified-label-months' => 'Méint',
-	'lastmodified-label-years' => 'Joer',
-	'lastmodified-options' => 'Optiounen',
-	'lastmodified-display' => 'Weisen:',
-	'lastmodified-display-range-value' => 'Wäert vum Zäitofstand:',
 	'lastmodified-title-tag' => 'Den Historique vun de Versioune vun dësem Artikel weisen.',
 	'lastmodified-seconds' => 'Lescht Ännerung  {{PLURAL:$1|virun 1 Sekonn|viru(n) $1 Sekonnen}}',
 	'lastmodified-minutes' => 'Lescht Ännerung {{PLURAL:$1|virun 1 Minutt|viru(n) $1 Minutten}}',
@@ -645,15 +428,6 @@ $messages['lv'] = array(
 $messages['mk'] = array(
 	'lastmodified-desc' => 'Прикажува кога се извршении последните измени на статиите',
 	'lastmodified' => 'Последна измена',
-	'lastmodified-label-seconds' => 'секунди',
-	'lastmodified-label-minutes' => 'минути',
-	'lastmodified-label-hours' => 'часа',
-	'lastmodified-label-days' => 'дена',
-	'lastmodified-label-months' => 'месеци',
-	'lastmodified-label-years' => 'години',
-	'lastmodified-options' => 'Поставки',
-	'lastmodified-display' => 'Прикажи:',
-	'lastmodified-display-range-value' => 'Прикажи опсежна вредност:',
 	'lastmodified-title-tag' => 'Преглед на историјата на промени во статијата.',
 	'lastmodified-seconds' => 'Подновено пред {{PLURAL:$1|$1 секунда|$1 секунди}}',
 	'lastmodified-minutes' => 'Подновено пред {{PLURAL:$1|$1 минута|$1 минути}}',
@@ -720,15 +494,6 @@ $messages['nds-nl'] = array(
 $messages['nl'] = array(
 	'lastmodified-desc' => 'Genereert "laatste wijzing"-tijden voor pagina\'s',
 	'lastmodified' => 'Deze pagina is het laatst bewerkt op $1.',
-	'lastmodified-label-seconds' => 'seconden',
-	'lastmodified-label-minutes' => 'minuten',
-	'lastmodified-label-hours' => 'uur',
-	'lastmodified-label-days' => 'dagen',
-	'lastmodified-label-months' => 'maanden',
-	'lastmodified-label-years' => 'jaar',
-	'lastmodified-options' => 'Opties',
-	'lastmodified-display' => 'Weergave:',
-	'lastmodified-display-range-value' => 'Reeks weergeven:',
 	'lastmodified-title-tag' => 'De versiegeschiedenis van dit artikel bekijken.',
 	'lastmodified-seconds' => '{{PLURAL:$1|Eén seconde|$1 seconden}} geleden voor het laatst bijgewerkt',
 	'lastmodified-minutes' => '{{PLURAL:$1|Eén minuut|$1 minuten}} geleden voor het laatst bijgewerkt',
@@ -736,18 +501,6 @@ $messages['nl'] = array(
 	'lastmodified-days' => '{{PLURAL:$1|Gisteren|$1 dagen geleden}} voor het laatst bijgewerkt',
 	'lastmodified-months' => '{{PLURAL:$1|Eén maand|$1 maanden}} geleden voor het laatst bijgewerkt',
 	'lastmodified-years' => '{{PLURAL:$1|Eén jaar|$1 jaar}} geleden voor het laatst bijgewerkt',
-);
-
-/** Deitsch (Deitsch)
- * @author Xqt
- */
-$messages['pdc'] = array(
-	'lastmodified-label-seconds' => 'Sekunde',
-	'lastmodified-label-minutes' => 'Minudde',
-	'lastmodified-label-hours' => 'Schtund',
-	'lastmodified-label-days' => 'Daag',
-	'lastmodified-label-months' => 'Munete',
-	'lastmodified-label-years' => 'Yaahre',
 );
 
 /** Pälzisch (Pälzisch)
@@ -765,15 +518,6 @@ $messages['pfl'] = array(
 $messages['pl'] = array(
 	'lastmodified-desc' => 'Generuje czas ostatniej modyfikacji dla artykułów',
 	'lastmodified' => 'Ostatnio modyfikowane',
-	'lastmodified-label-seconds' => 'sekundy',
-	'lastmodified-label-minutes' => 'minuty',
-	'lastmodified-label-hours' => 'godziny',
-	'lastmodified-label-days' => 'dni',
-	'lastmodified-label-months' => 'miesiące',
-	'lastmodified-label-years' => 'lata',
-	'lastmodified-options' => 'Opcje',
-	'lastmodified-display' => 'Wygląd',
-	'lastmodified-display-range-value' => 'Zakres wyświetlanych wartości',
 	'lastmodified-title-tag' => 'Zobacz historię zmian tego artykułu.',
 	'lastmodified-seconds' => 'Ostatnio zaktualizowano {{PLURAL:$1|sekundę|$1 sekundy|$1 sekund}} temu',
 	'lastmodified-minutes' => 'Ostatnio zaktualizowano {{PLURAL:$1|minutę|$1 minuty|$1 minut}} temu',
@@ -816,13 +560,6 @@ $messages['sv'] = array(
 $messages['te'] = array(
 	'lastmodified-desc' => 'వ్యాసాలలో చివరి మార్పు తేదీలను చూపిస్తుంది',
 	'lastmodified' => 'ఈ పేజీకి $1న చివరి మార్పు జరిగినది.',
-	'lastmodified-label-seconds' => 'క్షణాలు',
-	'lastmodified-label-minutes' => 'నిమిషాలు',
-	'lastmodified-label-hours' => 'గంటలు',
-	'lastmodified-label-days' => 'రోజులు',
-	'lastmodified-label-months' => 'నెలలు',
-	'lastmodified-label-years' => 'సంవత్సరాలు',
-	'lastmodified-options' => 'ఎంపికలు',
 	'lastmodified-title-tag' => 'ఈ వ్యాసపు కూర్పుల చరిత్రను చూడండి',
 	'lastmodified-seconds' => 'చివరి మార్పు $1 క్షణాల క్రితం',
 	'lastmodified-minutes' => 'చివరి మార్పు $1 నిమిషాల క్రితం',
@@ -839,15 +576,6 @@ $messages['te'] = array(
 $messages['tl'] = array(
 	'lastmodified-desc' => 'Lumilikha ng mga ulit ng huling pagbago para sa pahina',
 	'lastmodified' => 'Huling binago ang pahinang ito noong $1.',
-	'lastmodified-label-seconds' => 'mga segundo',
-	'lastmodified-label-minutes' => 'mga minuto',
-	'lastmodified-label-hours' => 'mga oras',
-	'lastmodified-label-days' => 'mga araw',
-	'lastmodified-label-months' => 'mga buwan',
-	'lastmodified-label-years' => 'mga taon',
-	'lastmodified-options' => 'Mga mapagpipilian',
-	'lastmodified-display' => 'Ipakita:',
-	'lastmodified-display-range-value' => 'Ipakita ang halaga ng saklaw:',
 	'lastmodified-title-tag' => 'Tingnan ang kasaysayan ng rebisyon para sa pahinang ito.',
 	'lastmodified-seconds' => 'Huling naisapanahon noong {{PLURAL:$1|$1 segundo|$1 mga segundo}} na ang nakakalipas',
 	'lastmodified-minutes' => 'Huling naisapanahon {{PLURAL:$1|$1 minuto|$1 mga minuto}} na ang nakakalipas',
@@ -857,31 +585,12 @@ $messages['tl'] = array(
 	'lastmodified-years' => 'Huling naisapanahon {{PLURAL:$1|$1 taon|$1 mga taon}} na ang nakakalipas',
 );
 
-/** Turkish (Türkçe)
- * @author Suelnur
- */
-$messages['tr'] = array(
-	'lastmodified-label-seconds' => 'saniyeler',
-	'lastmodified-label-minutes' => 'dakikalar',
-	'lastmodified-label-hours' => 'saatler',
-	'lastmodified-label-months' => 'aylar',
-	'lastmodified-label-years' => 'yıllar',
-);
-
 /** Ukrainian (українська)
  * @author A1
  * @author Olvin
  */
 $messages['uk'] = array(
 	'lastmodified' => 'Останні зміни',
-	'lastmodified-label-seconds' => 'секунд',
-	'lastmodified-label-minutes' => 'хвилин',
-	'lastmodified-label-hours' => 'годин',
-	'lastmodified-label-days' => 'днів',
-	'lastmodified-label-months' => 'місяців',
-	'lastmodified-label-years' => 'років',
-	'lastmodified-options' => 'Налаштування',
-	'lastmodified-display' => 'Показати:',
 	'lastmodified-seconds' => 'Останнє оновлення $1 {{PLURAL:$1|секунду|секунди|секунд}} назад',
 );
 
@@ -896,15 +605,6 @@ $messages['vec'] = array(
 $messages['vi'] = array(
 	'lastmodified-desc' => 'Tính ra lúc sửa đổi cuối cùng của các trang',
 	'lastmodified' => 'Sửa đổi lần cuối',
-	'lastmodified-label-seconds' => 'giây',
-	'lastmodified-label-minutes' => 'phút',
-	'lastmodified-label-hours' => 'giờ',
-	'lastmodified-label-days' => 'ngày',
-	'lastmodified-label-months' => 'tháng',
-	'lastmodified-label-years' => 'năm',
-	'lastmodified-options' => 'Tùy chọn',
-	'lastmodified-display' => 'Hiển thị:',
-	'lastmodified-display-range-value' => 'Hiển thị dãy giá trị:',
 	'lastmodified-title-tag' => 'Xem lịch sử thay đổi của trang này.',
 	'lastmodified-seconds' => 'Cập nhật lần cuối cách đây $1 giây',
 	'lastmodified-minutes' => 'Cập nhật lần cuối cách đây $1 phút',
@@ -920,14 +620,6 @@ $messages['vi'] = array(
 $messages['yi'] = array(
 	'lastmodified-desc' => 'גענערירט לעצט מאדיפיצירטע צײַטן פאר בלעטער',
 	'lastmodified' => 'לעצט געענדערט',
-	'lastmodified-label-seconds' => 'סעקונדעס',
-	'lastmodified-label-minutes' => 'מינוט',
-	'lastmodified-label-hours' => "שעה'ן",
-	'lastmodified-label-days' => 'טעג',
-	'lastmodified-label-months' => 'מאנאַטן',
-	'lastmodified-label-years' => 'יאָרן',
-	'lastmodified-options' => 'ברירות',
-	'lastmodified-display' => 'אויסשטעלונג:',
 	'lastmodified-title-tag' => 'באקוקן די רעוויזיע היסטאריע פאר דעם בלאט.',
 	'lastmodified-seconds' => 'לעצט דערהײַנטיקט פֿאַר {{PLURAL:$1|$1 סעקונדע|$1 סעקונדעס}}',
 	'lastmodified-minutes' => 'לעצט דערהײַנטיקט פֿאַר {{PLURAL:$1|$1 מינוט|$1 מינוט}}',
@@ -944,15 +636,6 @@ $messages['yi'] = array(
 $messages['zh-hans'] = array(
 	'lastmodified-desc' => '生成页面的最后修订时间',
 	'lastmodified' => '最后修订',
-	'lastmodified-label-seconds' => '秒',
-	'lastmodified-label-minutes' => '分',
-	'lastmodified-label-hours' => '小时',
-	'lastmodified-label-days' => '天',
-	'lastmodified-label-months' => '个月',
-	'lastmodified-label-years' => '年',
-	'lastmodified-options' => '选项',
-	'lastmodified-display' => '显示：',
-	'lastmodified-display-range-value' => '显示范围取值：',
 	'lastmodified-title-tag' => '查看此页面的修订历史。',
 	'lastmodified-seconds' => '最后更新于{{PLURAL:$1|$1秒|$1秒}}之前',
 	'lastmodified-minutes' => '最后更新于{{PLURAL:$1|$1分钟|$1分钟}}之前',
