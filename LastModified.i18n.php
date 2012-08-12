@@ -575,6 +575,13 @@ $messages['sv'] = array(
 	'lastmodified' => 'Sidan ändrades senast $1.',
 );
 
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'lastmodified' => 'கடைசியாக மாற்றப்பட்டது',
+);
+
 /** Telugu (తెలుగు)
  * @author Sunil Mohan
  * @author Veeven
