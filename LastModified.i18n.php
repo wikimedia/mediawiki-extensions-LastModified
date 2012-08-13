@@ -568,18 +568,47 @@ $messages['sk'] = array(
 	'lastmodified' => 'Čas poslednej úpravy tejto stránky je $1.',
 );
 
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'lastmodified-desc' => 'Приказује када су направљене последње измене на страницама',
+	'lastmodified' => 'Последња измена',
+	'lastmodified-title-tag' => 'Преглед историје измена на овој страници.',
+	'lastmodified-seconds' => 'Ажурирано пре {{PLURAL:$1|$1 секунде|$1 секунде|$1 секунди}}',
+	'lastmodified-minutes' => 'Ажурирано пре {{PLURAL:$1|$1 минут|$1 минута|$1 минута}}',
+	'lastmodified-hours' => 'Ажурирано пре {{PLURAL:$1|$1 сат|$1 сата|$1 сати}}',
+	'lastmodified-days' => 'Ажурирано пре {{PLURAL:$1|$1 дан|$1 дана|$1 дана}}',
+	'lastmodified-months' => 'Ажурирано пре {{PLURAL:$1|$1 месец|$1 месеца|$1 месеци}}',
+	'lastmodified-years' => 'Ажурирано пре {{PLURAL:$1|$1 годину|$1 године|$1 година}}',
+);
+
 /** Swedish (svenska)
  * @author Sannab
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'lastmodified' => 'Sidan ändrades senast $1.',
+	'lastmodified-seconds' => 'Senast uppdaterad {{PLURAL:$1|$1 sekund|$1 sekunder}} sedan',
+	'lastmodified-minutes' => 'Senast uppdaterad {{PLURAL:$1|$1 minut|$1 minuter}} sedan',
+	'lastmodified-hours' => 'Senast uppdaterad {{PLURAL:$1|$1 timme|$1 timmar}} sedan',
+	'lastmodified-days' => 'Senast uppdaterad {{PLURAL:$1|$1 dag|$1 dagar}} sedan',
+	'lastmodified-months' => 'Senast uppdaterad {{PLURAL:$1|$1 månad|$1 månader}} sedan',
+	'lastmodified-years' => 'Senast uppdaterad {{PLURAL:$1|$1 år|$1 år}} sedan',
 );
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author Shanmugamp7
  */
 $messages['ta'] = array(
 	'lastmodified' => 'கடைசியாக மாற்றப்பட்டது',
+	'lastmodified-seconds' => 'கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1 வினாடி|$1 வினாடிகள்}} முன்பு',
+	'lastmodified-minutes' => 'கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1 நிமிடம்|$1 நிமிடங்கள்}} முன்பு',
+	'lastmodified-hours' => 'கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1மணி|$1 மணிகள்}} முன்பு',
+	'lastmodified-days' => 'கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1 நாள்|$1 நாட்கள்}} முன்பு',
+	'lastmodified-months' => 'கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1 மாதம்|$1 மாதங்கள்}} முன்பு',
+	'lastmodified-years' => 'கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1 வருடம்|$1 வருடங்கள்}} முன்பு',
 );
 
 /** Telugu (తెలుగు)
