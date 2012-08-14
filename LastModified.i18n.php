@@ -589,6 +589,7 @@ $messages['sr-ec'] = array(
  */
 $messages['sv'] = array(
 	'lastmodified' => 'Sidan ändrades senast $1.',
+	'lastmodified-title-tag' => 'Visa revisionshistorik för denna sida.',
 	'lastmodified-seconds' => 'Senast uppdaterad {{PLURAL:$1|$1 sekund|$1 sekunder}} sedan',
 	'lastmodified-minutes' => 'Senast uppdaterad {{PLURAL:$1|$1 minut|$1 minuter}} sedan',
 	'lastmodified-hours' => 'Senast uppdaterad {{PLURAL:$1|$1 timme|$1 timmar}} sedan',
