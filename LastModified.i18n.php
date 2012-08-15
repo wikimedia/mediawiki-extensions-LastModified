@@ -556,6 +556,13 @@ $messages['ro'] = array(
 	'lastmodified' => 'Ultima modificare efectuată la $1.',
 );
 
+/** Russian (русский)
+ * @author David1010
+ */
+$messages['ru'] = array(
+	'lastmodified' => 'Последнее изменение',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
