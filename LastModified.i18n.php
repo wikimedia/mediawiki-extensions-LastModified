@@ -188,6 +188,13 @@ $messages['fa'] = array(
 	'lastmodified-years' => 'آخرین ویرایش در {{PLURAL:$1|$1 سال|$1 سال}} پیش',
 );
 
+/** Finnish (suomi)
+ * @author Beluga
+ */
+$messages['fi'] = array(
+	'lastmodified-title-tag' => 'Katso sivun muutoshistoriaa.',
+);
+
 /** Faroese (føroyskt)
  * @author לערי ריינהארט
  */
