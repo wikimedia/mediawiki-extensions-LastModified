@@ -377,6 +377,21 @@ $messages['ja'] = array(
 	'lastmodified-years' => '{{PLURAL:$1|$1年}}前に最終更新',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'lastmodified-desc' => 'Tokaké wektu pangowahan pungkasan kanggo kaca',
+	'lastmodified' => 'Diowah Pungkasan',
+	'lastmodified-title-tag' => 'Delok riwayat rèvisi kanggo kaca iki.',
+	'lastmodified-seconds' => 'Dianyari pungkasan {{PLURAL:$1|$1 detik|$1 detik}} kapungkur',
+	'lastmodified-minutes' => 'Dianyari pungkasan {{PLURAL:$1|$1 menit|$1 menit}} kapungkur',
+	'lastmodified-hours' => 'Dianyari pungkasan {{PLURAL:$1|$1 jam|$1 jam}} kapungkur',
+	'lastmodified-days' => 'Dianyari pungkasan {{PLURAL:$1|$1 dina|$1 dinat}} kapungkur',
+	'lastmodified-months' => 'Dianyari pungkasan {{PLURAL:$1|$1 sasi|$1 sasi}} kapungkur',
+	'lastmodified-years' => 'Dianyari pungkasan {{PLURAL:$1|$1 taun|$1 taun}} kapungkur',
+);
+
 /** Georgian (ქართული)
  * @author Alsandro
  * @author David1010
@@ -665,6 +680,15 @@ $messages['tl'] = array(
 $messages['uk'] = array(
 	'lastmodified' => 'Останні зміни',
 	'lastmodified-seconds' => 'Останнє оновлення $1 {{PLURAL:$1|секунду|секунди|секунд}} назад',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'lastmodified-desc' => 'پیدا میں آخری بار بار صفحات کے لئے',
+	'lastmodified' => 'آخری بار',
+	'lastmodified-title-tag' => 'اس صفحے کے لئے ترمیمی تاریخ کو دیکھیں ۔',
 );
 
 /** vèneto (vèneto) */
