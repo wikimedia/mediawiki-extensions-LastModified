@@ -580,9 +580,17 @@ $messages['ro'] = array(
 
 /** Russian (русский)
  * @author David1010
+ * @author Kalan
  */
 $messages['ru'] = array(
+	'lastmodified-desc' => 'Отображает время последнего изменения страниц',
 	'lastmodified' => 'Последнее изменение',
+	'lastmodified-title-tag' => 'Просмотреть историю изменений этой страницы.',
+	'lastmodified-seconds' => 'Обновлено {{PLURAL:$1|$1 секунду|$1 секунды|$1 секунд}} назад',
+	'lastmodified-hours' => 'Обновлено {{PLURAL:$1|$1 час|$1 часа|$1 часов}} назад',
+	'lastmodified-days' => 'Обновлено {{PLURAL:$1|$1 день|$1 дня|$1 дней}} назад',
+	'lastmodified-months' => 'Обновлено {{PLURAL:$1|$1 месяц|$1 месяца|$1 месяцев}} назад',
+	'lastmodified-years' => 'Обновлено {{PLURAL:$1|$1 год|$1 года|$1 лет}} назад',
 );
 
 /** Sinhala (සිංහල)
