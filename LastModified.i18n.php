@@ -274,10 +274,10 @@ $messages['he'] = array(
 	'lastmodified-title-tag' => 'הצגת היסטוריית שינויים לדף הזה.',
 	'lastmodified-seconds' => 'עודכן לאחרונה לפני {{PLURAL:$1|שנייה אחת|$1 שניות}}',
 	'lastmodified-minutes' => 'עודכן לאחרונה לפני {{PLURAL:$1|דקה אחת|$1 דקות}}',
-	'lastmodified-hours' => 'עודכן לאחרונה לפני {{PLURAL:$1|שעה אחת|$1 שעות|שעתיים}}',
-	'lastmodified-days' => 'עודכן לאחרונה לפני {{PLURAL:$1|יום אחד|$1 ימים|יומיים}}',
-	'lastmodified-months' => 'עודכן לאחרונה לפני {{PLURAL:$1|חודש אחד|$1 חודשים|חודשיים}}',
-	'lastmodified-years' => 'עודכן לאחרונה לפני {{PLURAL:$1|שנה אחת|$1 שנים|שנתיים}}',
+	'lastmodified-hours' => 'עודכן לאחרונה לפני {{PLURAL:$1|שעה אחת|שעתיים|$1 שעות}}',
+	'lastmodified-days' => 'עודכן לאחרונה לפני {{PLURAL:$1|יום אחד|יומיים|$1 ימים}}',
+	'lastmodified-months' => 'עודכן לאחרונה לפני {{PLURAL:$1|חודש אחד|חודשיים|$1 חודשים}}',
+	'lastmodified-years' => 'עודכן לאחרונה לפני {{PLURAL:$1|שנה אחת|שנתיים|$1 שנים}}',
 );
 
 /** Upper Sorbian (hornjoserbsce)
