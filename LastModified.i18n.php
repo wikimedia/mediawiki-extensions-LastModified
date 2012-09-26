@@ -620,6 +620,19 @@ $messages['sr-ec'] = array(
 	'lastmodified-years' => 'Ажурирано пре {{PLURAL:$1|$1 годину|$1 године|$1 година}}',
 );
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$messages['sr-el'] = array(
+	'lastmodified-desc' => 'Prikazuje kada su napravljene poslednje izmene na stranicama',
+	'lastmodified' => 'Poslednja izmena',
+	'lastmodified-title-tag' => 'Pregled istorije izmena na ovoj stranici.',
+	'lastmodified-seconds' => 'Ažurirano pre {{PLURAL:$1|$1 sekunde|$1 sekunde|$1 sekundi}}',
+	'lastmodified-minutes' => 'Ažurirano pre {{PLURAL:$1|$1 minut|$1 minuta|$1 minuta}}',
+	'lastmodified-hours' => 'Ažurirano pre {{PLURAL:$1|$1 sat|$1 sata|$1 sati}}',
+	'lastmodified-days' => 'Ažurirano pre {{PLURAL:$1|$1 dan|$1 dana|$1 dana}}',
+	'lastmodified-months' => 'Ažurirano pre {{PLURAL:$1|$1 mesec|$1 meseca|$1 meseci}}',
+	'lastmodified-years' => 'Ažurirano pre {{PLURAL:$1|$1 godinu|$1 godine|$1 godina}}',
+);
+
 /** Swedish (svenska)
  * @author Ainali
  * @author Sannab
@@ -752,10 +765,12 @@ $messages['zh-hans'] = array(
 	'lastmodified-years' => '最后更新于{{PLURAL:$1|$1年|$1年}}之前',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
+	'lastmodified-desc' => '生成頁面的最後修訂時間',
+	'lastmodified' => '最後修訂',
 	'lastmodified-title-tag' => '查看此頁的修訂歷史。',
 	'lastmodified-seconds' => '最後更新於$1秒前',
 	'lastmodified-minutes' => '最後更新於$1分鐘前',
