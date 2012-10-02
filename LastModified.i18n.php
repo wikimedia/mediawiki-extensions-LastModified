@@ -69,7 +69,7 @@ $messages['ba'] = array(
 	'lastmodified-years' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 йыл}} элек',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Wizardist
  */
@@ -504,7 +504,7 @@ $messages['ms'] = array(
 	'lastmodified-years' => 'Kali terakhir dikemaskinikan $1 tahun lalu',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'lastmodified' => 'Denne siden ble sist endret $1.',
 );
@@ -605,7 +605,7 @@ $messages['sk'] = array(
 	'lastmodified' => 'Čas poslednej úpravy tejto stránky je $1.',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -749,7 +749,7 @@ $messages['yi'] = array(
 	'lastmodified-years' => 'לעצט דערהײַנטיקט פֿאַר {{PLURAL:$1|$1 יאָר|$1 יאָר}}',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Linforest
  * @author Xiaomingyan
  */
