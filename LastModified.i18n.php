@@ -190,9 +190,10 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Beluga
+ * @author Crt
  */
 $messages['fi'] = array(
-	'lastmodified-title-tag' => 'Katso sivun muutoshistoriaa.',
+	'lastmodified-title-tag' => 'Näytä sivun muutoshistoria.',
 );
 
 /** Faroese (føroyskt)
