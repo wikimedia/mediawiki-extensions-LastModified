@@ -249,12 +249,12 @@ $messages['gsw'] = array(
 	'lastmodified-desc' => 'Zeigt d Zitspanne syt dr letschte Änderig vo de Syte aa',
 	'lastmodified' => 'Zletscht gänderet',
 	'lastmodified-title-tag' => 'D Versionsgschicht vo däm Artikel aaluege.',
-	'lastmodified-seconds' => 'Zum letschte Mool vor $1 Sekunde aktualisiert',
-	'lastmodified-minutes' => 'Zum letschte Mool vor $1 Minute aktualisiert',
-	'lastmodified-hours' => 'Zum letschte Mool vor $1 Stunde aktualisiert',
-	'lastmodified-days' => 'Zum letschte Mool vor $1 Dääg aktualisiert',
-	'lastmodified-months' => 'Zum letschte Mool vor $1 Monet aktualisiert',
-	'lastmodified-years' => 'Zum letschte Mool vor $1 Joor aktualisiert',
+	'lastmodified-seconds' => 'Zum letschte Mool vor $1 Sekunde aktualisiert', # Fuzzy
+	'lastmodified-minutes' => 'Zum letschte Mool vor $1 Minute aktualisiert', # Fuzzy
+	'lastmodified-hours' => 'Zum letschte Mool vor $1 Stunde aktualisiert', # Fuzzy
+	'lastmodified-days' => 'Zum letschte Mool vor $1 Dääg aktualisiert', # Fuzzy
+	'lastmodified-months' => 'Zum letschte Mool vor $1 Monet aktualisiert', # Fuzzy
+	'lastmodified-years' => 'Zum letschte Mool vor $1 Joor aktualisiert', # Fuzzy
 );
 
 /** Gujarati (ગુજરાતી)
@@ -505,7 +505,8 @@ $messages['ms'] = array(
 	'lastmodified-years' => 'Kali terakhir dikemaskinikan $1 tahun lalu',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'lastmodified' => 'Denne siden ble sist endret $1.',
 );
@@ -522,7 +523,7 @@ $messages['nds'] = array(
  * @author לערי ריינהארט
  */
 $messages['nds-nl'] = array(
-	'lastmodified' => 'De leste wieziging op disse zied was op $1.',
+	'lastmodified' => 'De leste wieziging op disse zied was op $1.', # Fuzzy
 );
 
 /** Dutch (Nederlands)
@@ -601,7 +602,8 @@ $messages['si'] = array(
 	'lastmodified' => 'අන්තිමට වෙනස් කලේ',
 );
 
-/** Slovak (slovenčina) */
+/** Slovak (slovenčina)
+ */
 $messages['sk'] = array(
 	'lastmodified' => 'Čas poslednej úpravy tejto stránky je $1.',
 );
@@ -621,17 +623,18 @@ $messages['sr-ec'] = array(
 	'lastmodified-years' => 'Ажурирано пре {{PLURAL:$1|$1 годину|$1 године|$1 година}}',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'lastmodified-desc' => 'Prikazuje kada su napravljene poslednje izmene na stranicama',
 	'lastmodified' => 'Poslednja izmena',
 	'lastmodified-title-tag' => 'Pregled istorije izmena na ovoj stranici.',
-	'lastmodified-seconds' => 'Ažurirano pre {{PLURAL:$1|$1 sekunde|$1 sekunde|$1 sekundi}}',
-	'lastmodified-minutes' => 'Ažurirano pre {{PLURAL:$1|$1 minut|$1 minuta|$1 minuta}}',
-	'lastmodified-hours' => 'Ažurirano pre {{PLURAL:$1|$1 sat|$1 sata|$1 sati}}',
-	'lastmodified-days' => 'Ažurirano pre {{PLURAL:$1|$1 dan|$1 dana|$1 dana}}',
-	'lastmodified-months' => 'Ažurirano pre {{PLURAL:$1|$1 mesec|$1 meseca|$1 meseci}}',
-	'lastmodified-years' => 'Ažurirano pre {{PLURAL:$1|$1 godinu|$1 godine|$1 godina}}',
+	'lastmodified-seconds' => 'Ažurirano pre {{PLURAL:$1|$1 sekunde|$1 sekunde|$1 sekundi}}', # Fuzzy
+	'lastmodified-minutes' => 'Ažurirano pre {{PLURAL:$1|$1 minut|$1 minuta|$1 minuta}}', # Fuzzy
+	'lastmodified-hours' => 'Ažurirano pre {{PLURAL:$1|$1 sat|$1 sata|$1 sati}}', # Fuzzy
+	'lastmodified-days' => 'Ažurirano pre {{PLURAL:$1|$1 dan|$1 dana|$1 dana}}', # Fuzzy
+	'lastmodified-months' => 'Ažurirano pre {{PLURAL:$1|$1 mesec|$1 meseca|$1 meseci}}', # Fuzzy
+	'lastmodified-years' => 'Ažurirano pre {{PLURAL:$1|$1 godinu|$1 godine|$1 godina}}', # Fuzzy
 );
 
 /** Swedish (svenska)
@@ -673,12 +676,12 @@ $messages['te'] = array(
 	'lastmodified-desc' => 'వ్యాసాలలో చివరి మార్పు తేదీలను చూపిస్తుంది',
 	'lastmodified' => 'ఈ పేజీకి $1న చివరి మార్పు జరిగినది.',
 	'lastmodified-title-tag' => 'ఈ వ్యాసపు కూర్పుల చరిత్రను చూడండి',
-	'lastmodified-seconds' => 'చివరి మార్పు $1 క్షణాల క్రితం',
-	'lastmodified-minutes' => 'చివరి మార్పు $1 నిమిషాల క్రితం',
-	'lastmodified-hours' => 'చివరి మార్పు $1 గంటల క్రితం',
-	'lastmodified-days' => 'చివరి మార్పు $1 రోజుల క్రితం',
-	'lastmodified-months' => 'చివరి మార్పు $1 నెలల క్రితం',
-	'lastmodified-years' => 'చివరి మార్పు $1 సంవత్సరాల క్రితం',
+	'lastmodified-seconds' => 'చివరి మార్పు $1 క్షణాల క్రితం', # Fuzzy
+	'lastmodified-minutes' => 'చివరి మార్పు $1 నిమిషాల క్రితం', # Fuzzy
+	'lastmodified-hours' => 'చివరి మార్పు $1 గంటల క్రితం', # Fuzzy
+	'lastmodified-days' => 'చివరి మార్పు $1 రోజుల క్రితం', # Fuzzy
+	'lastmodified-months' => 'చివరి మార్పు $1 నెలల క్రితం', # Fuzzy
+	'lastmodified-years' => 'చివరి మార్పు $1 సంవత్సరాల క్రితం', # Fuzzy
 );
 
 /** Tagalog (Tagalog)
@@ -715,7 +718,8 @@ $messages['ur'] = array(
 	'lastmodified-title-tag' => 'اس صفحے کے لئے ترمیمی تاریخ کو دیکھیں ۔',
 );
 
-/** vèneto (vèneto) */
+/** vèneto (vèneto)
+ */
 $messages['vec'] = array(
 	'lastmodified' => 'Ultima modifica $1.',
 );
@@ -780,4 +784,3 @@ $messages['zh-hant'] = array(
 	'lastmodified-months' => '最後更新於$1個月前',
 	'lastmodified-years' => '最後更新於$1年前',
 );
-
