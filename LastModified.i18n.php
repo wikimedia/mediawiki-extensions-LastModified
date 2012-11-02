@@ -207,11 +207,12 @@ $messages['fo'] = array(
  * @author Gomoko
  * @author Grondin
  * @author Toliño
+ * @author Urhixidur
  */
 $messages['fr'] = array(
 	'lastmodified-desc' => 'Génère les horodatages de dernière modification pour les articles',
 	'lastmodified' => 'Dernière mise à jour',
-	'lastmodified-title-tag' => "Afficher l'historique des révisions pour cet article.",
+	'lastmodified-title-tag' => 'Afficher l’historique des révisions pour cet article.',
 	'lastmodified-seconds' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 seconde|$1 secondes}}',
 	'lastmodified-minutes' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 minute|$1 minutes}}',
 	'lastmodified-hours' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 heure|$1 heures}}',
