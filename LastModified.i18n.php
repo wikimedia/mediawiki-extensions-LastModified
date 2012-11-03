@@ -567,6 +567,21 @@ $messages['pl'] = array(
 	'lastmodified-years' => 'Ostatnio zaktualizowano {{PLURAL:$1|rok|$1 lata|$1 lat}} temu',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author 555
+ */
+$messages['pt-br'] = array(
+	'lastmodified-desc' => 'Mostra quando uma página foi alterada pela última vez',
+	'lastmodified' => 'Última modificação',
+	'lastmodified-title-tag' => 'Ver histórico de edições para esta página',
+	'lastmodified-seconds' => 'Atualizado {{PLURAL:$1|$1 segundo|$1 segundos}} atrás',
+	'lastmodified-minutes' => 'Atualizado {{PLURAL:$1|$1 minuto|$1 minutos}} atrás',
+	'lastmodified-hours' => 'Atualizado {{PLURAL:$1|$1 hora|$1 horas}} atrás',
+	'lastmodified-days' => 'Atualizado {{PLURAL:$1|$1 dia|$1 dias}} atrás',
+	'lastmodified-months' => 'Atualizado {{PLURAL:$1|$1 mês|$1 meses}} atrás',
+	'lastmodified-years' => 'Atualizado {{PLURAL:$1|$1 ano|$1 anos}} atrás',
+);
+
 /** Romani (Romani)
  * @author לערי ריינהארט
  */
