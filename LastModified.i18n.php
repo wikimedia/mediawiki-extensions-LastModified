@@ -140,6 +140,7 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'lastmodified' => 'Timar kerdışo Peyên',
 	'lastmodified-days' => 'Newekerdışo peyen verde {{PLURAL:$1|$1 roco|$1 rocano}}',
 );
 
