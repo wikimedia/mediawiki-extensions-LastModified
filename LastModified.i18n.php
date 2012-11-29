@@ -192,9 +192,16 @@ $messages['fa'] = array(
 /** Finnish (suomi)
  * @author Beluga
  * @author Crt
+ * @author Nedergard
  */
 $messages['fi'] = array(
 	'lastmodified-title-tag' => 'Näytä sivun muutoshistoria.',
+	'lastmodified-seconds' => 'Päivitetty viimeksi {{PLURAL:$1|$1 sekunti|$1 sekuntia}} sitten',
+	'lastmodified-minutes' => 'Päivitetty viimeksi {{PLURAL:$1|$1 minuutti|$1 minuuttia}} sitten',
+	'lastmodified-hours' => 'Päivitetty viimeksi {{PLURAL:$1|$1 tunti|$1 tuntia}} sitten',
+	'lastmodified-days' => 'Päivitetty viimeksi {{PLURAL:$1|$1 päivä|$1 päivää}} sitten',
+	'lastmodified-months' => 'Päivitetty viimeksi {{PLURAL:$1|$1 kuukausi|$1 kuukautta}} sitten',
+	'lastmodified-years' => 'Päivitetty viimeksi {{PLURAL:$1|$1 vuosi|$1 vuotta}} sitten',
 );
 
 /** Faroese (føroyskt)
