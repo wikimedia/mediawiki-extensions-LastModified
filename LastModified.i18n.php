@@ -726,11 +726,18 @@ $messages['tl'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Base
  * @author Olvin
  */
 $messages['uk'] = array(
 	'lastmodified' => 'Останні зміни',
+	'lastmodified-title-tag' => 'Переглянути історію змін цієї сторінки.',
 	'lastmodified-seconds' => 'Останнє оновлення $1 {{PLURAL:$1|секунду|секунди|секунд}} назад',
+	'lastmodified-minutes' => 'Востаннє оновлено {{PLURAL:$1|$1 хвилину|$1 хвилини|$1 хвилин}} назад',
+	'lastmodified-hours' => 'Востаннє оновлено {{PLURAL:$1|$1 годину|$1 години|$1 годин}} назад',
+	'lastmodified-days' => 'Востаннє оновлено {{PLURAL:$1|$1 день|$1 дні|$1 днів}} тому',
+	'lastmodified-months' => 'Востаннє оновлено {{PLURAL:$1|$1 місяць|$1 місяці|$1 місяців}} тому',
+	'lastmodified-years' => 'Востаннє оновлено {{PLURAL:$1|$1 рік|$1 роки|$1 років}} тому',
 );
 
 /** Urdu (اردو)
