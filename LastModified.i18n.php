@@ -728,8 +728,10 @@ $messages['tl'] = array(
  * @author A1
  * @author Base
  * @author Olvin
+ * @author Ата
  */
 $messages['uk'] = array(
+	'lastmodified-desc' => 'Генерує для сторінок час останнього редагування',
 	'lastmodified' => 'Останні зміни',
 	'lastmodified-title-tag' => 'Переглянути історію змін цієї сторінки.',
 	'lastmodified-seconds' => 'Останнє оновлення $1 {{PLURAL:$1|секунду|секунди|секунд}} назад',
