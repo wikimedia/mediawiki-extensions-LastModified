@@ -514,6 +514,20 @@ $messages['ms'] = array(
 	'lastmodified-years' => 'Kali terakhir dikemaskinikan $1 tahun lalu',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'lastmodified' => 'L-aħħar modifika',
+	'lastmodified-title-tag' => 'Ara l-kronoloġija għal din il-paġna.',
+	'lastmodified-seconds' => 'L-aħħar modifika saret {{PLURAL:$1|sekonda|$1 sekondi}} ilu',
+	'lastmodified-minutes' => 'L-aħħar modifika saret {{PLURAL:$1|minuta|$1 minuti}} ilu',
+	'lastmodified-hours' => 'L-aħħar modifika saret {{PLURAL:$1|siegħa|$1 sigħat}} ilu',
+	'lastmodified-days' => 'L-aħħar modifika saret {{PLURAL:$1|ġurnata|$1 ġranet}} ilu',
+	'lastmodified-months' => 'L-aħħar modifika saret {{PLURAL:$1|xahar|$1 xhur}} ilu',
+	'lastmodified-years' => 'L-aħħar modifika saret {{PLURAL:$1|sena|$1 snin}} ilu',
+);
+
 /** Norwegian Bokmål (norsk (bokmål)‎)
  */
 $messages['nb'] = array(
