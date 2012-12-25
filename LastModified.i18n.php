@@ -738,6 +738,13 @@ $messages['tl'] = array(
 	'lastmodified-years' => 'Huling naisapanahon {{PLURAL:$1|$1 taon|$1 mga taon}} na ang nakakalipas',
 );
 
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'lastmodified' => 'ئاخىرقى ئۆزگەرتىش',
+);
+
 /** Ukrainian (українська)
  * @author A1
  * @author Base
