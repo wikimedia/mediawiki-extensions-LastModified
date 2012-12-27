@@ -193,8 +193,11 @@ $messages['fa'] = array(
  * @author Beluga
  * @author Crt
  * @author Nedergard
+ * @author VezonThunder
  */
 $messages['fi'] = array(
+	'lastmodified-desc' => 'Näyttää, milloin sivuja on muokattu viimeksi',
+	'lastmodified' => 'Viimeksi muokattu',
 	'lastmodified-title-tag' => 'Näytä sivun muutoshistoria.',
 	'lastmodified-seconds' => 'Päivitetty viimeksi {{PLURAL:$1|$1 sekunti|$1 sekuntia}} sitten',
 	'lastmodified-minutes' => 'Päivitetty viimeksi {{PLURAL:$1|$1 minuutti|$1 minuuttia}} sitten',
@@ -621,12 +624,14 @@ $messages['ro'] = array(
 /** Russian (русский)
  * @author David1010
  * @author Kalan
+ * @author Ole Yves
  */
 $messages['ru'] = array(
 	'lastmodified-desc' => 'Отображает время последнего изменения страниц',
 	'lastmodified' => 'Последнее изменение',
 	'lastmodified-title-tag' => 'Просмотреть историю изменений этой страницы.',
 	'lastmodified-seconds' => 'Обновлено {{PLURAL:$1|$1 секунду|$1 секунды|$1 секунд}} назад',
+	'lastmodified-minutes' => 'Обновлено {{PLURAL:$1|$1 минуту|$1 минуты|$1 минут}} назад',
 	'lastmodified-hours' => 'Обновлено {{PLURAL:$1|$1 час|$1 часа|$1 часов}} назад',
 	'lastmodified-days' => 'Обновлено {{PLURAL:$1|$1 день|$1 дня|$1 дней}} назад',
 	'lastmodified-months' => 'Обновлено {{PLURAL:$1|$1 месяц|$1 месяца|$1 месяцев}} назад',
