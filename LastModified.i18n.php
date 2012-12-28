@@ -592,6 +592,21 @@ $messages['pl'] = array(
 	'lastmodified-years' => 'Ostatnio zaktualizowano {{PLURAL:$1|rok|$1 lata|$1 lat}} temu',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'lastmodified-desc' => "A génera j'ore dj'ùltime modifiche për le pagine",
+	'lastmodified' => 'Ùltima Modìfica',
+	'lastmodified-title-tag' => 'Varda la stòria dle revision për sta pagina.',
+	'lastmodified-seconds' => 'Ultima modìfica {{PLURAL:$1|$1 second}} fà',
+	'lastmodified-minutes' => 'Ultima modìfica {{PLURAL:$1|$1 minuta|$1 minute}} fà',
+	'lastmodified-hours' => 'Ultima modìfica {{PLURAL:$1|$1 ora|$1 ore}} fà',
+	'lastmodified-days' => 'Ultima modìfica {{PLURAL:$1|$1 di}} fà',
+	'lastmodified-months' => 'Ultima modìfica {{PLURAL:$1|$1 mèis}} fà',
+	'lastmodified-years' => 'Ultima modìfica {{PLURAL:$1|$1 ann|$1 agn}} fà',
+);
+
 /** Brazilian Portuguese (português do Brasil)
  * @author 555
  */
