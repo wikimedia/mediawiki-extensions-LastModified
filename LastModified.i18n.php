@@ -159,6 +159,13 @@ $messages['dsb'] = array(
 	'lastmodified-years' => 'Pśed $1 {{PLURAL:$1|lětom|lětoma|lětami|lětami}} zaktualizěrowany.',
 );
 
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'lastmodified' => 'Τελευταία Επεξεργάστηκε',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
