@@ -665,6 +665,7 @@ $messages['ru'] = array(
  */
 $messages['si'] = array(
 	'lastmodified' => 'අන්තිමට වෙනස් කලේ',
+	'lastmodified-title-tag' => 'මෙම පිටුව සඳහා සංශෝධන ඉතිහාසය නරඹන්න.',
 );
 
 /** Slovak (slovenčina)
