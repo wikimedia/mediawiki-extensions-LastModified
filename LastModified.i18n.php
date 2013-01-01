@@ -664,6 +664,7 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'lastmodified-desc' => 'පිටු සඳහා අවසන් වරට වෙනස්කරන ලද කාලයන් ජනිත කරනු ලබයි',
 	'lastmodified' => 'අන්තිමට වෙනස් කලේ',
 	'lastmodified-title-tag' => 'මෙම පිටුව සඳහා සංශෝධන ඉතිහාසය නරඹන්න.',
 );
