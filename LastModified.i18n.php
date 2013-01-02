@@ -121,6 +121,13 @@ $messages['cs'] = array(
 	'lastmodified-years' => 'Naposledy změněno před {{PLURAL:$1|$1 rokem|$1 roky}}',
 );
 
+/** Danish (dansk)
+ * @author Christian List
+ */
+$messages['da'] = array(
+	'lastmodified-desc' => 'Genererer senest ændret tider for sider',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
