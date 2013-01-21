@@ -725,7 +725,7 @@ $messages['sv'] = array(
 	'lastmodified-hours' => 'Senast uppdaterad {{PLURAL:$1|$1 timme|$1 timmar}} sedan',
 	'lastmodified-days' => 'Senast uppdaterad {{PLURAL:$1|$1 dag|$1 dagar}} sedan',
 	'lastmodified-months' => 'Senast uppdaterad {{PLURAL:$1|$1 månad|$1 månader}} sedan',
-	'lastmodified-years' => 'Senast uppdaterad {{PLURAL:$1|$1 år|$1 år}} sedan',
+	'lastmodified-years' => 'Senast uppdaterad {{PLURAL:$1|$1 år}} sedan',
 );
 
 /** Tamil (தமிழ்)
