@@ -558,7 +558,7 @@ $messages['nds'] = array(
 	'lastmodified' => 'Disse Siet is toletzt üm $1 ännert worrn.',
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Nedersaksies (Nedersaksies)
  * @author Servien
  * @author לערי ריינהארט
  */
