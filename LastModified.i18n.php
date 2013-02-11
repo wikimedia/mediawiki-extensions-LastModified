@@ -607,18 +607,19 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'lastmodified-desc' => "A génera j'ore dj'ùltime modifiche për le pagine",
+	'lastmodified-desc' => "A génera j'orari dj'ùltime modifiche për le pàgine",
 	'lastmodified' => 'Ùltima Modìfica',
-	'lastmodified-title-tag' => 'Varda la stòria dle revision për sta pagina.',
-	'lastmodified-seconds' => 'Ultima modìfica {{PLURAL:$1|$1 second}} fà',
-	'lastmodified-minutes' => 'Ultima modìfica {{PLURAL:$1|$1 minuta|$1 minute}} fà',
-	'lastmodified-hours' => 'Ultima modìfica {{PLURAL:$1|$1 ora|$1 ore}} fà',
-	'lastmodified-days' => 'Ultima modìfica {{PLURAL:$1|$1 di}} fà',
-	'lastmodified-months' => 'Ultima modìfica {{PLURAL:$1|$1 mèis}} fà',
-	'lastmodified-years' => 'Ultima modìfica {{PLURAL:$1|$1 ann|$1 agn}} fà',
+	'lastmodified-title-tag' => 'Vëdde la stòria dle revision për costa pàgina.',
+	'lastmodified-seconds' => 'Ùltima modìfica {{PLURAL:$1|$1 second}} fà',
+	'lastmodified-minutes' => 'Ùltima modìfica {{PLURAL:$1|$1 minuta|$1 minute}} fà',
+	'lastmodified-hours' => 'Ùltima modìfica {{PLURAL:$1|$1 ora|$1 ore}} fà',
+	'lastmodified-days' => 'Ùltima modìfica {{PLURAL:$1|$1 di}} fà',
+	'lastmodified-months' => 'Ùltima modìfica {{PLURAL:$1|$1 mèis}} fà',
+	'lastmodified-years' => 'Ùltima modìfica {{PLURAL:$1|$1 ann|$1 agn}} fà',
 );
 
 /** Brazilian Portuguese (português do Brasil)
