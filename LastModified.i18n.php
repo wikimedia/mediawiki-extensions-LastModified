@@ -42,11 +42,12 @@ $messages['en'] = array(
  * @author Beta16
  * @author Jeremy Postlethwaite
  * @author Lloffiwr
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'lastmodified-desc' => '{{desc}}
 Description of the extension LastModified',
-	'lastmodified' => 'Name of Special:LastModified in Special:SpecialPages and title of Special:LastModified page',
+	'lastmodified' => 'Name of Special:LastModified in [[Special:SpecialPages]] and title of Special:LastModified page',
 	'lastmodified-title-tag' => 'Title tag for the link to the revision history.',
 	'lastmodified-seconds' => 'Text displayed on artcle page if page to show how long ago the page was updated in seconds.',
 	'lastmodified-minutes' => 'Text displayed on artcle page if page to show how long ago the page was updated in minutes.',
