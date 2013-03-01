@@ -651,6 +651,13 @@ $messages['ro'] = array(
 	'lastmodified' => 'Ultima modificare efectuată la $1.',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'lastmodified' => 'Urteme cangiamende',
+);
+
 /** Russian (русский)
  * @author David1010
  * @author Kalan
