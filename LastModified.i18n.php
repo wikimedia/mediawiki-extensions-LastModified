@@ -253,6 +253,20 @@ $messages['frp'] = array(
 	'lastmodified' => 'Dèrriér changement de ceta pâge lo $1.',
 );
 
+/** Friulian (furlan)
+ * @author Klenje
+ */
+$messages['fur'] = array(
+	'lastmodified' => 'Ultin cambiament',
+	'lastmodified-title-tag' => 'Cjale il storic di cheste pagjine.',
+	'lastmodified-seconds' => 'Ultin cambiament {{PLURAL:$1|$1 secont|$1 seconts}} indaûr',
+	'lastmodified-minutes' => 'Ultin cambiament {{PLURAL:$1|$1 minût|$1 minûts}} indaûr',
+	'lastmodified-hours' => 'Ultin cambiament {{PLURAL:$1|$1 ore|$1 oris}} indaûr',
+	'lastmodified-days' => 'Ultin cambiament {{PLURAL:$1|$1 zornade|$1 zornadis}} indaûr',
+	'lastmodified-months' => 'Ultin cambiament {{PLURAL:$1|$1 mês}} indaûr',
+	'lastmodified-years' => 'Ultin cambiament {{PLURAL:$1|$1 an|$1 agns}} indaûr',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
