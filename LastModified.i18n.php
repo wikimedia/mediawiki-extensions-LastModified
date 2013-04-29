@@ -46,7 +46,8 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'lastmodified-desc' => '{{desc|name=Last Modified|url=http://www.mediawiki.org/wiki/Extension:LastModified}}',
-	'lastmodified' => '{{doc-special|LastModified}}',
+	'lastmodified' => '{{doc-special|LastModified}}
+{{Identical|Last modified}}',
 	'lastmodified-title-tag' => 'Title tag for the link to the revision history.',
 	'lastmodified-seconds' => 'Text displayed on artcle page if page to show how long ago the page was updated in seconds.',
 	'lastmodified-minutes' => 'Text displayed on artcle page if page to show how long ago the page was updated in minutes.',
