@@ -713,6 +713,13 @@ $messages['sk'] = array(
 	'lastmodified' => 'Čas poslednej úpravy tejto stránky je $1.',
 );
 
+/** Slovenian (slovenščina)
+ * @author Eleassar
+ */
+$messages['sl'] = array(
+	'lastmodified-months' => 'Zadnjič spremenjeno pred {{PLURAL:$1|$1 mesecem|$1 mesecema|$1 meseci|$1 meseci}}.', # Fuzzy
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
