@@ -508,12 +508,12 @@ $messages['mk'] = array(
 	'lastmodified-desc' => 'Прикажува кога се извршении последните измени на статиите',
 	'lastmodified' => 'Последна измена',
 	'lastmodified-title-tag' => 'Преглед на историјата на промени во статијата.',
-	'lastmodified-seconds' => 'Подновено пред {{PLURAL:$1|$1 секунда|$1 секунди}}',
-	'lastmodified-minutes' => 'Подновено пред {{PLURAL:$1|$1 минута|$1 минути}}',
-	'lastmodified-hours' => 'Подновено пред $1 {{PLURAL:$1|$1 час|$1 часа}}',
-	'lastmodified-days' => 'Подновено пред $1 {{PLURAL:$1|$1 ден|$1 дена}}',
-	'lastmodified-months' => 'Подновено пред {{PLURAL:$1|$1 месец|$1 месеци}}',
-	'lastmodified-years' => 'Подновено пред $1 {{PLURAL:$1|$1 година|$1 години}}',
+	'lastmodified-seconds' => 'Последните измени се направени пред {{PLURAL:$1|$1 секунда|$1 секунди}}',
+	'lastmodified-minutes' => 'Последните измени се направени пред {{PLURAL:$1|$1 минута|$1 минути}}',
+	'lastmodified-hours' => 'Последните измени се направени пред {{PLURAL:$1|$1 час|$1 часа}}',
+	'lastmodified-days' => 'Последните измени се направени пред {{PLURAL:$1|$1 ден|$1 дена}}',
+	'lastmodified-months' => 'Последните измени се направени пред {{PLURAL:$1|$1 месец|$1 месеци}}',
+	'lastmodified-years' => 'Последните измени се направени пред {{PLURAL:$1|$1 година|$1 години}}',
 );
 
 /** Malayalam (മലയാളം)
