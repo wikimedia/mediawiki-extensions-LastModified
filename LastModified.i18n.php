@@ -57,6 +57,21 @@ $messages['qqq'] = array(
 	'lastmodified-years' => 'Text displayed on artcle page if page to show how long ago the page was updated in years.',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'lastmodified-desc' => 'Xenera les hores del últimu cambiu de les páxines',
+	'lastmodified' => 'Últimu cambiu',
+	'lastmodified-title-tag' => "Ver el historial de revisiones d'esta páxina.",
+	'lastmodified-seconds' => 'Últimu anovamientu hai {{PLURAL:$1|$1 segundu|$1 segundos}}',
+	'lastmodified-minutes' => 'Últimu anovamientu hai {{PLURAL:$1|$1 minutu|$1 minutos}}',
+	'lastmodified-hours' => 'Últimu anovamientu hai {{PLURAL:$1|$1 hora|$1 hores}}',
+	'lastmodified-days' => 'Últimu anovamientu hai {{PLURAL:$1|$1 día|$1 díes}}',
+	'lastmodified-months' => 'Últimu anovamientu hai {{PLURAL:$1|$1 mes|$1 meses}}',
+	'lastmodified-years' => 'Últimu anovamientu hai {{PLURAL:$1|$1 añu|$1 años}}',
+);
+
 /** Bashkir (башҡортса)
  * @author Haqmar
  */
