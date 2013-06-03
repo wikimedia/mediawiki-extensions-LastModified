@@ -575,7 +575,7 @@ $messages['mt'] = array(
 	'lastmodified-years' => 'L-aħħar modifika saret {{PLURAL:$1|sena|$1 snin}} ilu',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'lastmodified' => 'Denne siden ble sist endret $1.',
@@ -588,7 +588,7 @@ $messages['nds'] = array(
 	'lastmodified' => 'Disse Siet is toletzt üm $1 ännert worrn.',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  * @author לערי ריינהארט
  */
