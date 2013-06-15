@@ -729,10 +729,19 @@ $messages['sk'] = array(
 );
 
 /** Slovenian (slovenščina)
+ * @author Dbc334
  * @author Eleassar
  */
 $messages['sl'] = array(
-	'lastmodified-months' => 'Zadnjič spremenjeno pred {{PLURAL:$1|$1 mesecem|$1 mesecema|$1 meseci|$1 meseci}}.', # Fuzzy
+	'lastmodified-desc' => 'Ustvari čase zadnjih sprememb strani',
+	'lastmodified' => 'Zadnjič spremenjeno',
+	'lastmodified-title-tag' => 'Ogled zgodovine redakcij strani.',
+	'lastmodified-seconds' => 'Zadnjič spremenjeno pred {{PLURAL:$1|$1 sekundo|$1 sekundama|$1 sekundami}}.',
+	'lastmodified-minutes' => 'Zadnjič spremenjeno pred {{PLURAL:$1|$1 minuto|$1 minutama|$1 minutami}}.',
+	'lastmodified-hours' => 'Zadnjič spremenjeno pred {{PLURAL:$1|$1 uro|$1 urama|$1 urami}}.',
+	'lastmodified-days' => 'Zadnjič spremenjeno pred {{PLURAL:$1|$1 dnevom|$1 dnema|$1 dnevi}}.',
+	'lastmodified-months' => 'Zadnjič spremenjeno pred {{PLURAL:$1|$1 mesecem|$1 mesecema|$1 meseci}}.',
+	'lastmodified-years' => 'Zadnjič spremenjeno pred {{PLURAL:$1|$1 letom|$1 letoma|$1 leti}}.',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
