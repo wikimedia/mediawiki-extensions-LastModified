@@ -593,7 +593,7 @@ $messages['nds'] = array(
  * @author לערי ריינהארט
  */
 $messages['nds-nl'] = array(
-	'lastmodified' => 'De leste wieziging op disse zied was op $1.', # Fuzzy
+	'lastmodified' => 'Lest ewiezigd',
 );
 
 /** Dutch (Nederlands)
