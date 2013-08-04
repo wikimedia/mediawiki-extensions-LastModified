@@ -475,7 +475,7 @@ $messages['ko'] = array(
 	'lastmodified-minutes' => '{{PLURAL:$1|$1분}} 전에 마지막으로 업데이트함',
 	'lastmodified-hours' => '{{PLURAL:$1|$1시간}} 전에 마지막으로 업데이트함',
 	'lastmodified-days' => '{{PLURAL:$1|$1일}} 전에 마지막으로 업데이트함',
-	'lastmodified-months' => '{{PLURAL:$1|$1월}} 전에 마지막으로 업데이트함',
+	'lastmodified-months' => '{{PLURAL:$1|$1달}} 전에 마지막으로 업데이트함',
 	'lastmodified-years' => '{{PLURAL:$1|$1년}} 전에 마지막으로 업데이트함',
 );
 
