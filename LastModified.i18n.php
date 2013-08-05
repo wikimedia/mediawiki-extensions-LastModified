@@ -368,10 +368,12 @@ $messages['hu'] = array(
 );
 
 /** Armenian (Հայերեն)
+ * @author Chaojoker
  * @author Togaed
  */
 $messages['hy'] = array(
 	'lastmodified' => 'Այս էջը վերջին անգամ ենթարկվել է փոփոխության` $1։',
+	'lastmodified-days' => 'Վերջին անգամ փոփոխվել է {{PLURAL:$1|$1 օր}} առաջ',
 );
 
 /** Interlingua (interlingua)
