@@ -372,7 +372,7 @@ $messages['hu'] = array(
  * @author Togaed
  */
 $messages['hy'] = array(
-	'lastmodified' => 'Այս էջը վերջին անգամ ենթարկվել է փոփոխության` $1։',
+	'lastmodified' => 'Վերջին անգամ փոփոխվել է՝',
 	'lastmodified-days' => 'Վերջին անգամ փոփոխվել է {{PLURAL:$1|$1 օր}} առաջ',
 );
 
