@@ -49,12 +49,24 @@ $messages['qqq'] = array(
 	'lastmodified' => '{{doc-special|LastModified}}
 {{Identical|Last modified}}',
 	'lastmodified-title-tag' => 'Title tag for the link to the revision history.',
-	'lastmodified-seconds' => 'Text displayed on artcle page if page to show how long ago the page was updated in seconds.',
-	'lastmodified-minutes' => 'Text displayed on artcle page if page to show how long ago the page was updated in minutes.',
-	'lastmodified-hours' => 'Text displayed on artcle page if page to show how long ago the page was updated in hours.',
-	'lastmodified-days' => 'Text displayed on artcle page if page to show how long ago the page was updated in days.',
-	'lastmodified-months' => 'Text displayed on artcle page if page to show how long ago the page was updated in months.',
-	'lastmodified-years' => 'Text displayed on artcle page if page to show how long ago the page was updated in years.',
+	'lastmodified-seconds' => 'Text displayed on page if page to show how long ago the page was updated. Parameters:
+* $1 - number of seconds
+{{Related|Lastmodified}}',
+	'lastmodified-minutes' => 'Text displayed on page if page to show how long ago the page was updated. Parameters:
+* $1 - number of minutes
+{{Related|Lastmodified}}',
+	'lastmodified-hours' => 'Text displayed on page if page to show how long ago the page was updated. Parameters:
+* $1 - number of hours
+{{Related|Lastmodified}}',
+	'lastmodified-days' => 'Text displayed on page if page to show how long ago the page was updated. Parameters:
+* $1 - number of days
+{{Related|Lastmodified}}',
+	'lastmodified-months' => 'Text displayed on page if page to show how long ago the page was updated. Parameters:
+* $1 - number of months
+{{Related|Lastmodified}}',
+	'lastmodified-years' => 'Text displayed on page if page to show how long ago the page was updated. Parameters:
+* $1 - number of years
+{{Related|Lastmodified}}',
 );
 
 /** Asturian (asturianu)
