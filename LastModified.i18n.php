@@ -259,6 +259,7 @@ $messages['fo'] = array(
 /** French (français)
  * @author Gomoko
  * @author Grondin
+ * @author Shirayuki
  * @author Toliño
  * @author Urhixidur
  */
@@ -270,7 +271,7 @@ $messages['fr'] = array(
 	'lastmodified-minutes' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 minute|$1 minutes}}',
 	'lastmodified-hours' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 heure|$1 heures}}',
 	'lastmodified-days' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 jour|$1 jours}}',
-	'lastmodified-months' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 mois|$1 mois}}',
+	'lastmodified-months' => 'Dernière mise à jour il y a {{PLURAL:$1|$1 mois}}',
 	'lastmodified-years' => 'Dernière modification il y a {{PLURAL:$1|$1 année|$1 années}}',
 );
 
