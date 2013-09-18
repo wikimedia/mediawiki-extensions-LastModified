@@ -134,6 +134,13 @@ $messages['ca'] = array(
 	'lastmodified' => 'Darrera modificació de la pàgina: $1.',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'lastmodified-months' => 'Карлайаьккхина {{PLURAL:$1|$1 бутт}} хьалха',
+);
+
 /** Czech (česky)
  * @author Jkjk
  */
