@@ -138,6 +138,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'lastmodified-hours' => 'Карлайаьккхина {{PLURAL:$1|$1 сахьат}} хьалха',
 	'lastmodified-months' => 'Карлайаьккхина {{PLURAL:$1|$1 бутт}} хьалха',
 );
 
