@@ -141,6 +141,7 @@ $messages['ce'] = array(
 	'lastmodified-hours' => 'Карлайаьккхина {{PLURAL:$1|$1 сахьат}} хьалха',
 	'lastmodified-days' => 'Карлайаьккхина {{PLURAL:$1|$1 де}} хьалха',
 	'lastmodified-months' => 'Карлайаьккхина {{PLURAL:$1|$1 бутт}} хьалха',
+	'lastmodified-years' => 'Карлаяьккхина {{PLURAL:$1|$1 шо}} хьалха',
 );
 
 /** Czech (česky)
