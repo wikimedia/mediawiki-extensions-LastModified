@@ -139,7 +139,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'lastmodified-minutes' => 'Карлайаьккхина {{PLURAL:$1|$1 минут}} хьалха',
-	'lastmodified-hours' => 'Карлайаьккхина {{PLURAL:$1|$1 сахьат}} хьалха',
+	'lastmodified-hours' => 'Карлайаьккхина {{PLURAL:$1|$1 сахьт}} хьалха',
 	'lastmodified-days' => 'Карлайаьккхина {{PLURAL:$1|$1 де}} хьалха',
 	'lastmodified-months' => 'Карлайаьккхина {{PLURAL:$1|$1 бутт}} хьалха',
 	'lastmodified-years' => 'Карлаяьккхина {{PLURAL:$1|$1 шо}} хьалха',
