@@ -678,6 +678,13 @@ $messages['pms'] = array(
 	'lastmodified-years' => 'Ùltima modìfica {{PLURAL:$1|$1 ann|$1 agn}} fà',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'lastmodified-days' => 'وروستۍ اوسمهالېدنه {{PLURAL:$1|$1 ورځ|$1 ورځې}} دمخه',
+);
+
 /** Brazilian Portuguese (português do Brasil)
  * @author 555
  */
