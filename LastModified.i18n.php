@@ -89,12 +89,12 @@ $messages['ast'] = array(
  */
 $messages['ba'] = array(
 	'lastmodified' => 'Һуңғы үҙгәртеү',
-	'lastmodified-seconds' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 секунд}} элек',
-	'lastmodified-minutes' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 минут}} элек',
-	'lastmodified-hours' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 сәғәт}} элек',
-	'lastmodified-days' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 көн}} элек',
-	'lastmodified-months' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 ай}} элек',
-	'lastmodified-years' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 йыл}} элек',
+	'lastmodified-seconds' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 секунд}} элек', # Fuzzy
+	'lastmodified-minutes' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 минут}} элек', # Fuzzy
+	'lastmodified-hours' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 сәғәт}} элек', # Fuzzy
+	'lastmodified-days' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 көн}} элек', # Fuzzy
+	'lastmodified-months' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 ай}} элек', # Fuzzy
+	'lastmodified-years' => 'Һуңғы үҙгәртеү {{PLURAL:$1|$1 йыл}} элек', # Fuzzy
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -138,11 +138,11 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
-	'lastmodified-minutes' => 'Карлайаьккхина {{PLURAL:$1|$1 минут}} хьалха',
-	'lastmodified-hours' => 'Карлайаьккхина {{PLURAL:$1|$1 сахьт}} хьалха',
-	'lastmodified-days' => 'Карлайаьккхина {{PLURAL:$1|$1 де}} хьалха',
-	'lastmodified-months' => 'Карлайаьккхина {{PLURAL:$1|$1 бутт}} хьалха',
-	'lastmodified-years' => 'Карлаяьккхина {{PLURAL:$1|$1 шо}} хьалха',
+	'lastmodified-minutes' => 'Карлайаьккхина {{PLURAL:$1|$1 минут}} хьалха', # Fuzzy
+	'lastmodified-hours' => 'Карлайаьккхина {{PLURAL:$1|$1 сахьт}} хьалха', # Fuzzy
+	'lastmodified-days' => 'Карлайаьккхина {{PLURAL:$1|$1 де}} хьалха', # Fuzzy
+	'lastmodified-months' => 'Карлайаьккхина {{PLURAL:$1|$1 бутт}} хьалха', # Fuzzy
+	'lastmodified-years' => 'Карлаяьккхина {{PLURAL:$1|$1 шо}} хьалха', # Fuzzy
 );
 
 /** Czech (česky)
@@ -738,12 +738,12 @@ $messages['ru'] = array(
 	'lastmodified-desc' => 'Отображает время последнего изменения страниц',
 	'lastmodified' => 'Последнее изменение',
 	'lastmodified-title-tag' => 'Просмотреть историю изменений этой страницы.',
-	'lastmodified-seconds' => 'Обновлено {{PLURAL:$1|$1 секунду|$1 секунды|$1 секунд}} назад',
-	'lastmodified-minutes' => 'Обновлено {{PLURAL:$1|$1 минуту|$1 минуты|$1 минут}} назад',
-	'lastmodified-hours' => 'Обновлено {{PLURAL:$1|$1 час|$1 часа|$1 часов}} назад',
-	'lastmodified-days' => 'Обновлено {{PLURAL:$1|$1 день|$1 дня|$1 дней}} назад',
-	'lastmodified-months' => 'Обновлено {{PLURAL:$1|$1 месяц|$1 месяца|$1 месяцев}} назад',
-	'lastmodified-years' => 'Обновлено {{PLURAL:$1|$1 год|$1 года|$1 лет}} назад',
+	'lastmodified-seconds' => 'Обновлено {{PLURAL:$1|$1 секунду|$1 секунд|$1 секунды}} назад', # Fuzzy
+	'lastmodified-minutes' => 'Обновлено {{PLURAL:$1|$1 минуту|$1 минут|$1 минуты}} назад', # Fuzzy
+	'lastmodified-hours' => 'Обновлено {{PLURAL:$1|$1 час|$1 часов|$1 часа}} назад', # Fuzzy
+	'lastmodified-days' => 'Обновлено {{PLURAL:$1|$1 день|$1 дней|$1 дня}} назад', # Fuzzy
+	'lastmodified-months' => 'Обновлено {{PLURAL:$1|$1 месяц|$1 месяцев|$1 месяца}} назад', # Fuzzy
+	'lastmodified-years' => 'Обновлено {{PLURAL:$1|$1 год|$1 лет|$1 года}} назад', # Fuzzy
 );
 
 /** Sinhala (සිංහල)
