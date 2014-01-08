@@ -731,6 +731,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author David1010
+ * @author Kaganer
  * @author Kalan
  * @author Ole Yves
  */
@@ -738,12 +739,12 @@ $messages['ru'] = array(
 	'lastmodified-desc' => 'Отображает время последнего изменения страниц',
 	'lastmodified' => 'Последнее изменение',
 	'lastmodified-title-tag' => 'Просмотреть историю изменений этой страницы.',
-	'lastmodified-seconds' => 'Обновлено {{PLURAL:$1|$1 секунду|$1 секунд|$1 секунды}} назад', # Fuzzy
-	'lastmodified-minutes' => 'Обновлено {{PLURAL:$1|$1 минуту|$1 минут|$1 минуты}} назад', # Fuzzy
-	'lastmodified-hours' => 'Обновлено {{PLURAL:$1|$1 час|$1 часов|$1 часа}} назад', # Fuzzy
-	'lastmodified-days' => 'Обновлено {{PLURAL:$1|$1 день|$1 дней|$1 дня}} назад', # Fuzzy
-	'lastmodified-months' => 'Обновлено {{PLURAL:$1|$1 месяц|$1 месяцев|$1 месяца}} назад', # Fuzzy
-	'lastmodified-years' => 'Обновлено {{PLURAL:$1|$1 год|$1 лет|$1 года}} назад', # Fuzzy
+	'lastmodified-seconds' => 'Обновлено {{PLURAL:$1|$1 секунду|$1 секунд|$1 секунды}} назад',
+	'lastmodified-minutes' => 'Обновлено {{PLURAL:$1|$1 минуту|$1 минут|$1 минуты}} назад',
+	'lastmodified-hours' => 'Обновлено {{PLURAL:$1|$1 час|$1 часов|$1 часа}} назад',
+	'lastmodified-days' => 'Обновлено {{PLURAL:$1|$1 день|$1 дней|$1 дня}} назад',
+	'lastmodified-months' => 'Обновлено {{PLURAL:$1|$1 месяц|$1 месяцев|$1 месяца}} назад',
+	'lastmodified-years' => 'Обновлено {{PLURAL:$1|$1 год|$1 лет|$1 года}} назад',
 );
 
 /** Sinhala (සිංහල)
