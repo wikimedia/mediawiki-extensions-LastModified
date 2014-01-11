@@ -50,16 +50,25 @@ function render() {
 	var historyLink = getArticleHistoryLink();
 	//console.log( 'historyLink: ' + historyLink );
 
+	// Get the current skin
+	var currentSkin = mw.config.get( 'skin' );
+
+	// Get the proper styling (skin-dependent)
+	var divStyle = getDivStyle( currentSkin );
+
+	// Get the HTML property to append to (skin-dependent)
+	var htmlProperty = getHtmlProperty( currentSkin );
+
 	// Construct the HTML
 	var html = '';
-	html += '<div style="float:right; font-size: 0.5em;" id="mwe-lastmodified">';
+	html += '<div style="' + divStyle + '" id="mwe-lastmodified">';
 	html += '<a href="' + historyLink + '" title="' + mw.message( 'lastmodified-title-tag' ).escaped() + '">';
 	html += lastModifiedText;
 	html += '</a>';
 	html += '</div>';
 
 	// Insert the HTML into the web page
-	$( '#firstHeading' ).append( html );
+	$( htmlProperty ).append( html );
 }
 /**
  * Get the UTC Timestamp without microseconds
@@ -191,6 +200,32 @@ function getMetaRange() {
 	}
 	
 	return 0;
+}
+
+/**
+ * Get the proper div style tag information depending on the skin
+ *
+ * @return string
+ */
+function getDivStyle( skin ) {
+	if ( skin == 'modern' ) {
+		return "float:right;";
+	} else {
+		return "float:right; font-size: 0.5em;";
+	}
+}
+
+/**
+ * Get the HTML property to append to depending on the skin
+ *
+ * @return string
+ */
+function getHtmlProperty( skin ) {
+	if ( skin == 'modern' ) {
+		return '#p-cactions';
+	} else {
+		return '#firstHeading';
+	}
 }
 
 /**
