@@ -81,7 +81,7 @@ function getUtcTimeStamp() {
  * @return string      Return the article title
  */
 function getArticleHistoryLink() {
-       return mw.util.wikiGetlink( mw.config.get('wgPageName') ) + '?action=history';
+	return mw.config.get( 'wgScript' ) + '?title=' + encodeURIComponent( mw.config.get( 'wgPageName' ) ) + '&action=history';
 }
 
 /**
