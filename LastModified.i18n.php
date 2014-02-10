@@ -491,6 +491,7 @@ $messages['ka'] = array(
 
 /** Korean (한국어)
  * @author Klutzy
+ * @author 관인생략
  * @author 아라
  */
 $messages['ko'] = array(
@@ -501,7 +502,7 @@ $messages['ko'] = array(
 	'lastmodified-minutes' => '{{PLURAL:$1|$1분}} 전에 마지막으로 업데이트함',
 	'lastmodified-hours' => '{{PLURAL:$1|$1시간}} 전에 마지막으로 업데이트함',
 	'lastmodified-days' => '{{PLURAL:$1|$1일}} 전에 마지막으로 업데이트함',
-	'lastmodified-months' => '{{PLURAL:$1|$1달}} 전에 마지막으로 업데이트함',
+	'lastmodified-months' => '{{PLURAL:$1|$1개월}} 전에 마지막으로 업데이트함',
 	'lastmodified-years' => '{{PLURAL:$1|$1년}} 전에 마지막으로 업데이트함',
 );
 
