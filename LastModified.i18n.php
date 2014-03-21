@@ -947,7 +947,7 @@ $messages['yi'] = array(
  */
 $messages['zh-hans'] = array(
 	'lastmodified-desc' => '生成页面的最后修订时间',
-	'lastmodified' => '最后修订',
+	'lastmodified' => '最后修改',
 	'lastmodified-title-tag' => '查看此页面的修订历史。',
 	'lastmodified-seconds' => '最后更新于{{PLURAL:$1|$1秒|$1秒}}之前',
 	'lastmodified-minutes' => '最后更新于{{PLURAL:$1|$1分钟|$1分钟}}之前',
