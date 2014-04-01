@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "BeginaFelicysym",
+            "Sp5uhe",
+            "Woytecr"
+        ]
+    },
+    "lastmodified-desc": "Generuje czas ostatniej modyfikacji dla artykułów",
+    "lastmodified": "Ostatnio modyfikowane",
+    "lastmodified-title-tag": "Zobacz historię zmian tego artykułu.",
+    "lastmodified-seconds": "Ostatnio zaktualizowano {{PLURAL:$1|sekundę|$1 sekundy|$1 sekund}} temu",
+    "lastmodified-minutes": "Ostatnio zaktualizowano {{PLURAL:$1|minutę|$1 minuty|$1 minut}} temu",
+    "lastmodified-hours": "Ostatnio zaktualizowano {{PLURAL:$1|godzinę|$1 godziny|$1 godzin}} temu",
+    "lastmodified-days": "Ostatnio zaktualizowano {{PLURAL:$1|dzień|$1 dni|$1 dni}} temu",
+    "lastmodified-months": "Ostatnio zaktualizowano {{PLURAL:$1|miesiąc|$1 miesiące|$1 miesięcy}} temu",
+    "lastmodified-years": "Ostatnio zaktualizowano {{PLURAL:$1|rok|$1 lata|$1 lat}} temu"
+}

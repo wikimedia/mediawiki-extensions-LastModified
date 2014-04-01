@@ -30,7 +30,7 @@ EOT;
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'LastModified',
-	'version' => '1.0',
+	'version' => '1.1.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:LastModified',
 	'author' => array( 'Katie Horn', 'Jeremy Postlethwaite' ),
 	'descriptionmsg' => 'lastmodified-desc',
@@ -38,10 +38,11 @@ $wgExtensionCredits['other'][] = array(
 
 $dir = dirname( __FILE__ ) . '/';
 
+$wgMessagesDirs['LastModified'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['LastModified'] = $dir . 'LastModified.i18n.php';
 
 /**
- * ADDITIONAL MAGICAL GLOBALS 
+ * ADDITIONAL MAGICAL GLOBALS
  */
 
 // Resource modules
@@ -79,12 +80,12 @@ $wgHooks['BeforePageDisplay'][] = 'fnLastModified';
  * @var integer $wgLastModifiedRange
  *
  * $wgLastModifiedRange options:
- * - 0: years	- display: years, months, days, hours, minutes, seconds  
- * - 1: months 	- display: months, days, hours, minutes, seconds  
- * - 2: days	- display: days, hours, minutes, seconds  
- * - 3: hours	- display: hours, minutes, seconds  
- * - 4: minutes	- display: minutes, seconds  
- * - 5: seconds	- display: seconds  
+ * - 0: years	- display: years, months, days, hours, minutes, seconds
+ * - 1: months 	- display: months, days, hours, minutes, seconds
+ * - 2: days	- display: days, hours, minutes, seconds
+ * - 3: hours	- display: hours, minutes, seconds
+ * - 4: minutes	- display: minutes, seconds
+ * - 5: seconds	- display: seconds
  */
 $wgLastModifiedRange = 0;
 
@@ -106,7 +107,7 @@ function fnLastModified( &$out, &$sk ) {
 		$out->addMeta( 'last-modified-timestamp', $timestamp );
 		$out->addMeta( 'last-modified-range', $wgLastModifiedRange );
 		$out->addModules( 'last.modified' );
-	} 
+	}
 
 	return true;
 }

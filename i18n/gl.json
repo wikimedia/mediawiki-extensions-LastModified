@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Toliño"
+        ]
+    },
+    "lastmodified-desc": "Xera a data de última modificación dos artigos",
+    "lastmodified": "Última modificación",
+    "lastmodified-title-tag": "Ollar o historial de revisións deste artigo.",
+    "lastmodified-seconds": "Última actualización hai {{PLURAL:$1|$1 segundo|$1 segundos}}",
+    "lastmodified-minutes": "Última actualización hai {{PLURAL:$1|$1 minuto|$1 minutos}}",
+    "lastmodified-hours": "Última actualización hai {{PLURAL:$1|$1 hora|$1 horas}}",
+    "lastmodified-days": "Última actualización hai {{PLURAL:$1|$1 día|$1 días}}",
+    "lastmodified-months": "Última actualización hai {{PLURAL:$1|$1 mes|$1 meses}}",
+    "lastmodified-years": "Última actualización hai {{PLURAL:$1|$1 ano|$1 anos}}"
+}

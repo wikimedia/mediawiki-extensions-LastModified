@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Robby"
+        ]
+    },
+    "lastmodified-desc": "Generéiert den Zäitpunkt vun der leschter Ännerung vun Artikelen",
+    "lastmodified": "Lescht Ännerung",
+    "lastmodified-title-tag": "Den Historique vun de Versioune vun dësem Artikel weisen.",
+    "lastmodified-seconds": "Lescht Ännerung  {{PLURAL:$1|virun 1 Sekonn|viru(n) $1 Sekonnen}}",
+    "lastmodified-minutes": "Lescht Ännerung {{PLURAL:$1|virun 1 Minutt|viru(n) $1 Minutten}}",
+    "lastmodified-hours": "Lescht Ännerung {{PLURAL:$1|virun 1 Stonn|viru(n) $1 Stonnen}}",
+    "lastmodified-days": "Lescht Ännerung {{PLURAL:$1|virun 1 Dag|viru(n) $1 Deeg}}",
+    "lastmodified-months": "Lescht Ännerung {{PLURAL:$1|virun 1 Mount|viru(n) $1 Méint}}",
+    "lastmodified-years": "Lescht Ännerung {{PLURAL:$1|virun 1 Joer|viru(n) $1 Joer}}"
+}

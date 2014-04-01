@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "Fryed-peach",
+            "Shirayuki"
+        ]
+    },
+    "lastmodified-desc": "ページが最後に変更された時刻を生成",
+    "lastmodified": "最終更新",
+    "lastmodified-title-tag": "このページの変更履歴を表示します。",
+    "lastmodified-seconds": "{{PLURAL:$1|$1秒}}前に最終更新",
+    "lastmodified-minutes": "{{PLURAL:$1|$1分}}前に最終更新",
+    "lastmodified-hours": "{{PLURAL:$1|$1時間}}前に最終更新",
+    "lastmodified-days": "{{PLURAL:$1|$1日}}前に最終更新",
+    "lastmodified-months": "{{PLURAL:$1|$1か月}}前に最終更新",
+    "lastmodified-years": "{{PLURAL:$1|$1年}}前に最終更新"
+}

@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Dj"
+        ]
+    },
+    "lastmodified-desc": "Lapok utolsó módosítási idejének generálása",
+    "lastmodified": "Utoljára módosítva",
+    "lastmodified-title-tag": "Laptörténet megjelenítése.",
+    "lastmodified-seconds": "Utoljára {{PLURAL:$1|egy másodperce|$1 másodperce}} módosítva",
+    "lastmodified-minutes": "Utoljára {{PLURAL:$1|egy perce|$1 perce}} módosítva",
+    "lastmodified-hours": "Utoljára {{PLURAL:$1|egy órája|$1 órája}} módosítva",
+    "lastmodified-days": "Utoljára {{PLURAL:$1|egy napja|$1 napja}} módosítva",
+    "lastmodified-months": "Utoljára {{PLURAL:$1|egy hónapja|$1 hónapja}} módosítva",
+    "lastmodified-years": "Utoljára {{PLURAL:$1|egy éve|$1 éve}} módosítva"
+}

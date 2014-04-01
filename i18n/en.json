@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Katie Horn, Jeremy Postlethwaite"
+        ]
+    },
+    "lastmodified-desc": "Generates last modified times for pages",
+    "lastmodified": "Last Modified",
+    "lastmodified-title-tag": "View the revision history for this page.",
+    "lastmodified-seconds": "Last updated {{PLURAL:$1|$1 second|$1 seconds}} ago",
+    "lastmodified-minutes": "Last updated {{PLURAL:$1|$1 minute|$1 minutes}} ago",
+    "lastmodified-hours": "Last updated {{PLURAL:$1|$1 hour|$1 hours}} ago",
+    "lastmodified-days": "Last updated {{PLURAL:$1|$1 day|$1 days}} ago",
+    "lastmodified-months": "Last updated {{PLURAL:$1|$1 month|$1 months}} ago",
+    "lastmodified-years": "Last updated {{PLURAL:$1|$1 year|$1 years}} ago"
+}

@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Haqmar"
+        ]
+    },
+    "lastmodified": "Һуңғы үҙгәртеү",
+    "lastmodified-seconds": "Һуңғы үҙгәртеү {{PLURAL:$1|$1 секунд}} элек",
+    "lastmodified-minutes": "Һуңғы үҙгәртеү {{PLURAL:$1|$1 минут}} элек",
+    "lastmodified-hours": "Һуңғы үҙгәртеү {{PLURAL:$1|$1 сәғәт}} элек",
+    "lastmodified-days": "Һуңғы үҙгәртеү {{PLURAL:$1|$1 көн}} элек",
+    "lastmodified-months": "Һуңғы үҙгәртеү {{PLURAL:$1|$1 ай}} элек",
+    "lastmodified-years": "Һуңғы үҙгәртеү {{PLURAL:$1|$1 йыл}} элек"
+}

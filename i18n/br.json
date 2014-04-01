@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": [
+            "Fulup"
+        ]
+    },
+    "lastmodified": "Kemmet da ziwezhañ",
+    "lastmodified-title-tag": "Gwelet istor an adweladennoù evit ar pennad-mañ.",
+    "lastmodified-seconds": "Hizivaet da ziwezhañ {{PLURAL:$1|$1 eilenn|$1 eilenn}} zo",
+    "lastmodified-minutes": "Hizivaet da ziwezhañ {{PLURAL:$1|$1 vunutenn|$1 munutenn}} zo",
+    "lastmodified-hours": "Hizivaet da ziwezhañ {{PLURAL:$1|$1 eurvezh|$1 eurvezh}} zo",
+    "lastmodified-days": "Hizivaet da ziwezhañ {{PLURAL:$1|$1 devezh|$1 devezh}} zo",
+    "lastmodified-months": "Hizivaet da ziwezhañ {{PLURAL:$1|$1 miz|$1 miz}} zo",
+    "lastmodified-years": "Hizivaet da ziwezhañ {{PLURAL:$1|$1 bloaz|$1 bloaz}} zo"
+}

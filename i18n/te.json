@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "Sunil Mohan",
+            "Veeven"
+        ]
+    },
+    "lastmodified-desc": "వ్యాసాలలో చివరి మార్పు తేదీలను చూపిస్తుంది",
+    "lastmodified": "ఈ పేజీకి $1న చివరి మార్పు జరిగినది.",
+    "lastmodified-title-tag": "ఈ వ్యాసపు కూర్పుల చరిత్రను చూడండి",
+    "lastmodified-seconds": "చివరి మార్పు $1 క్షణాల క్రితం",
+    "lastmodified-minutes": "చివరి మార్పు $1 నిమిషాల క్రితం",
+    "lastmodified-hours": "చివరి మార్పు $1 గంటల క్రితం",
+    "lastmodified-days": "చివరి మార్పు $1 రోజుల క్రితం",
+    "lastmodified-months": "చివరి మార్పు $1 నెలల క్రితం",
+    "lastmodified-years": "చివరి మార్పు $1 సంవత్సరాల క్రితం"
+}

@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "lastmodified-desc": "Pokazuje časy poslednich změnow za strony",
+    "lastmodified": "Posledni raz změnjeny",
+    "lastmodified-title-tag": "Wersijowu historiju tuteje strony zwobraznić.",
+    "lastmodified-seconds": "Před $1 {{PLURAL:$1|sekundu|sekundomaj|sekundami}} zaktualizowana.",
+    "lastmodified-minutes": "Před $1 {{PLURAL:$1|mjeńšinu|mjeńšinomaj|mjeńšinami|mjeńšinami}} zaktualizowana.",
+    "lastmodified-hours": "Před $1 {{PLURAL:$1|hodźinu|hodźinomaj|hodźinami|hodźinami}} zaktualizowana.",
+    "lastmodified-days": "Před $1 {{PLURAL:$1|dnjom|dnjomaj|dnjemi|dnjemi}} zaktualizowana.",
+    "lastmodified-months": "Před $1 {{PLURAL:$1|měsacom|měsacomaj|měsacami|měsacami}} zaktualizowana.",
+    "lastmodified-years": "Před $1 {{PLURAL:$1|lětom|lětomaj|lětami|lětami}} zaktualizowana."
+}

@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kghbln"
+        ]
+    },
+    "lastmodified-desc": "Ermöglicht die Anzeige der Zeitspanne seit der letzten Änderung der Wikiseite",
+    "lastmodified": "Zuletzt geändert",
+    "lastmodified-title-tag": "Die Versionsgeschichte dieser Seite anzeigen.",
+    "lastmodified-seconds": "Zuletzt vor {{PLURAL:$1|einer Sekunde|$1 Sekunden}} aktualisiert",
+    "lastmodified-minutes": "Zuletzt vor {{PLURAL:$1|einer Minute|$1 Minuten}} aktualisiert",
+    "lastmodified-hours": "Zuletzt vor {{PLURAL:$1|einer Stunde|$1 Stunden}} aktualisiert",
+    "lastmodified-days": "Zuletzt vor {{PLURAL:$1|einem Tag|$1 Tag}} aktualisiert",
+    "lastmodified-months": "Zuletzt vor {{PLURAL:$1|einem Monat|$1 Monaten}} aktualisiert",
+    "lastmodified-years": "Zuletzt vor {{PLURAL:$1|einem Jahr|$1 Jahren}} aktualisiert"
+}

@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "McDutchie"
+        ]
+    },
+    "lastmodified-desc": "Genera horas de ultime modification pro articulos",
+    "lastmodified": "Ultime modification",
+    "lastmodified-title-tag": "Vider le historia de versiones de iste articulo.",
+    "lastmodified-seconds": "Ultime actualisation {{PLURAL:$1|$1 secunda|$1 secundas}} retro",
+    "lastmodified-minutes": "Ultime actualisation {{PLURAL:$1|$1 minuta|$1 minutas}} retro",
+    "lastmodified-hours": "Ultime actualisation {{PLURAL:$1|$1 hora|$1 horas}} retro",
+    "lastmodified-days": "Ultime actualisation {{PLURAL:$1|$1 die|$1 dies}} retro",
+    "lastmodified-months": "Ultime actualisation {{PLURAL:$1|$1 mense|$1 menses}} retro",
+    "lastmodified-years": "Ultime actualisation {{PLURAL:$1|$1 anno|$1 annos}} retro"
+}

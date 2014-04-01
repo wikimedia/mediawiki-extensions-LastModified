@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Beta16",
+            "Jeremy Postlethwaite",
+            "Lloffiwr",
+            "Shirayuki"
+        ]
+    },
+    "lastmodified-desc": "{{desc|name=Last Modified|url=http://www.mediawiki.org/wiki/Extension:LastModified}}",
+    "lastmodified": "{{doc-special|LastModified}}\n{{Identical|Last modified}}",
+    "lastmodified-title-tag": "Title tag for the link to the revision history.",
+    "lastmodified-seconds": "Text displayed on page if page to show how long ago the page was updated. Parameters:\n* $1 - number of seconds\n{{Related|Lastmodified}}",
+    "lastmodified-minutes": "Text displayed on page if page to show how long ago the page was updated. Parameters:\n* $1 - number of minutes\n{{Related|Lastmodified}}",
+    "lastmodified-hours": "Text displayed on page if page to show how long ago the page was updated. Parameters:\n* $1 - number of hours\n{{Related|Lastmodified}}",
+    "lastmodified-days": "Text displayed on page if page to show how long ago the page was updated. Parameters:\n* $1 - number of days\n{{Related|Lastmodified}}",
+    "lastmodified-months": "Text displayed on page if page to show how long ago the page was updated. Parameters:\n* $1 - number of months\n{{Related|Lastmodified}}",
+    "lastmodified-years": "Text displayed on page if page to show how long ago the page was updated. Parameters:\n* $1 - number of years\n{{Related|Lastmodified}}"
+}
