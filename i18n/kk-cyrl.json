@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": [
+            "Arystanbek"
+        ]
+    },
+    "lastmodified": "Соңғы рет өзгертілді",
+    "lastmodified-title-tag": "Бұл беттің түзетілу тарихын қарау",
+    "lastmodified-seconds": "Соңғы рет {{PLURAL:$1|$1 секунд|$1 секунд}} бұрын жаңартылды",
+    "lastmodified-minutes": "Соңғы рет {{PLURAL:$1|$1 ай|$1 ай}} бұрын жаңартылды",
+    "lastmodified-hours": "Соңғы рет {{PLURAL:$1|$1 сағат|$1 сағат}} бұрын жаңартылды",
+    "lastmodified-days": "Соңғы рет {{PLURAL:$1|$1 күн|$1 күн}} бұрын жаңартылды",
+    "lastmodified-months": "Соңғы рет {{PLURAL:$1|$1 ай|$1 ай}} бұрын жаңартылды",
+    "lastmodified-years": "Соңғы рет {{PLURAL:$1|$1 жыл|$1 жыл}} бұрын жаңартылды"
+}
