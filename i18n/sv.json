@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ainali",
-            "Sannab",
-            "WikiPhoenix"
-        ]
-    },
-    "lastmodified-desc": "Genererar senast ändrade tider för sidor",
-    "lastmodified": "Sidan ändrades senast $1.",
-    "lastmodified-title-tag": "Visa revisionshistorik för denna sida.",
-    "lastmodified-seconds": "Senast uppdaterad {{PLURAL:$1|$1 sekund|$1 sekunder}} sedan",
-    "lastmodified-minutes": "Senast uppdaterad {{PLURAL:$1|$1 minut|$1 minuter}} sedan",
-    "lastmodified-hours": "Senast uppdaterad {{PLURAL:$1|$1 timme|$1 timmar}} sedan",
-    "lastmodified-days": "Senast uppdaterad {{PLURAL:$1|$1 dag|$1 dagar}} sedan",
-    "lastmodified-months": "Senast uppdaterad {{PLURAL:$1|$1 månad|$1 månader}} sedan",
-    "lastmodified-years": "Senast uppdaterad {{PLURAL:$1|$1 år}} sedan"
+	"@metadata": {
+		"authors": [
+			"Ainali",
+			"Sannab",
+			"WikiPhoenix"
+		]
+	},
+	"lastmodified-desc": "Genererar senast ändrade tider för sidor",
+	"lastmodified": "Sidan ändrades senast $1.",
+	"lastmodified-title-tag": "Visa revisionshistorik för denna sida.",
+	"lastmodified-seconds": "Senast uppdaterad {{PLURAL:$1|$1 sekund|$1 sekunder}} sedan",
+	"lastmodified-minutes": "Senast uppdaterad {{PLURAL:$1|$1 minut|$1 minuter}} sedan",
+	"lastmodified-hours": "Senast uppdaterad {{PLURAL:$1|$1 timme|$1 timmar}} sedan",
+	"lastmodified-days": "Senast uppdaterad {{PLURAL:$1|$1 dag|$1 dagar}} sedan",
+	"lastmodified-months": "Senast uppdaterad {{PLURAL:$1|$1 månad|$1 månader}} sedan",
+	"lastmodified-years": "Senast uppdaterad {{PLURAL:$1|$1 år}} sedan"
 }

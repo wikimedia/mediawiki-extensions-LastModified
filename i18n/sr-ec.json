@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rancher"
-        ]
-    },
-    "lastmodified-desc": "Приказује када су направљене последње измене на страницама",
-    "lastmodified": "Последња измена",
-    "lastmodified-title-tag": "Преглед историје измена на овој страници.",
-    "lastmodified-seconds": "Ажурирано пре {{PLURAL:$1|$1 секунде|$1 секунде|$1 секунди}}",
-    "lastmodified-minutes": "Ажурирано пре {{PLURAL:$1|$1 минут|$1 минута|$1 минута}}",
-    "lastmodified-hours": "Ажурирано пре {{PLURAL:$1|$1 сат|$1 сата|$1 сати}}",
-    "lastmodified-days": "Ажурирано пре {{PLURAL:$1|$1 дан|$1 дана|$1 дана}}",
-    "lastmodified-months": "Ажурирано пре {{PLURAL:$1|$1 месец|$1 месеца|$1 месеци}}",
-    "lastmodified-years": "Ажурирано пре {{PLURAL:$1|$1 годину|$1 године|$1 година}}"
+	"@metadata": {
+		"authors": [
+			"Rancher"
+		]
+	},
+	"lastmodified-desc": "Приказује када су направљене последње измене на страницама",
+	"lastmodified": "Последња измена",
+	"lastmodified-title-tag": "Преглед историје измена на овој страници.",
+	"lastmodified-seconds": "Ажурирано пре {{PLURAL:$1|$1 секунде|$1 секунде|$1 секунди}}",
+	"lastmodified-minutes": "Ажурирано пре {{PLURAL:$1|$1 минут|$1 минута|$1 минута}}",
+	"lastmodified-hours": "Ажурирано пре {{PLURAL:$1|$1 сат|$1 сата|$1 сати}}",
+	"lastmodified-days": "Ажурирано пре {{PLURAL:$1|$1 дан|$1 дана|$1 дана}}",
+	"lastmodified-months": "Ажурирано пре {{PLURAL:$1|$1 месец|$1 месеца|$1 месеци}}",
+	"lastmodified-years": "Ажурирано пре {{PLURAL:$1|$1 годину|$1 године|$1 година}}"
 }

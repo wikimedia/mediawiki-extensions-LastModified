@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Armando-Martin"
-        ]
-    },
-    "lastmodified-desc": "Genera las fechas de la última modificación de los artículos",
-    "lastmodified": "Última modificación",
-    "lastmodified-title-tag": "Ver el historial de revisión de esta página.",
-    "lastmodified-seconds": "Última actualización hace  {{PLURAL:$1|$1 segundo|$1 segundos}}",
-    "lastmodified-minutes": "Última actualización hace {{PLURAL:$1|$1 minuto|$1 minutos}}",
-    "lastmodified-hours": "Última actualización hace {{PLURAL:$1|$1 hora|$1 horas}}",
-    "lastmodified-days": "Última actualización hace {{PLURAL:$1|$1 día|$1 días}}",
-    "lastmodified-months": "Última actualización hace {{PLURAL:$1|$1 mes|$1 meses}}",
-    "lastmodified-years": "Última actualización hace {{PLURAL:$1|$1 año|$1 años}}"
+	"@metadata": {
+		"authors": [
+			"Armando-Martin"
+		]
+	},
+	"lastmodified-desc": "Genera las fechas de la última modificación de los artículos",
+	"lastmodified": "Última modificación",
+	"lastmodified-title-tag": "Ver el historial de revisión de esta página.",
+	"lastmodified-seconds": "Última actualización hace  {{PLURAL:$1|$1 segundo|$1 segundos}}",
+	"lastmodified-minutes": "Última actualización hace {{PLURAL:$1|$1 minuto|$1 minutos}}",
+	"lastmodified-hours": "Última actualización hace {{PLURAL:$1|$1 hora|$1 horas}}",
+	"lastmodified-days": "Última actualización hace {{PLURAL:$1|$1 día|$1 días}}",
+	"lastmodified-months": "Última actualización hace {{PLURAL:$1|$1 mes|$1 meses}}",
+	"lastmodified-years": "Última actualización hace {{PLURAL:$1|$1 año|$1 años}}"
 }

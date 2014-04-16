@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Minh Nguyen"
-        ]
-    },
-    "lastmodified-desc": "Tính ra lúc sửa đổi cuối cùng của các trang",
-    "lastmodified": "Sửa đổi lần cuối",
-    "lastmodified-title-tag": "Xem lịch sử thay đổi của trang này.",
-    "lastmodified-seconds": "Cập nhật lần cuối cách đây $1 giây",
-    "lastmodified-minutes": "Cập nhật lần cuối cách đây $1 phút",
-    "lastmodified-hours": "Cập nhật lần cuối cách đây $1 giờ",
-    "lastmodified-days": "Cập nhật lần cuối cách đây $1 ngày",
-    "lastmodified-months": "Cập nhật lần cuối cách đây $1 tháng",
-    "lastmodified-years": "Cập nhật lần cuối cách đây $1 năm"
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"lastmodified-desc": "Tính ra lúc sửa đổi cuối cùng của các trang",
+	"lastmodified": "Sửa đổi lần cuối",
+	"lastmodified-title-tag": "Xem lịch sử thay đổi của trang này.",
+	"lastmodified-seconds": "Cập nhật lần cuối cách đây $1 giây",
+	"lastmodified-minutes": "Cập nhật lần cuối cách đây $1 phút",
+	"lastmodified-hours": "Cập nhật lần cuối cách đây $1 giờ",
+	"lastmodified-days": "Cập nhật lần cuối cách đây $1 ngày",
+	"lastmodified-months": "Cập nhật lần cuối cách đây $1 tháng",
+	"lastmodified-years": "Cập nhật lần cuối cách đây $1 năm"
 }

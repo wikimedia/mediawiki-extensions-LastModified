@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Beta16"
-        ]
-    },
-    "lastmodified-desc": "Genera l'ora dell'ultima modifica per le pagine",
-    "lastmodified": "Ultima modifica",
-    "lastmodified-title-tag": "Visualizza la cronologia delle versioni per questa pagina.",
-    "lastmodified-seconds": "Ultima modifica {{PLURAL:$1|$1 secondo|$1 secondi}} fa",
-    "lastmodified-minutes": "Ultima modifica {{PLURAL:$1|$1 minuto|$1 minuti}} fa",
-    "lastmodified-hours": "Ultima modifica {{PLURAL:$1|$1 ora|$1 ore}} fa",
-    "lastmodified-days": "Ultima modifica {{PLURAL:$1|$1 giorno|$1 giorni}} fa",
-    "lastmodified-months": "Ultima modifica {{PLURAL:$1|$1 mese|$1 mesi}} fa",
-    "lastmodified-years": "Ultima modifica {{PLURAL:$1|$1 anno|$1 anni}} fa"
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"lastmodified-desc": "Genera l'ora dell'ultima modifica per le pagine",
+	"lastmodified": "Ultima modifica",
+	"lastmodified-title-tag": "Visualizza la cronologia delle versioni per questa pagina.",
+	"lastmodified-seconds": "Ultima modifica {{PLURAL:$1|$1 secondo|$1 secondi}} fa",
+	"lastmodified-minutes": "Ultima modifica {{PLURAL:$1|$1 minuto|$1 minuti}} fa",
+	"lastmodified-hours": "Ultima modifica {{PLURAL:$1|$1 ora|$1 ore}} fa",
+	"lastmodified-days": "Ultima modifica {{PLURAL:$1|$1 giorno|$1 giorni}} fa",
+	"lastmodified-months": "Ultima modifica {{PLURAL:$1|$1 mese|$1 mesi}} fa",
+	"lastmodified-years": "Ultima modifica {{PLURAL:$1|$1 anno|$1 anni}} fa"
 }

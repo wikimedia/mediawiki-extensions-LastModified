@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Simon Shek"
-        ]
-    },
-    "lastmodified-desc": "生成頁面的最後修訂時間",
-    "lastmodified": "最後修訂",
-    "lastmodified-title-tag": "查看此頁的修訂歷史。",
-    "lastmodified-seconds": "最後更新於$1秒前",
-    "lastmodified-minutes": "最後更新於$1分鐘前",
-    "lastmodified-hours": "最後更新於$1小時前",
-    "lastmodified-days": "最後更新於$1天前",
-    "lastmodified-months": "最後更新於$1個月前",
-    "lastmodified-years": "最後更新於$1年前"
+	"@metadata": {
+		"authors": [
+			"Simon Shek"
+		]
+	},
+	"lastmodified-desc": "生成頁面的最後修訂時間",
+	"lastmodified": "最後修訂",
+	"lastmodified-title-tag": "查看此頁的修訂歷史。",
+	"lastmodified-seconds": "最後更新於$1秒前",
+	"lastmodified-minutes": "最後更新於$1分鐘前",
+	"lastmodified-hours": "最後更新於$1小時前",
+	"lastmodified-days": "最後更新於$1天前",
+	"lastmodified-months": "最後更新於$1個月前",
+	"lastmodified-years": "最後更新於$1年前"
 }

@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "Alsandro",
-            "David1010"
-        ]
-    },
-    "lastmodified": "გვერდი ბოლოს განახლდა $1.",
-    "lastmodified-seconds": "ბოლოს განახლებული {{PLURAL:$1|$1 წამის|$1 წამის}} წინ",
-    "lastmodified-minutes": "ბოლოს განახლებული {{PLURAL:$1|$1 წუთის|$1 წუთის}} წინ",
-    "lastmodified-hours": "ბოლოს განახლებული {{PLURAL:$1|$1 საათის|$1 საათის}} წინ",
-    "lastmodified-days": "ბოლოს განახლებული {{PLURAL:$1|$1 დღის|$1 დღის}} წინ",
-    "lastmodified-months": "ბოლოს განახლებული {{PLURAL:$1|$1 თვის|$1 თვის}} წინ",
-    "lastmodified-years": "ბოლოს განახლებული {{PLURAL:$1|$1 წლის|$1 წლის}} წინ"
+	"@metadata": {
+		"authors": [
+			"Alsandro",
+			"David1010"
+		]
+	},
+	"lastmodified": "გვერდი ბოლოს განახლდა $1.",
+	"lastmodified-seconds": "ბოლოს განახლებული {{PLURAL:$1|$1 წამის|$1 წამის}} წინ",
+	"lastmodified-minutes": "ბოლოს განახლებული {{PLURAL:$1|$1 წუთის|$1 წუთის}} წინ",
+	"lastmodified-hours": "ბოლოს განახლებული {{PLURAL:$1|$1 საათის|$1 საათის}} წინ",
+	"lastmodified-days": "ბოლოს განახლებული {{PLURAL:$1|$1 დღის|$1 დღის}} წინ",
+	"lastmodified-months": "ბოლოს განახლებული {{PLURAL:$1|$1 თვის|$1 თვის}} წინ",
+	"lastmodified-years": "ბოლოს განახლებული {{PLURAL:$1|$1 წლის|$1 წლის}} წინ"
 }

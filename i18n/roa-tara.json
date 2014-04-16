@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Joetaras"
-        ]
-    },
-    "lastmodified-desc": "Genere l'orarie de l'urteme cangiaminde pe le pàggene",
-    "lastmodified": "Urteme cangiamende",
-    "lastmodified-title-tag": "Vide 'u cunde d'a revisione pe sta pàgene.",
-    "lastmodified-seconds": "Urteme aggiornamende {{PLURAL:$1|$1 seconde}} fà",
-    "lastmodified-minutes": "Urteme aggiornamende {{PLURAL:$1|$1 minute}} fà",
-    "lastmodified-hours": "Urteme aggiornamende {{PLURAL:$1|$1 ore}} fà",
-    "lastmodified-days": "Urteme aggiornamende {{PLURAL:$1|$1 sciurne}} fà",
-    "lastmodified-months": "Urteme aggiornamende {{PLURAL:$1|$1 mese|$1 mise}} fà",
-    "lastmodified-years": "Urteme aggiornamende {{PLURAL:$1|$1 anne}} fà"
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"lastmodified-desc": "Genere l'orarie de l'urteme cangiaminde pe le pàggene",
+	"lastmodified": "Urteme cangiamende",
+	"lastmodified-title-tag": "Vide 'u cunde d'a revisione pe sta pàgene.",
+	"lastmodified-seconds": "Urteme aggiornamende {{PLURAL:$1|$1 seconde}} fà",
+	"lastmodified-minutes": "Urteme aggiornamende {{PLURAL:$1|$1 minute}} fà",
+	"lastmodified-hours": "Urteme aggiornamende {{PLURAL:$1|$1 ore}} fà",
+	"lastmodified-days": "Urteme aggiornamende {{PLURAL:$1|$1 sciurne}} fà",
+	"lastmodified-months": "Urteme aggiornamende {{PLURAL:$1|$1 mese|$1 mise}} fà",
+	"lastmodified-years": "Urteme aggiornamende {{PLURAL:$1|$1 anne}} fà"
 }
