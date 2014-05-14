@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vitorvicentevalente"
+		]
+	},
+	"lastmodified-desc": "Gera o número de últimas modificações para páginas",
+	"lastmodified": "Última Modificação",
+	"lastmodified-title-tag": "Ver o histórico para esta página.",
+	"lastmodified-seconds": "Atualizada há {{PLURAL:$1|$1 segundo|$1 segundos}}",
+	"lastmodified-minutes": "Atualizada há {{PLURAL:$1|$1 minuto|$1 minutos}}",
+	"lastmodified-hours": "Atualizada há {{PLURAL:$1|$1 hora|$1 horas}}",
+	"lastmodified-days": "Atualizada há {{PLURAL:$1|$1 dia|$1 dias}}",
+	"lastmodified-months": "Atualizada há {{PLURAL:$1|$1 mês|$1 meses}}",
+	"lastmodified-years": "Atualizada há {{PLURAL:$1|$1 ano|$1 anos}}"
+}
