@@ -5,5 +5,8 @@
 			"לערי ריינהארט"
 		]
 	},
-	"lastmodified": "Lest ewiezigd"
+	"lastmodified": "Lest ewiezigd",
+	"lastmodified-seconds": "{{PLURAL:$1|Een sekonde|$1 sekonden}} elejen veur t lest bie-ewörken",
+	"lastmodified-hours": "{{PLURAL:$1|Een|$1}} uur elejen veur t lest bie-ewörken",
+	"lastmodified-months": "{{PLURAL:$1|Een maond|$1 maonden}} elejen veur t lest bie-ewörken"
 }
