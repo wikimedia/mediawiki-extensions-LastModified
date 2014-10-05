@@ -3,12 +3,14 @@
 		"authors": [
 			"Linforest",
 			"Xiaomingyan",
-			"Mywood"
+			"Mywood",
+			"Duolaimi",
+			"Impersonator 1"
 		]
 	},
 	"lastmodified-desc": "生成页面的最后修改时间",
 	"lastmodified": "最后修改",
-	"lastmodified-title-tag": "查看此页面的版本历史。",
+	"lastmodified-title-tag": "查看该页面的版本历史。",
 	"lastmodified-seconds": "最后更新于{{PLURAL:$1|$1秒|$1秒}}之前",
 	"lastmodified-minutes": "最后更新于{{PLURAL:$1|$1分钟|$1分钟}}之前",
 	"lastmodified-hours": "最后更新于{{PLURAL:$1|$1小时}}前",
