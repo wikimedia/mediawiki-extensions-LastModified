@@ -23,46 +23,21 @@
  *
  * This is the primary function for this script.
  */
-function render () {
+$( function () {
+	var historyLink = getArticleHistoryLink(),
+		currentSkin = mw.config.get( 'skin' ),
+		html = '';
 
-	// Get the last-modified-timestamp value
-	var lastModifiedTimestamp = getMetaLastModifiedTimestamp();
-
-	// Get the last-modified-range value
-	var displayRange = getMetaRange();
-	
-	// Get the current timestamp and remove the milliseconds
-	var nowStamp = getUtcTimeStamp();
-
-	// Get the difference in the time from when it was last edited.
-	var modifiedDifference = nowStamp - lastModifiedTimestamp;
-
-	// Get the last modified text
-	var lastModifiedText = getLastModifiedText( modifiedDifference, displayRange );
-
-	// Get the article history link
-	var historyLink = getArticleHistoryLink();
-
-	// Get the current skin
-	var currentSkin = mw.config.get( 'skin' );
-
-	// Get the proper styling (skin-dependent)
-	var divStyle = getDivStyle( currentSkin );
-
-	// Get the HTML property to append to (skin-dependent)
-	var htmlProperty = getHtmlProperty( currentSkin );
-
-	// Construct the HTML
-	var html = '';
-	html += '<div style="' + divStyle + '" id="mwe-lastmodified">';
+	html += '<div style="' + getDivStyle( currentSkin ) + '" id="mwe-lastmodified">';
 	html += '<a href="' + historyLink + '" title="' + mw.message( 'lastmodified-title-tag' ).escaped() + '">';
-	html += lastModifiedText;
+	html += getLastModifiedText( getUtcTimeStamp() - getMetaLastModifiedTimestamp(), getMetaRange() );
 	html += '</a>';
 	html += '</div>';
 
-	// Insert the HTML into the web page
-	$( htmlProperty ).append( html );
-}
+	// Insert the HTML into the web page, based on skin
+	$( getHtmlProperty( currentSkin ) ).append( html );
+} );
+
 /**
  * Get the UTC Timestamp without microseconds
  *
@@ -70,7 +45,7 @@ function render () {
  */
 function getUtcTimeStamp () {
 	return parseInt( new Date().getTime() / 1000 );
-}
+};
 
 /**
  * Get the article history link
@@ -78,8 +53,8 @@ function getUtcTimeStamp () {
  * @return {string} Return the article title
  */
 function getArticleHistoryLink () {
-	return mw.config.get( 'wgScript' ) + '?title=' + encodeURIComponent( mw.config.get( 'wgPageName' ) ) + '&action=history';
-}
+	return mw.util.getUrl( mw.config.get( 'wgPageName' ), { action: 'history' } );
+};
 
 /**
  * Get the value from the meta tag: last-modified-timestamp
@@ -91,12 +66,12 @@ function getMetaLastModifiedTimestamp () {
 	var metaTag = $( "meta[name=last-modified-timestamp]" );
 
 	// If the tag was found, parse the value
-	if ( metaTag ) {
+	if ( metaTag.length ) {
 		return parseInt( metaTag.attr( 'content' ) );
 	}
 	
 	return 0;
-}
+};
 
 /**
  * Get the modified text. This takes advantage of internationalization.
@@ -160,7 +135,7 @@ function getLastModifiedText ( modifiedDifference, displayRange ) {
 	}
 	
 	return message;
-}
+};
 
 /**
  * Get the value from the meta tag: last-modified-range
@@ -172,12 +147,12 @@ function getMetaRange () {
 	var metaTag = $( 'meta[name=last-modified-range]' );
 
 	// If the tag was found, parse the value
-	if ( metaTag ) {
+	if ( metaTag.length ) {
 		return parseInt( metaTag.attr( 'content' ) );
 	}
 	
 	return 0;
-}
+};
 
 /**
  * Get the proper div style tag information depending on the skin
@@ -190,7 +165,7 @@ function getDivStyle ( skin ) {
 	} else {
 		return "float: right; font-size: 0.5em;";
 	}
-}
+};
 
 /**
  * Get the HTML property to append to depending on the skin
@@ -203,11 +178,6 @@ function getHtmlProperty ( skin ) {
 	} else {
 		return '#firstHeading';
 	}
-}
-
-/**
- * Display the last modified link on the page.
- */
-$( render );
+};
 
 }() );
