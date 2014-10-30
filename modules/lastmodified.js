@@ -16,39 +16,32 @@
  * @author		Katie Horn <khorn@wikimedia.org>, Jeremy Postlethwaite <jpostlethwaite@wikimedia.org>
  */
 
-( function( global ) {
+( function () {
 
 /**
  * Find out when the article was last modified and insert it into the page.
  *
  * This is the primary function for this script.
- *
  */
-function render() {
+function render () {
 
 	// Get the last-modified-timestamp value
 	var lastModifiedTimestamp = getMetaLastModifiedTimestamp();
-	//console.log( 'lastModifiedTimestamp: ' + lastModifiedTimestamp );
 
 	// Get the last-modified-range value
 	var displayRange = getMetaRange();
-	//console.log( 'displayRange: ' + displayRange );
 	
 	// Get the current timestamp and remove the milliseconds
 	var nowStamp = getUtcTimeStamp();
-	//console.log( 'nowStamp: ' + nowStamp );
 
 	// Get the difference in the time from when it was last edited.
 	var modifiedDifference = nowStamp - lastModifiedTimestamp;
-	//console.log( 'modifiedDifference: ' + modifiedDifference );
 
 	// Get the last modified text
 	var lastModifiedText = getLastModifiedText( modifiedDifference, displayRange );
-	//console.log( 'lastModifiedText: ' + lastModifiedText );
 
 	// Get the article history link
 	var historyLink = getArticleHistoryLink();
-	//console.log( 'historyLink: ' + historyLink );
 
 	// Get the current skin
 	var currentSkin = mw.config.get( 'skin' );
@@ -73,35 +66,29 @@ function render() {
 /**
  * Get the UTC Timestamp without microseconds
  *
- * @return integer
+ * @return {number}
  */
-function getUtcTimeStamp() {
-	
-	// Get the current Date object
-	var now = new Date();
-	//console.log( 'now: ' + now );
-	
-	return parseInt( now.getTime() / 1000 );
+function getUtcTimeStamp () {
+	return parseInt( new Date().getTime() / 1000 );
 }
 
 /**
  * Get the article history link
  *
- * @return string      Return the article title
+ * @return {string} Return the article title
  */
-function getArticleHistoryLink() {
+function getArticleHistoryLink () {
 	return mw.config.get( 'wgScript' ) + '?title=' + encodeURIComponent( mw.config.get( 'wgPageName' ) ) + '&action=history';
 }
 
 /**
  * Get the value from the meta tag: last-modified-timestamp
  *
- * @return integer
+ * @return {number}
  */
-function getMetaLastModifiedTimestamp() {
-	
+function getMetaLastModifiedTimestamp () {
 	// Fetch the meta tag
-	var metaTag = $("meta[name=last-modified-timestamp]");    
+	var metaTag = $( "meta[name=last-modified-timestamp]" );
 
 	// If the tag was found, parse the value
 	if ( metaTag ) {
@@ -114,8 +101,8 @@ function getMetaLastModifiedTimestamp() {
 /**
  * Get the modified text. This takes advantage of internationalization.
  *
- * @param integer	modifiedDifference	The difference of time from now compared to last edited
- * @param integer	displayRange		The maximum unit of time to display for last updated
+ * @param {number} modifiedDifference The difference of time from now compared to last edited
+ * @param {number} displayRange	The maximum unit of time to display for last updated
  *
  * displayRange
  * - 0: years	- display: years, months, days, hours, minutes, seconds  
@@ -125,9 +112,9 @@ function getMetaLastModifiedTimestamp() {
  * - 4: minutes	- display: minutes, seconds  
  * - 5: seconds	- display: seconds  
  *
- * @return string
+ * @return {string}
  */
-function getLastModifiedText( modifiedDifference, displayRange ) {
+function getLastModifiedText ( modifiedDifference, displayRange ) {
 
 	// Message to return
 	var message = '';
@@ -138,46 +125,37 @@ function getLastModifiedText( modifiedDifference, displayRange ) {
 	var myLastEdit = modifiedDifference;
 	
 	if ( modifiedDifference < 60 ) {
-
 		// seconds
-		message = ( mw.msg( 'lastmodified-seconds',  myLastEdit ) );
-		
+		message = mw.msg( 'lastmodified-seconds',  myLastEdit );
 	} else if ( modifiedDifference < 3600 ) {
-
 		// minutes
 		if ( displayRange <= 4 ) {
 			myLastEdit = parseInt( modifiedDifference / 60 );
-			message = ( mw.msg( 'lastmodified-minutes', myLastEdit ) );
+			message = mw.msg( 'lastmodified-minutes', myLastEdit );
 		}
-		
 	} else if ( modifiedDifference < 86400 ) {
-
 		// hours
-		if ( displayRange <= 3) {
+		if ( displayRange <= 3 ) {
 			myLastEdit = parseInt( modifiedDifference / 3600 );
-			message = ( mw.msg( 'lastmodified-hours', myLastEdit ) );
-		}		
-	} else if ( modifiedDifference < 2592000 ) {
-		
-		// days
-		if ( displayRange <= 2) {
-			myLastEdit = parseInt( modifiedDifference / 86400 );
-			message = ( mw.msg( 'lastmodified-days', myLastEdit ) );
+			message = mw.msg( 'lastmodified-hours', myLastEdit );
 		}
-		
+	} else if ( modifiedDifference < 2592000 ) {
+		// days
+		if ( displayRange <= 2 ) {
+			myLastEdit = parseInt( modifiedDifference / 86400 );
+			message = mw.msg( 'lastmodified-days', myLastEdit );
+		}
 	} else if ( modifiedDifference < 31536000 ) {
-
 		// months
-		if ( displayRange <= 1) {
+		if ( displayRange <= 1 ) {
 			myLastEdit = parseInt( modifiedDifference / 2592000 );
-			message = ( mw.msg( 'lastmodified-months', myLastEdit ) );
+			message = mw.msg( 'lastmodified-months', myLastEdit );
 		}
 	} else {
-
 		// years
-		if ( displayRange == 0) {
+		if ( displayRange == 0 ) {
 			myLastEdit = parseInt( modifiedDifference / 31536000 );
-			message = ( mw.msg( 'lastmodified-years', myLastEdit ) );
+			message = mw.msg( 'lastmodified-years', myLastEdit );
 		}		
 	}
 	
@@ -187,10 +165,9 @@ function getLastModifiedText( modifiedDifference, displayRange ) {
 /**
  * Get the value from the meta tag: last-modified-range
  *
- * @return integer
+ * @return {number}
  */
-function getMetaRange() {
-
+function getMetaRange () {
 	// Fetch the meta tag
 	var metaTag = $( 'meta[name=last-modified-range]' );
 
@@ -205,22 +182,22 @@ function getMetaRange() {
 /**
  * Get the proper div style tag information depending on the skin
  *
- * @return string
+ * @return {string}
  */
-function getDivStyle( skin ) {
+function getDivStyle ( skin ) {
 	if ( skin == 'modern' ) {
-		return "float:right;";
+		return "float: right;";
 	} else {
-		return "float:right; font-size: 0.5em;";
+		return "float: right; font-size: 0.5em;";
 	}
 }
 
 /**
  * Get the HTML property to append to depending on the skin
  *
- * @return string
+ * @return {string}
  */
-function getHtmlProperty( skin ) {
+function getHtmlProperty ( skin ) {
 	if ( skin == 'modern' ) {
 		return '#p-cactions';
 	} else {
@@ -231,8 +208,6 @@ function getHtmlProperty( skin ) {
 /**
  * Display the last modified link on the page.
  */
-$( document ).ready( function() {
-	render();
-} );
+$( render );
 
-}( this ));
+}() );
