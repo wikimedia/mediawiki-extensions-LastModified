@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"बिप्लब आनन्द"
+		]
+	},
+	"lastmodified-desc": "पृष्ठ के लेल अन्तिम बेर संशोधित समए काल उत्पन्न करएत अछि",
+	"lastmodified": "अन्तिम बेर संशोधित",
+	"lastmodified-title-tag": "ऐ पृष्ठ के लेल संशोधन इतिहास देखु।",
+	"lastmodified-seconds": "अन्तिम बेर उध्धतन {{PLURAL:$1|$1 second|$1 सेकेन्ड}} पहिने",
+	"lastmodified-minutes": "अन्तिम बेर उध्धतन {{PLURAL:$1|$1 minute|$1 मिनट}} पहिने",
+	"lastmodified-hours": "अन्तिम बेर उध्धतन {{PLURAL:$1|$1 hour|$1 घंटा}} पहिने",
+	"lastmodified-days": "अन्तिम बेर उध्धतन {{PLURAL:$1|$1 day|$1 दिन}} पहिने",
+	"lastmodified-months": "अन्तिम बेर उध्धतन {{PLURAL:$1|$1 month|$1 महिना}} पहिने",
+	"lastmodified-years": "अन्तिम बेर उध्धतन {{PLURAL:$1|$1 year|$1 बरख}} पहिने"
+}
