@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman"
+		]
+	},
+	"lastmodified-desc": "পাতাসমূহের সর্বশেষ সম্পাদনার সময় উত্পন্ন করে",
+	"lastmodified": "সর্বশেষ পরিবর্তিত",
+	"lastmodified-title-tag": "এই পাতার সংশোধন ইতিহাস দেখুন।",
+	"lastmodified-seconds": "{{PLURAL:$1|$1 সেকেন্ড}} আগে সর্বশেষ হালনাগাদকৃত",
+	"lastmodified-minutes": "{{PLURAL:$1|$1 মিনিট}} আগে সর্বশেষ হালনাগাদকৃত",
+	"lastmodified-hours": "{{PLURAL:$1|$1 ঘণ্টা}} আগে সর্বশেষ হালনাগাদকৃত",
+	"lastmodified-days": "{{PLURAL:$1|$1 দিন}} আগে সর্বশেষ হালনাগাদকৃত",
+	"lastmodified-months": "{{PLURAL:$1|$1 মাস}} আগে সর্বশেষ হালনাগাদকৃত",
+	"lastmodified-years": "{{PLURAL:$1|$1 বছর}} আগে সর্বশেষ হালনাগাদকৃত"
+}
