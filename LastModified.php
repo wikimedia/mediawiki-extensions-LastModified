@@ -101,7 +101,7 @@ function fnLastModified( &$out, &$sk ) {
 	$title = $context->getTitle();
 	$article = Article::newFromTitle( $title, $context );
 
-	if ( $article && ( ( $title instanceof Title ) && $title->getNamespace() == 0 ) ) {
+	if ( $article && $title instanceof Title && $title->getNamespace() == 0 && $title->exists() ) {
 		$timestamp = wfTimestamp ( TS_UNIX, $article->getTimestamp() );
 		$out->addMeta( 'http:last-modified', date( 'r', $timestamp ) );
 		$out->addMeta( 'last-modified-timestamp', $timestamp );
