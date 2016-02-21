@@ -7,7 +7,7 @@
 	},
 	"lastmodified-desc": "Genereert \"laatste wijzing\"-tijden voor pagina's",
 	"lastmodified": "Deze pagina is het laatst bewerkt op $1.",
-	"lastmodified-title-tag": "De versiegeschiedenis van dit artikel bekijken.",
+	"lastmodified-title-tag": "De versiegeschiedenis van deze pagina bekijken.",
 	"lastmodified-seconds": "{{PLURAL:$1|Eén seconde|$1 seconden}} geleden voor het laatst bijgewerkt",
 	"lastmodified-minutes": "{{PLURAL:$1|Eén minuut|$1 minuten}} geleden voor het laatst bijgewerkt",
 	"lastmodified-hours": "{{PLURAL:$1|Eén uur|$1 uur}} geleden voor het laatst bijgewerkt",
