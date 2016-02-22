@@ -16,7 +16,7 @@
  * @author		Katie Horn <khorn@wikimedia.org>, Jeremy Postlethwaite <jpostlethwaite@wikimedia.org>
  */
 
-( function () {
+( function ( $, mw ) {
 
 /**
  * Find out when the article was last modified and insert it into the page.
@@ -45,7 +45,7 @@ $( function () {
  */
 function getUtcTimeStamp () {
 	return parseInt( new Date().getTime() / 1000 );
-};
+}
 
 /**
  * Get the article history link
@@ -54,7 +54,7 @@ function getUtcTimeStamp () {
  */
 function getArticleHistoryLink () {
 	return mw.util.getUrl( mw.config.get( 'wgPageName' ), { action: 'history' } );
-};
+}
 
 /**
  * Get the value from the meta tag: last-modified-timestamp
@@ -71,7 +71,7 @@ function getMetaLastModifiedTimestamp () {
 	}
 	
 	return 0;
-};
+}
 
 /**
  * Get the modified text. This takes advantage of internationalization.
@@ -128,14 +128,14 @@ function getLastModifiedText ( modifiedDifference, displayRange ) {
 		}
 	} else {
 		// years
-		if ( displayRange == 0 ) {
+		if ( displayRange === 0 ) {
 			myLastEdit = parseInt( modifiedDifference / 31536000 );
 			message = mw.msg( 'lastmodified-years', myLastEdit );
 		}		
 	}
 	
 	return message;
-};
+}
 
 /**
  * Get the value from the meta tag: last-modified-range
@@ -152,7 +152,7 @@ function getMetaRange () {
 	}
 	
 	return 0;
-};
+}
 
 /**
  * Get the proper div style tag information depending on the skin
@@ -160,12 +160,12 @@ function getMetaRange () {
  * @return {string}
  */
 function getDivStyle ( skin ) {
-	if ( skin == 'modern' ) {
+	if ( skin === 'modern' ) {
 		return "float: right;";
 	} else {
 		return "float: right; font-size: 0.5em;";
 	}
-};
+}
 
 /**
  * Get the HTML property to append to depending on the skin
@@ -173,11 +173,11 @@ function getDivStyle ( skin ) {
  * @return {string}
  */
 function getHtmlProperty ( skin ) {
-	if ( skin == 'modern' ) {
+	if ( skin === 'modern' ) {
 		return '#p-cactions';
 	} else {
 		return '#firstHeading';
 	}
-};
+}
 
-}() );
+}( jQuery, mediaWiki ) ); 
