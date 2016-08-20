@@ -1,4 +1,16 @@
 {
-	"@metadata": [],
-	"lastmodified": "Čas poslednej úpravy tejto stránky je $1."
+	"@metadata": {
+		"authors": [
+			"TomášPolonec"
+		]
+	},
+	"lastmodified-desc": "Pridá na stránku čas od poslednej zmeny",
+	"lastmodified": "Posledná zmena",
+	"lastmodified-title-tag": "Zobraziť históriu úprav tejto stránky.",
+	"lastmodified-seconds": "Naposledy upravené pred {{PLURAL:$1|$1 sekundou|$1 sekundami}}",
+	"lastmodified-minutes": "Naposledy upravené pred {{PLURAL:$1|$1 minútou|$1 minútami}}",
+	"lastmodified-hours": "Naposledy upravené pred {{PLURAL:$1|$1 hodinou|$1 hodinami}}",
+	"lastmodified-days": "Naposledy upravené pred {{PLURAL:$1|$1 dňom|$1 dňami}}",
+	"lastmodified-months": "Naposledy upravené pred {{PLURAL:$1|$1 mesiacom|$1 mesiacmi}}",
+	"lastmodified-years": "Naposledy upravené pred {{PLURAL:$1|$1 rokom|$1 rokmi}}"
 }
