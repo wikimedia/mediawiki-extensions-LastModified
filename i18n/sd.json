@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mehtab ahmed"
+		]
+	},
+	"lastmodified-seconds": "آخري ڀيرو {{PLURAL:$1|$1 سيڪنڊ|$1 سيڪنڊَ}} اڳ سنواريل",
+	"lastmodified-minutes": "آخري ڀيرو {{PLURAL:$1|$1 منٽ|$1 منٽَ}} اڳ سنواريل",
+	"lastmodified-hours": "آخري ڀيرو {{PLURAL:$1|$1 ڪلاڪ|$1 ڪلاڪَ}} اڳ سنواريل",
+	"lastmodified-days": "آخري ڀيرو {{PLURAL:$1|$1 ڏينھن|$1 ڏينھَن}} اڳ سنواريل",
+	"lastmodified-months": "آخري ڀيرو {{PLURAL:$1|$1 مھينو|$1 مھينا}} اڳ سنواريل",
+	"lastmodified-years": "آخري ڀيرو {{PLURAL:$1|$1 سال|$1 سالَ}} اڳ سنواريل"
+}
