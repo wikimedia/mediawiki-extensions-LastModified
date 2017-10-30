@@ -39,7 +39,6 @@ $wgExtensionCredits['other'][] = array(
 $dir = dirname( __FILE__ ) . '/';
 
 $wgMessagesDirs['LastModified'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['LastModified'] = $dir . 'LastModified.i18n.php';
 
 /**
  * ADDITIONAL MAGICAL GLOBALS
