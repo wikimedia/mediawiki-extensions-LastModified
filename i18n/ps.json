@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"Baloch Khan"
 		]
 	},
-	"lastmodified-hours": "وروستۍ اوسمهالېدنه {{PLURAL:$1|$1 گړۍ|$1 گړۍ}} دمخه",
+	"lastmodified-seconds": "وروستۍ بدلون {{PLURAL:$1|$1 ثانيې|$1 ثانيې}} مخکې",
+	"lastmodified-minutes": "وروستۍ بدلون {{PLURAL:$1|$1 دقیقي|$1 دقیقي}} مخکې",
+	"lastmodified-hours": "وروستۍ بدلون {{PLURAL:$1|$1 گړۍ|$1 گړۍ}} مخکې",
 	"lastmodified-days": "وروستۍ اوسمهالېدنه {{PLURAL:$1|$1 ورځ|$1 ورځې}} دمخه",
-	"lastmodified-months": "وروستۍ هممهالېدنه {{PLURAL:$1|$1 مياشت|$1 مياشتې}} دمخه"
+	"lastmodified-months": "وروستۍ هممهالېدنه {{PLURAL:$1|$1 مياشت|$1 مياشتې}} دمخه",
+	"lastmodified-years": "وروستۍ بدلون {{PLURAL:$1|$1 کال|$1 کاله}} مخکې"
 }
