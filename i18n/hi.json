@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jayprakash12345"
+		]
+	},
+	"lastmodified-desc": "पृष्ठों के लिए अंतिम बार संशोधित समय उत्पन्न करता है",
+	"lastmodified": "अंतिम संशोधन",
+	"lastmodified-title-tag": "इस पृष्ठ के लिए संशोधन इतिहास देखें।",
+	"lastmodified-seconds": "अंतिम बार {{PLURAL:$1|$1 सेकंड}} पहले अपडेट हुआ",
+	"lastmodified-minutes": "अंतिम बार {{PLURAL:$1|$1 मिनट}} पहले अपडेट हुआ",
+	"lastmodified-hours": "अंतिम बार {{PLURAL:$1|$1 घंटे}} पहले अपडेट हुआ",
+	"lastmodified-days": "अंतिम बार {{PLURAL:$1|$1 दिन}} पहले अपडेट हुआ",
+	"lastmodified-months": "अंतिम बार {{PLURAL:$1|$1 माह}} पहले अपडेट हुआ",
+	"lastmodified-years": "अंतिम बार {{PLURAL:$1|$1 साल}} पहले अपडेट हुआ"
+}
