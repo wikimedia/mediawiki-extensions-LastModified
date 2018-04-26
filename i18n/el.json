@@ -1,8 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"ZaDiak"
+			"ZaDiak",
+			"Nikosgranturismogt"
 		]
 	},
-	"lastmodified": "Τελευταία Επεξεργάστηκε"
+	"lastmodified-desc": "Δημιουργεί χρόνους τελευταίες επεξεργασίας για σελίδες",
+	"lastmodified": "Τελευταία Επεξεργάστηκε",
+	"lastmodified-title-tag": "Προβολή του ιστορικού αναθεωρήσεων για μια σελίδα.",
+	"lastmodified-seconds": "Τελευταία επεξεργασία {{PLURAL:$1|$1 δευτερόλεπτο|$1 δευτερόλεπτα}} πριν",
+	"lastmodified-minutes": "Τελευταία επεξεργασία {{PLURAL:$1|$1 λεπτό|$1 λεπτά}} πριν",
+	"lastmodified-hours": "Τελευταία επεξεργασία {{PLURAL:$1|$1 ώρα|$1 ώρες}} πριν",
+	"lastmodified-days": "Τελευταία επεξεργασία {{PLURAL:$1|$1 ημέρα|$1 ημέρες}} πριν",
+	"lastmodified-months": "Τελευταία επεξεργασία {{PLURAL:$1|$1 μήνα|$1 μήνες}} πριν",
+	"lastmodified-years": "Τελευταία επεξεργασία {{PLURAL:$1|$1 έτος|$1 χρόνια}} πριν"
 }
