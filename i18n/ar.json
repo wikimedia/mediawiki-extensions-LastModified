@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"lastmodified-desc": "يولد آخر مرة تعديل للصفحات",
+	"lastmodified": "آخر تعديل",
+	"lastmodified-title-tag": "عرض تاريخ النسخ السابقة لهذه الصفحة.",
+	"lastmodified-seconds": "آخر تحديث منذ {{PLURAL:$1|ثانية|$1 ثوانٍ}}",
+	"lastmodified-minutes": "آخر تحديث منذ {{PLURAL:$1|دقيقة|$1 دقائق}}",
+	"lastmodified-hours": "آخر تحديث منذ {{PLURAL:$1|ساعة|$1 ساعات}}",
+	"lastmodified-days": "آخر تحديث منذ {{PLURAL:$1|يوم|$1 أيام}}",
+	"lastmodified-months": "آخر تحديث منذ {{PLURAL:$1|شهر|$1 أشهر}}",
+	"lastmodified-years": "آخر تحديث منذ {{PLURAL:$1|سنة|$1 سنوات}}"
+}
