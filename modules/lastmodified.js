@@ -28,14 +28,14 @@ $( function () {
 		currentSkin = mw.config.get( 'skin' ),
 		html = '';
 
-	html += '<div style="' + getDivStyle( currentSkin ) + '" id="mwe-lastmodified">';
+	html += '<div id="mwe-lastmodified">';
 	html += '<a href="' + historyLink + '" title="' + mw.message( 'lastmodified-title-tag' ).escaped() + '">';
 	html += getLastModifiedText( getUtcTimeStamp() - getMetaLastModifiedTimestamp(), getMetaRange() );
 	html += '</a>';
 	html += '</div>';
 
 	// Insert the HTML into the web page, based on skin
-	$( getHtmlProperty( currentSkin ) ).append( html );
+	$( '.mw-indicators' ).append( html );
 } );
 
 /**
