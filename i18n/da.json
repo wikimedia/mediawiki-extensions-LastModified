@@ -1,8 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Christian List"
+			"Christian List",
+			"Saederup92"
 		]
 	},
-	"lastmodified-desc": "Genererer senest ændret tider for sider"
+	"lastmodified-desc": "Genererer senest ændret tider for sider",
+	"lastmodified": "Sidst ændret",
+	"lastmodified-title-tag": "Vis revisionhistorikken for denne side.",
+	"lastmodified-seconds": "Sidst opdateret for {{PLURAL:$1|$1 sekund|$1 sekunder}} siden",
+	"lastmodified-minutes": "Sidst opdateret for {{PLURAL:$1|$1 minut|$1 minutter}} siden",
+	"lastmodified-hours": "Sidst opdateret for {{PLURAL:$1|$1 time|$1 timer}} siden",
+	"lastmodified-days": "Sidst opdateret for {{PLURAL:$1|$1 dag|$1 dage}} siden",
+	"lastmodified-months": "Sidst opdateret for {{PLURAL:$1|$1 måned|$1 måneder}} siden",
+	"lastmodified-years": "Sidst opdateret for {{PLURAL:$1|$1 år}} siden"
 }
