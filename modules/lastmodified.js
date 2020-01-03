@@ -25,7 +25,6 @@
  */
 $( function () {
 	var historyLink = getArticleHistoryLink(),
-		currentSkin = mw.config.get( 'skin' ),
 		html = '';
 
 	html += '<div id="mwe-lastmodified">';
@@ -152,32 +151,6 @@ function getMetaRange () {
 	}
 	
 	return 0;
-}
-
-/**
- * Get the proper div style tag information depending on the skin
- *
- * @return {string}
- */
-function getDivStyle ( skin ) {
-	if ( skin === 'modern' ) {
-		return "float: right;";
-	} else {
-		return "float: right; font-size: 0.5em;";
-	}
-}
-
-/**
- * Get the HTML property to append to depending on the skin
- *
- * @return {string}
- */
-function getHtmlProperty ( skin ) {
-	if ( skin === 'modern' ) {
-		return '#p-cactions';
-	} else {
-		return '#firstHeading';
-	}
 }
 
 }( jQuery, mediaWiki ) ); 
