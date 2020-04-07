@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"lastmodified-desc": "Prikazuje kada su napravljene poslednje izmene na stranicama",
 	"lastmodified": "Poslednja izmena",
 	"lastmodified-title-tag": "Pregled istorije izmena na ovoj stranici.",
