@@ -65,7 +65,8 @@ $wgResourceModules['last.modified'] = array(
 	),
 ) + $wgResourceTemplate;
 
-$wgHooks['BeforePageDisplay'][] = 'fnLastModified';
+$wgAutoloadClasses['LastModifiedHooks'] = __DIR__ . '/LastModifiedHooks.php';
+$wgHooks['BeforePageDisplay'][] = 'LastModifiedHooks::onLastModified';
 
 /**
  * This variable controls the display range.
@@ -86,27 +87,3 @@ $wgHooks['BeforePageDisplay'][] = 'fnLastModified';
  * - 5: seconds	- display: seconds
  */
 $wgLastModifiedRange = 0;
-
-/**
- * @param $out OutputPage
- * @param $sk Skin
- * @return bool
- */
-function fnLastModified( &$out, &$sk ) {
-	global $wgLastModifiedRange;
-
-	$context = $out->getContext();
-	$title = $context->getTitle();
-	$article = Article::newFromTitle( $title, $context );
-
-	if ( $article && $title instanceof Title && $title->getNamespace() == 0 && $title->exists() ) {
-		$timestamp = wfTimestamp ( TS_UNIX, $article->getPage()->getTimestamp() );
-		$out->addMeta( 'http:last-modified', date( 'r', $timestamp ) );
-		$out->addMeta( 'last-modified-timestamp', $timestamp );
-		$out->addMeta( 'last-modified-range', $wgLastModifiedRange );
-		$out->addModules( 'last.modified' );
-	}
-
-	return true;
-}
-
