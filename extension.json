@@ -1,0 +1,54 @@
+{
+	"name": "LastModified",
+	"version": "1.2.0",
+	"author": [
+		"Katie Horn",
+		"Jeremy Postlethwaite"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LastModified",
+	"descriptionmsg": "lastmodified-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"LastModified": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"LastModifiedHooks": "LastModifiedHooks.php"
+	},
+	"ResourceModules": {
+		"last.modified": {
+			"scripts": "lastmodified.js",
+			"dependencies": [
+				"mediawiki.jqueryMsg"
+			],
+			"messages": [
+				"lastmodified-seconds",
+				"lastmodified-hours",
+				"lastmodified-minutes",
+				"lastmodified-hours",
+				"lastmodified-days",
+				"lastmodified-months",
+				"lastmodified-years",
+				"lastmodified-title-tag"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "LastModified/modules"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "LastModifiedHooks::onLastModified"
+	},
+	"config": {
+		"LastModifiedRange": {
+			"description": "This variable controls the display range.\nSee documentation on https://www.mediawiki.org/wiki/Extension:LastModified for more details.",
+			"value": 0
+		}
+	},
+	"manifest_version": 2
+}

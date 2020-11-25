@@ -14,76 +14,19 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
- * @author		Katie Horn <khorn@wikimedia.org>, Jeremy Postlethwaite <jpostlethwaite@wikimedia.org>
+ * @author Katie Horn <khorn@wikimedia.org>
+ * @author Jeremy Postlethwaite <jpostlethwaite@wikimedia.org>
  */
-
-# Alert the user that this is not a valid entry point to MediaWiki if they try to access the special pages file directly.
-if ( !defined( 'MEDIAWIKI' ) ) {
-	echo <<<EOT
-To install this extension, put the following line in LocalSettings.php:
-require_once( "\$IP/extensions/LastModified/LastModified.php" );
-EOT;
-	exit( 1 );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'LastModified' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['LastModified'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the LastModified extension. ' .
+		'Please use wfLoadExtension() instead, ' .
+		'see https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the LastModified extension requires MediaWiki 1.29+' );
 }
-
-// Extension credits that will show up on Special:Version
-$wgExtensionCredits['other'][] = array(
-	'path' => __FILE__,
-	'name' => 'LastModified',
-	'version' => '1.1.0',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:LastModified',
-	'author' => array( 'Katie Horn', 'Jeremy Postlethwaite' ),
-	'descriptionmsg' => 'lastmodified-desc',
-);
-
-$dir = dirname( __FILE__ ) . '/';
-
-$wgMessagesDirs['LastModified'] = __DIR__ . '/i18n';
-
-/**
- * ADDITIONAL MAGICAL GLOBALS
- */
-
-// Resource modules
-$wgResourceTemplate = array(
-	'localBasePath' => $dir . 'modules',
-	'remoteExtPath' => 'LastModified/modules',
-);
-
-$wgResourceModules['last.modified'] = array(
-	'scripts' => 'lastmodified.js',
-	'dependencies' => array( 'mediawiki.jqueryMsg' ),
-	'messages' => array(
-		'lastmodified-seconds',
-		'lastmodified-hours',
-		'lastmodified-minutes',
-		'lastmodified-hours',
-		'lastmodified-days',
-		'lastmodified-months',
-		'lastmodified-years',
-		'lastmodified-title-tag',
-	),
-) + $wgResourceTemplate;
-
-$wgAutoloadClasses['LastModifiedHooks'] = __DIR__ . '/LastModifiedHooks.php';
-$wgHooks['BeforePageDisplay'][] = 'LastModifiedHooks::onLastModified';
-
-/**
- * This variable controls the display range.
- *
- * For example, if you only want to display the message for articles that were
- * updated less than 30 days ago, set this value to 2. This will display a
- * message like: "Last updated 20 days ago." You will not see this message for
- * articles that were modifed more than 30 days ago.
- *
- * @var integer $wgLastModifiedRange
- *
- * $wgLastModifiedRange options:
- * - 0: years	- display: years, months, days, hours, minutes, seconds
- * - 1: months 	- display: months, days, hours, minutes, seconds
- * - 2: days	- display: days, hours, minutes, seconds
- * - 3: hours	- display: hours, minutes, seconds
- * - 4: minutes	- display: minutes, seconds
- * - 5: seconds	- display: seconds
- */
-$wgLastModifiedRange = 0;
