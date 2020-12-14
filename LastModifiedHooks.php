@@ -14,7 +14,7 @@ class LastModifiedHooks {
 		$article = Article::newFromTitle( $title, $context );
 
 		if ( $article && $title instanceof Title && $title->getNamespace() == 0 && $title->exists() ) {
-			$timestamp = wfTimestamp ( TS_UNIX, $article->getPage()->getTimestamp() );
+			$timestamp = wfTimestamp( TS_UNIX, $article->getPage()->getTimestamp() );
 			$out->addMeta( 'http:last-modified', date( 'r', $timestamp ) );
 			$out->addMeta( 'last-modified-timestamp', $timestamp );
 			$out->addMeta( 'last-modified-range', $wgLastModifiedRange );
