@@ -11,9 +11,15 @@ class LastModifiedHooks {
 
 		$context = $out->getContext();
 		$title = $context->getTitle();
+
+		// Don't try to proceed if we don't care about the target page
+		if ( !( $title instanceof Title && $title->getNamespace() == 0 && $title->exists() ) ) {
+			return true;
+		}
+
 		$article = Article::newFromTitle( $title, $context );
 
-		if ( $article && $title instanceof Title && $title->getNamespace() == 0 && $title->exists() ) {
+		if ( $article ) {
 			$timestamp = wfTimestamp( TS_UNIX, $article->getPage()->getTimestamp() );
 			$out->addMeta( 'http:last-modified', date( 'r', $timestamp ) );
 			$out->addMeta( 'last-modified-timestamp', $timestamp );
