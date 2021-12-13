@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
 		]
 	},
 	"lastmodified-desc": "Sayfalar için son değiştirilmiş zamanları oluşturur",
-	"lastmodified": "Son Degişme Tarihi",
+	"lastmodified": "Son Değiştirme",
 	"lastmodified-title-tag": "Bu sayfanın revizyon geçmişini görüntüleyin.",
 	"lastmodified-seconds": "Son güncelleme {{PLURAL:$1|$1 saniye|$1 saniye}} önce",
 	"lastmodified-minutes": "Son güncelleme {{PLURAL:$1|$1 dakika|$1 dakika}} önce",
