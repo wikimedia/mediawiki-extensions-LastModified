@@ -1,4 +1,5 @@
 {
+	"name": "LastModified",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
