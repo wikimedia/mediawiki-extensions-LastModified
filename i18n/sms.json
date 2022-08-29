@@ -4,5 +4,12 @@
 			"Yupik"
 		]
 	},
-	"lastmodified-title-tag": "Čuäʹjet tän seeid muʹttemhistoria"
+	"lastmodified": "Mââimõssân muttum",
+	"lastmodified-title-tag": "Čuäʹjet tän seeid muʹttemhistoria",
+	"lastmodified-seconds": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 sekuntt|$1 sekuunt|$1 sekunttâd}} mââiårra",
+	"lastmodified-minutes": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 minutt|$1 minuutt|$1 minuttâd}} mââiårra",
+	"lastmodified-hours": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 čiâss|$1 čiâss|$1 čiâssâd}} mââiårra",
+	"lastmodified-days": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 peiʹvv|$1 peeiʹv|$1 peiʹvved}} mââiårra",
+	"lastmodified-months": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 määnpââʹjj|$1 määnpââʹj|$1 määnpââʹjjed}} mââiårra",
+	"lastmodified-years": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 eeʹǩǩ|$1 eeʹjj|$1 eeʹǩǩed}} mââiårra"
 }
