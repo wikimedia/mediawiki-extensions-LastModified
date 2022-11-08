@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abbas dhothar"
+			"Abbas dhothar",
+			"Bgo eiu"
 		]
 	},
-	"lastmodified-seconds": "Last updated {{PLURAL:$1|$1سکنٹ}} ago",
-	"lastmodified-days": "آخری ترمیم {{PLURAL:$1|$1 دن|$1 دناں}} پہلے"
+	"lastmodified-seconds": "{{PLURAL:$1|$1سکنٹ}} پہلاں بدلیا گیا",
+	"lastmodified-days": "آخری ترمیم {{PLURAL:$1|$1 دن|$1 دناں}} پہلے",
+	"lastmodified-years": "{{PLURAL:$1|$1 سال}} بدلیا گیا"
 }
