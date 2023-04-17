@@ -6,7 +6,7 @@
 	},
 	"lastmodified-desc": "Genererer tidspunkt for når sider ble endret",
 	"lastmodified": "Denne siden ble sist endret $1.",
-	"lastmodified-title-tag": "Vis revisjonshistorikken til denne siden.",
+	"lastmodified-title-tag": "Vis sideversjonshistorikken til denne siden.",
 	"lastmodified-seconds": "Sist oppdatert for {{PLURAL:$1|ett sekund|$1 sekunder}} siden",
 	"lastmodified-minutes": "Sist oppdatert for {{PLURAL:$1|ett minutt|$1 minutter}} siden",
 	"lastmodified-hours": "Sist oppdatert for {{PLURAL:$1|én time|$1 timer}} siden",
