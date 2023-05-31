@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"lastmodified-desc": "Sugeneruoja paskutinio keitimo laikus puslapiams",
+	"lastmodified": "Paskutinis pakeitimas",
+	"lastmodified-title-tag": "Žiūrėti šio puslapio versijų istoriją.",
+	"lastmodified-seconds": "Paskutinį kartą atnaujinta prieš {{PLURAL:$1|$1 sekundę|$1 sekundes}}",
+	"lastmodified-minutes": "Paskutinį kartą atnaujinta prieš {{PLURAL:$1|$1 minutę|$1 minutes}}",
+	"lastmodified-hours": "Paskutinį kartą atnaujinta prieš {{PLURAL:$1|$1 valandą|$1 valandas}}",
+	"lastmodified-days": "Paskutinį kartą atnaujinta prieš {{PLURAL:$1|$1 dieną|$1 dienas}}",
+	"lastmodified-months": "Paskutinį kartą atnaujinta prieš {{PLURAL:$1|$1 mėnesį|$1 mėnesius}}",
+	"lastmodified-years": "Paskutinį kartą atnaujinta prieš {{PLURAL:$1|$1 metus}}"
+}
