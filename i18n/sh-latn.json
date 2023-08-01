@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"lastmodified-desc": "Prikazuje kada su napravljene poslednje izmjene na stranicama",
+	"lastmodified": "Poslednja promjena",
+	"lastmodified-title-tag": "Pregled historije izmjena ove stranice.",
+	"lastmodified-seconds": "Poslednje izmjene napravljene prije {{PLURAL:$1|jedne sekunde|$1 sekunde|$1 sekundi}}",
+	"lastmodified-minutes": "Poslednje izmjene napravljene prije {{PLURAL:$1|jedan minut|$1 minuta}}",
+	"lastmodified-hours": "Poslednje izmjene napravljene prije {{PLURAL:$1|jedan sat|$1 sata|$1 sati}}",
+	"lastmodified-days": "Poslednje izmjene napravljene prije {{PLURAL:$1|jedan dan|$1 dana}}",
+	"lastmodified-months": "Poslednje izmjene napravljene prije {{PLURAL:$1|$1 mjesec|$1 mjeseca|$1 mjeseci}}",
+	"lastmodified-years": "Poslednje izmjene napravljene prije {{PLURAL:$1|$1 godinu|$1 godine|$1 godina}}"
+}
