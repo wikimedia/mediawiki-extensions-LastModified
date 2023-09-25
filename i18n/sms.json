@@ -6,10 +6,10 @@
 	},
 	"lastmodified": "Mââimõssân muttum",
 	"lastmodified-title-tag": "Čuäʹjet tän seeid muʹttemhistoria",
-	"lastmodified-seconds": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 sekuntt|$1 sekuunt|$1 sekunttâd}} mââiårra",
-	"lastmodified-minutes": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 minutt|$1 minuutt|$1 minuttâd}} mââiårra",
-	"lastmodified-hours": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 čiâss|$1 čiâss|$1 čiâssâd}} mââiårra",
-	"lastmodified-days": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 peiʹvv|$1 peeiʹv|$1 peiʹvved}} mââiårra",
-	"lastmodified-months": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 määnpââʹjj|$1 määnpââʹj|$1 määnpââʹjjed}} mââiårra",
-	"lastmodified-years": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 eeʹǩǩ|$1 eeʹjj|$1 eeʹǩǩed}} mââiårra"
+	"lastmodified-seconds": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 sekunttâd|1=sekuntt|2=2 sekuunt|3=3 sekuunt|4=4 sekuunt|5=5 sekuunt|6=6 sekuunt}} mââiårra",
+	"lastmodified-minutes": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 minuttâd|1=minutt|2=2 minuutt|3=3 minuutt|4=4 minuutt|5=5 minuutt|6=6 minuutt}} mââiårra",
+	"lastmodified-hours": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 čiâssâd|1=čiâss|2=2 čiâss|3=3 čiâss|4=4 čiâss|5=5 čiâss|6=6 čiâss}} mââiårra",
+	"lastmodified-days": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 peiʹvved|1=peiʹvv|2=2 peeiʹv|3=3 peeiʹv|4=4 peeiʹv|5=5 peeiʹv|6=6 peeiʹv}} mââiårra",
+	"lastmodified-months": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 määnpââʹjjed|1=1 määnpââʹjj|2=2 määnpââʹj|3=3 määnpââʹj|4=4 määnpââʹj|5=5 määnpââʹj|6=6 määnpââʹj}} mââiårra",
+	"lastmodified-years": "Mââimõssân peiʹvvuum {{PLURAL:$1|$1 eeʹǩǩed|1=eeʹǩǩ|2=2 eeʹjj|3=3 eeʹjj|4=4 eeʹjj|5=5 eeʹjj|6=6 eeʹjj}} mââiårra"
 }
