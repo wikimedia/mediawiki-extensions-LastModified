@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Karthi.dr",
-			"Shanmugamp7"
+			"Shanmugamp7",
+			"Fahimrazick"
 		]
 	},
 	"lastmodified": "கடைசியாக மாற்றப்பட்டது",
 	"lastmodified-seconds": "கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1 வினாடி|$1 வினாடிகள்}} முன்பு",
 	"lastmodified-minutes": "கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1 நிமிடம்|$1 நிமிடங்கள்}} முன்பு",
 	"lastmodified-hours": "கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1மணி|$1 மணிகள்}} முன்பு",
-	"lastmodified-days": "கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1 நாள்|$1 நாட்கள்}} முன்பு",
+	"lastmodified-days": "கடைசியாக இற்றையாக்கியது {{PLURAL:$1|$1 நாளுக்கு|$1 நாட்களுக்கு}} முன்னர்",
 	"lastmodified-months": "கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1 மாதம்|$1 மாதங்கள்}} முன்பு",
 	"lastmodified-years": "கடைசியாக புதுப்பித்தது {{PLURAL:$1|$1 வருடம்|$1 வருடங்கள்}} முன்பு"
 }

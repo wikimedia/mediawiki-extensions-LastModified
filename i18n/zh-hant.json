@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"LNDDYL",
-			"Simon Shek"
+			"Simon Shek",
+			"列维劳德"
 		]
 	},
 	"lastmodified-desc": "生成頁面的最後修訂時間",
 	"lastmodified": "最後修訂",
-	"lastmodified-title-tag": "檢視此頁的修訂歷史。",
+	"lastmodified-title-tag": "檢視此頁的修訂紀錄。",
 	"lastmodified-seconds": "最後更新於$1秒前",
 	"lastmodified-minutes": "最後更新於$1分鐘前",
 	"lastmodified-hours": "最後更新於$1小時前",
