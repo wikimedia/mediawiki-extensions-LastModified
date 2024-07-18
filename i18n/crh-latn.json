@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Don Alessandro",
 			"TayfunEt.",
 			"Zolgoyo"
 		]
 	},
-	"lastmodified-seconds": "Soñ deñiştirme {{PLURAL:$1|$1 saniye}} önce",
-	"lastmodified-minutes": "Soñ deñiştirme {{PLURAL:$1|$1 daqqa}} önce",
-	"lastmodified-hours": "Soñ deñiştirme {{PLURAL:$1|$1 saat}} önce",
-	"lastmodified-days": "Soñ deñiştirme {{PLURAL:$1|$1 kün}} önce",
-	"lastmodified-months": "Soñ deñiştirme {{PLURAL:$1|$1 ay}} önce",
-	"lastmodified-years": "Soñ deñiştirme {{PLURAL:$1|$1 yıl}} önce"
+	"lastmodified-seconds": "Soñki deñiştirme {{PLURAL:$1|$1 saniye}} evel",
+	"lastmodified-minutes": "Soñki deñiştirme {{PLURAL:$1|$1 daqqa}} evel",
+	"lastmodified-hours": "Soñki deñiştirme {{PLURAL:$1|$1 saat}} evel",
+	"lastmodified-days": "Soñki deñiştirme {{PLURAL:$1|$1 kün}} evel",
+	"lastmodified-months": "Soñki deñiştirme {{PLURAL:$1|$1 ay}} evel",
+	"lastmodified-years": "Soñki deñiştirme {{PLURAL:$1|$1 yıl}} evel"
 }
