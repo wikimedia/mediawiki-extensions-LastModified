@@ -8,10 +8,10 @@
 	"lastmodified-desc": "สร้างเวลาที่แก้ไขล่าสุดสำหรับหน้า",
 	"lastmodified": "ปรับเปลี่ยนล่าสุด",
 	"lastmodified-title-tag": "ดูประวัติการแก้ไขสำหรับหน้านี้",
-	"lastmodified-seconds": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 วินาที}} ที่แล้ว",
-	"lastmodified-minutes": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 นาที}} ที่แล้ว",
-	"lastmodified-hours": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 ชั่วโมง}} ที่แล้ว",
-	"lastmodified-days": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 วัน}} ที่แล้ว",
-	"lastmodified-months": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 เดือน}} ที่แล้ว",
-	"lastmodified-years": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 ปี}} ที่แล้ว"
+	"lastmodified-seconds": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 วินาที}}ที่แล้ว",
+	"lastmodified-minutes": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 นาที}}ที่แล้ว",
+	"lastmodified-hours": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 ชั่วโมง}}ที่แล้ว",
+	"lastmodified-days": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 วัน}}ที่แล้ว",
+	"lastmodified-months": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 เดือน}}ที่แล้ว",
+	"lastmodified-years": "ปรับปรุงล่าสุด {{PLURAL:$1|$1 ปี}}ที่แล้ว"
 }
