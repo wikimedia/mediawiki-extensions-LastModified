@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"lastmodified-desc": "Generuje čas poslědnjej izměny za stranice",
+	"lastmodified": "Poslědnja izměna",
+	"lastmodified-title-tag": "Pokazati historiju versij tutoj stranice.",
+	"lastmodified-seconds": "Poslědnja izměna sdělana prěd {{PLURAL:$1|$1 sekundoju|$1 sekundami}}",
+	"lastmodified-minutes": "Poslědnja izměna sdělana prěd {{PLURAL:$1|$1 minutoju|$1 minutami}}",
+	"lastmodified-hours": "Poslědnja izměna sdělana prěd {{PLURAL:$1|$1 časinoju|$1 časinami}}",
+	"lastmodified-days": "Poslědnja izměna sdělana prěd {{PLURAL:$1|$1 dnjem|$1 dnjami}}",
+	"lastmodified-months": "Poslědnja izměna sdělana prěd {{PLURAL:$1|$1 měsecem|$1 měsecami}}",
+	"lastmodified-years": "Poslědnja izměna sdělana prěd {{PLURAL:$1|$1 godom|$1 lětami}}"
+}
