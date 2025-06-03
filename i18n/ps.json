@@ -4,12 +4,13 @@
 			"Af420",
 			"Ahmed-Najib-Biabani-Ibrahimkhel",
 			"Amjad Khan",
-			"Baloch Khan"
+			"Baloch Khan",
+			"شاه زمان پټان"
 		]
 	},
-	"lastmodified-seconds": "وروستۍ بدلون {{PLURAL:$1|$1 ثانيې|$1 ثانيې}} مخکې",
-	"lastmodified-minutes": "وروستۍ بدلون {{PLURAL:$1|$1 دقیقي|$1 دقیقي}} مخکې",
-	"lastmodified-hours": "وروستۍ بدلون {{PLURAL:$1|$1 گړۍ|$1 گړۍ}} مخکې",
+	"lastmodified-seconds": "وروستۍ هم‌مهالېدنه {{PLURAL:$1|$1 ثانيه|$1 ثانيې}} مخکې",
+	"lastmodified-minutes": "وروستۍ هم‌مهالېدنه {{PLURAL:$1|$1 دقيقه|$1 دقيقې}} مخکې",
+	"lastmodified-hours": "وروستۍ هم‌مهالېدنه {{PLURAL:$1|$1 گړۍ}} مخکې",
 	"lastmodified-days": "وروستۍ اوسمهالېدنه {{PLURAL:$1|$1 ورځ|$1 ورځې}} دمخه",
 	"lastmodified-months": "وروستۍ هممهالېدنه {{PLURAL:$1|$1 مياشت|$1 مياشتې}} دمخه",
 	"lastmodified-years": "وروستۍ بدلون {{PLURAL:$1|$1 کال|$1 کاله}} مخکې"
