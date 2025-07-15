@@ -30,7 +30,7 @@ $( function () {
 	const $link = $( '<a>' )
 		.attr({
 			href: historyLink,
-			title: mw.message( 'lastmodified-title-tag' ).escaped()
+			title: mw.msg( 'lastmodified-title-tag' )
 		})
 		.text( getLastModifiedText( getUtcTimeStamp() - getMetaLastModifiedTimestamp(), getMetaRange() ) );
 	$container.append( $link );
