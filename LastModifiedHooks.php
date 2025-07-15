@@ -11,8 +11,6 @@ class LastModifiedHooks implements
 	 * @return void
 	 */
 	public function onBeforePageDisplay( $out, $sk ): void {
-		global $wgLastModifiedRange;
-
 		$context = $out->getContext();
 		$title = $context->getTitle();
 
@@ -27,7 +25,7 @@ class LastModifiedHooks implements
 			$timestamp = wfTimestamp( TS_UNIX, $article->getPage()->getTimestamp() );
 			$out->addMeta( 'http:last-modified', date( 'r', $timestamp ) );
 			$out->addMeta( 'last-modified-timestamp', $timestamp );
-			$out->addMeta( 'last-modified-range', $wgLastModifiedRange );
+			$out->addMeta( 'last-modified-range', $out->getConfig()->get( 'LastModifiedRange' ) );
 			$out->addModules( 'last.modified' );
 		}
 	}
