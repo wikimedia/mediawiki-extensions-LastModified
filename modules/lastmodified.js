@@ -16,8 +16,6 @@
  * @author		Katie Horn <khorn@wikimedia.org>, Jeremy Postlethwaite <jpostlethwaite@wikimedia.org>
  */
 
-( function ( $, mw ) {
-
 /**
  * Find out when the article was last modified and insert it into the page.
  *
@@ -154,5 +152,3 @@ function getMetaRange () {
 
 	return 0;
 }
-
-}( jQuery, mediaWiki ) );

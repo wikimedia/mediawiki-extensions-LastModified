@@ -21,7 +21,7 @@
 	},
 	"ResourceModules": {
 		"last.modified": {
-			"scripts": "lastmodified.js",
+			"packageFiles": "lastmodified.js",
 			"dependencies": [
 				"mediawiki.jqueryMsg"
 			],
