@@ -24,17 +24,19 @@
  * This is the primary function for this script.
  */
 $( function () {
-	var historyLink = getArticleHistoryLink(),
-		html = '';
+	const historyLink = getArticleHistoryLink();
 
-	html += '<div id="mwe-lastmodified">';
-	html += '<a href="' + historyLink + '" title="' + mw.message( 'lastmodified-title-tag' ).escaped() + '">';
-	html += getLastModifiedText( getUtcTimeStamp() - getMetaLastModifiedTimestamp(), getMetaRange() );
-	html += '</a>';
-	html += '</div>';
+	const $container = $( '<div>' ).attr( 'id', 'mwe-lastmodified' );
+	const $link = $( '<a>' )
+		.attr({
+			href: historyLink,
+			title: mw.message( 'lastmodified-title-tag' ).escaped()
+		})
+		.text( getLastModifiedText( getUtcTimeStamp() - getMetaLastModifiedTimestamp(), getMetaRange() ) );
+	$container.append( $link );
 
 	// Insert the HTML into the web page, based on skin
-	$( '.mw-indicators' ).append( html );
+	$( '.mw-indicators' ).append( $container );
 } );
 
 /**
@@ -68,7 +70,7 @@ function getMetaLastModifiedTimestamp () {
 	if ( metaTag.length ) {
 		return parseInt( metaTag.attr( 'content' ) );
 	}
-	
+
 	return 0;
 }
 
@@ -79,12 +81,12 @@ function getMetaLastModifiedTimestamp () {
  * @param {number} displayRange	The maximum unit of time to display for last updated
  *
  * displayRange
- * - 0: years	- display: years, months, days, hours, minutes, seconds  
- * - 1: months 	- display: months, days, hours, minutes, seconds  
- * - 2: days	- display: days, hours, minutes, seconds  
- * - 3: hours	- display: hours, minutes, seconds  
- * - 4: minutes	- display: minutes, seconds  
- * - 5: seconds	- display: seconds  
+ * - 0: years	- display: years, months, days, hours, minutes, seconds
+ * - 1: months 	- display: months, days, hours, minutes, seconds
+ * - 2: days	- display: days, hours, minutes, seconds
+ * - 3: hours	- display: hours, minutes, seconds
+ * - 4: minutes	- display: minutes, seconds
+ * - 5: seconds	- display: seconds
  *
  * @return {string}
  */
@@ -97,7 +99,7 @@ function getLastModifiedText ( modifiedDifference, displayRange ) {
 		modifiedDifference = 0;
 	}
 	var myLastEdit = modifiedDifference;
-	
+
 	if ( modifiedDifference < 60 ) {
 		// seconds
 		message = mw.msg( 'lastmodified-seconds',  myLastEdit );
@@ -130,9 +132,9 @@ function getLastModifiedText ( modifiedDifference, displayRange ) {
 		if ( displayRange === 0 ) {
 			myLastEdit = parseInt( modifiedDifference / 31536000 );
 			message = mw.msg( 'lastmodified-years', myLastEdit );
-		}		
+		}
 	}
-	
+
 	return message;
 }
 
@@ -149,8 +151,8 @@ function getMetaRange () {
 	if ( metaTag.length ) {
 		return parseInt( metaTag.attr( 'content' ) );
 	}
-	
+
 	return 0;
 }
 
-}( jQuery, mediaWiki ) ); 
+}( jQuery, mediaWiki ) );
