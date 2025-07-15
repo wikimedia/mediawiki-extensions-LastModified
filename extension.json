@@ -41,8 +41,13 @@
 		"localBasePath": "modules",
 		"remoteExtPath": "LastModified/modules"
 	},
+	"HookHandlers": {
+		"main": {
+			"class": "LastModifiedHooks"
+		}
+	},
 	"Hooks": {
-		"BeforePageDisplay": "LastModifiedHooks::onLastModified"
+		"BeforePageDisplay": "main"
 	},
 	"config": {
 		"LastModifiedRange": {

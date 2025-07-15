@@ -2,13 +2,15 @@
 
 use MediaWiki\Title\Title;
 
-class LastModifiedHooks {
+class LastModifiedHooks implements
+	\MediaWiki\Hook\BeforePageDisplayHook
+{
 	/**
-	 * @param OutputPage &$out
-	 * @param Skin &$sk
-	 * @return bool
+	 * @param OutputPage $out
+	 * @param Skin $sk
+	 * @return void
 	 */
-	public static function onLastModified( &$out, &$sk ) {
+	public function onBeforePageDisplay( $out, $sk ): void {
 		global $wgLastModifiedRange;
 
 		$context = $out->getContext();
@@ -16,7 +18,7 @@ class LastModifiedHooks {
 
 		// Don't try to proceed if we don't care about the target page
 		if ( !( $title instanceof Title && $title->getNamespace() == 0 && $title->exists() ) ) {
-			return true;
+			return;
 		}
 
 		$article = Article::newFromTitle( $title, $context );
@@ -28,7 +30,5 @@ class LastModifiedHooks {
 			$out->addMeta( 'last-modified-range', $wgLastModifiedRange );
 			$out->addModules( 'last.modified' );
 		}
-
-		return true;
 	}
 }
