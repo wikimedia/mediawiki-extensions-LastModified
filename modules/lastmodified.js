@@ -13,7 +13,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
- * @author		Katie Horn <khorn@wikimedia.org>, Jeremy Postlethwaite <jpostlethwaite@wikimedia.org>
+ * @author Katie Horn <khorn@wikimedia.org>, Jeremy Postlethwaite <jpostlethwaite@wikimedia.org>
  */
 
 /**
@@ -21,16 +21,17 @@
  *
  * This is the primary function for this script.
  */
-$( function () {
-	const historyLink = getArticleHistoryLink();
-
+$( () => {
 	const $container = $( '<div>' ).attr( 'id', 'mwe-lastmodified' );
 	const $link = $( '<a>' )
-		.attr({
-			href: historyLink,
+		.attr( {
+			href: getArticleHistoryLink(),
 			title: mw.msg( 'lastmodified-title-tag' )
-		})
-		.text( getLastModifiedText( getUtcTimeStamp() - getMetaLastModifiedTimestamp(), getMetaRange() ) );
+		} )
+		.text( getLastModifiedText(
+			getUtcTimeStamp() - getMetaLastModifiedTimestamp(),
+			getMetaRange()
+		) );
 	$container.append( $link );
 
 	// Insert the HTML into the web page, based on skin
@@ -42,8 +43,8 @@ $( function () {
  *
  * @return {number}
  */
-function getUtcTimeStamp () {
-	return parseInt( new Date().getTime() / 1000 );
+function getUtcTimeStamp() {
+	return parseInt( Date.now() / 1000 );
 }
 
 /**
@@ -51,7 +52,7 @@ function getUtcTimeStamp () {
  *
  * @return {string} Return the article title
  */
-function getArticleHistoryLink () {
+function getArticleHistoryLink() {
 	return mw.util.getUrl( mw.config.get( 'wgPageName' ), { action: 'history' } );
 }
 
@@ -60,13 +61,13 @@ function getArticleHistoryLink () {
  *
  * @return {number}
  */
-function getMetaLastModifiedTimestamp () {
+function getMetaLastModifiedTimestamp() {
 	// Fetch the meta tag
-	var metaTag = $( "meta[name=last-modified-timestamp]" );
+	const $metaTag = $( 'meta[name=last-modified-timestamp]' );
 
 	// If the tag was found, parse the value
-	if ( metaTag.length ) {
-		return parseInt( metaTag.attr( 'content' ) );
+	if ( $metaTag.length ) {
+		return parseInt( $metaTag.attr( 'content' ) );
 	}
 
 	return 0;
@@ -76,31 +77,31 @@ function getMetaLastModifiedTimestamp () {
  * Get the modified text. This takes advantage of internationalization.
  *
  * @param {number} modifiedDifference The difference of time from now compared to last edited
- * @param {number} displayRange	The maximum unit of time to display for last updated
+ * @param {number} displayRange The maximum unit of time to display for last updated
  *
  * displayRange
- * - 0: years	- display: years, months, days, hours, minutes, seconds
- * - 1: months 	- display: months, days, hours, minutes, seconds
- * - 2: days	- display: days, hours, minutes, seconds
- * - 3: hours	- display: hours, minutes, seconds
- * - 4: minutes	- display: minutes, seconds
- * - 5: seconds	- display: seconds
+ * - 0: years   - display: years, months, days, hours, minutes, seconds
+ * - 1: months  - display: months, days, hours, minutes, seconds
+ * - 2: days    - display: days, hours, minutes, seconds
+ * - 3: hours   - display: hours, minutes, seconds
+ * - 4: minutes - display: minutes, seconds
+ * - 5: seconds - display: seconds
  *
  * @return {string}
  */
-function getLastModifiedText ( modifiedDifference, displayRange ) {
+function getLastModifiedText( modifiedDifference, displayRange ) {
 
 	// Message to return
-	var message = '';
+	let message = '';
 	// The modifiedDifference should never be less than 0
 	if ( modifiedDifference < 0 ) {
 		modifiedDifference = 0;
 	}
-	var myLastEdit = modifiedDifference;
+	let myLastEdit = modifiedDifference;
 
 	if ( modifiedDifference < 60 ) {
 		// seconds
-		message = mw.msg( 'lastmodified-seconds',  myLastEdit );
+		message = mw.msg( 'lastmodified-seconds', myLastEdit );
 	} else if ( modifiedDifference < 3600 ) {
 		// minutes
 		if ( displayRange <= 4 ) {
@@ -141,13 +142,13 @@ function getLastModifiedText ( modifiedDifference, displayRange ) {
  *
  * @return {number}
  */
-function getMetaRange () {
+function getMetaRange() {
 	// Fetch the meta tag
-	var metaTag = $( 'meta[name=last-modified-range]' );
+	const $metaTag = $( 'meta[name=last-modified-range]' );
 
 	// If the tag was found, parse the value
-	if ( metaTag.length ) {
-		return parseInt( metaTag.attr( 'content' ) );
+	if ( $metaTag.length ) {
+		return parseInt( $metaTag.attr( 'content' ) );
 	}
 
 	return 0;
