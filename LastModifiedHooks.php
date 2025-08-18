@@ -7,15 +7,16 @@ class LastModifiedHooks implements
 {
 	/**
 	 * @param OutputPage $out
-	 * @param Skin $sk
+	 * @param Skin $skin
 	 * @return void
 	 */
-	public function onBeforePageDisplay( $out, $sk ): void {
+	public function onBeforePageDisplay( $out, $skin ): void {
 		$context = $out->getContext();
 		$title = $context->getTitle();
 
 		// Don't try to proceed if we don't care about the target page
-		if ( !( $title instanceof Title && $title->getNamespace() == 0 && $title->exists() ) ) {
+		if ( !( $title instanceof Title && $title->inNamespaces( $out->getConfig()->get( 'LastModifiedNamespaces' ) ) &&
+			$title->exists() ) ) {
 			return;
 		}
 

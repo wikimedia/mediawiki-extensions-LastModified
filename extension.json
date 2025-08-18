@@ -53,6 +53,12 @@
 		"LastModifiedRange": {
 			"description": "This variable controls the display range.\nSee documentation on https://www.mediawiki.org/wiki/Extension:LastModified for more details.",
 			"value": 0
+		},
+		"LastModifiedNamespaces": {
+			"description": "The namespaces in which the last modified text will be displayed.",
+			"value": [
+				0
+			]
 		}
 	},
 	"manifest_version": 2
