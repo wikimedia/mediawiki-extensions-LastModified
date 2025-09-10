@@ -21,6 +21,11 @@ class LastModifiedHooks implements
 			return;
 		}
 
+		// T268798: Only show the message if the user is viewing the page
+		if ( $out->getActionName() !== 'view' ) {
+			return;
+		}
+
 		$article = Article::newFromTitle( $title, $context );
 
 		if ( $article ) {
