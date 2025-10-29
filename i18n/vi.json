@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"Nvdtn19"
 		]
 	},
-	"lastmodified-desc": "Tính ra lúc sửa đổi cuối cùng của các trang",
+	"lastmodified-desc": "Đưa ra thời gian sửa đổi lần cuối cho các trang",
 	"lastmodified": "Sửa đổi lần cuối",
 	"lastmodified-title-tag": "Xem lịch sử thay đổi của trang này.",
 	"lastmodified-seconds": "Cập nhật lần cuối cách đây $1 giây",
