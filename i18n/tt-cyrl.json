@@ -1,8 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ильнар"
+			"Ильнар",
+			"Ильгиз"
 		]
 	},
-	"lastmodified-hours": "{{PLURAL:$1|$1 сәгать}} элек яңартылды"
+	"lastmodified-desc": "Битләрнең соңгы тапкыр үзгәртелү вакытын күрсәтә",
+	"lastmodified": "Соңгы үзгәртү",
+	"lastmodified-title-tag": "Бу битнең үзгәртүләр тарихын күрсәт",
+	"lastmodified-seconds": "{{PLURAL:$1|$1 секунд}} элек яңартылды",
+	"lastmodified-minutes": "{{PLURAL:$1|$1 минут}} элек яңартылды",
+	"lastmodified-hours": "{{PLURAL:$1|$1 сәгать}} элек яңартылды",
+	"lastmodified-days": "{{PLURAL:$1|$1 көн}} элек яңартылды",
+	"lastmodified-months": "{{PLURAL:$1|$1 ай}} элек яңартылды",
+	"lastmodified-years": "{{PLURAL:$1|$1 ел}} элек яңартылды"
 }
