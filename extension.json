@@ -9,7 +9,7 @@
 	"descriptionmsg": "lastmodified-desc",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.39.4"
+		"MediaWiki": ">= 1.43"
 	},
 	"MessagesDirs": {
 		"LastModified": [

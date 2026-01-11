@@ -1,9 +1,10 @@
 <?php
 
+use MediaWiki\Output\OutputPage;
 use MediaWiki\Title\Title;
 
 class LastModifiedHooks implements
-	\MediaWiki\Hook\BeforePageDisplayHook
+	\MediaWiki\Output\Hook\BeforePageDisplayHook
 {
 	/**
 	 * @param OutputPage $out
