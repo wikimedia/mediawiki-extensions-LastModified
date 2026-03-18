@@ -8,6 +8,9 @@
 			"شاه زمان پټان"
 		]
 	},
+	"lastmodified-desc": "د مخونو لپاره د وروستي بدلون وختونه زېږوي",
+	"lastmodified": "وروستی بدلون",
+	"lastmodified-title-tag": "د دې مخ د بياليدنې پېښليک کتل.",
 	"lastmodified-seconds": "وروستۍ هم‌مهالېدنه {{PLURAL:$1|$1 ثانيه|$1 ثانيې}} مخکې",
 	"lastmodified-minutes": "وروستۍ هم‌مهالېدنه {{PLURAL:$1|$1 دقيقه|$1 دقيقې}} مخکې",
 	"lastmodified-hours": "وروستۍ هم‌مهالېدنه {{PLURAL:$1|$1 گړۍ}} مخکې",
