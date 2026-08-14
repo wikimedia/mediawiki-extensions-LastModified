@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Output\OutputPage;
+use MediaWiki\Skin\Skin;
 use MediaWiki\Title\Title;
 
 class LastModifiedHooks implements
