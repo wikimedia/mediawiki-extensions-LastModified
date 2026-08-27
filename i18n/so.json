@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"lastmodified-desc": "Waxay soo saartaa waqtiyada ugu dambeeyay ee bogagga wax laga beddelay",
+	"lastmodified": "Wax ka beddelkii ugu dambeeyay",
+	"lastmodified-title-tag": "Arag taariikhda dib u eegista boggan.",
+	"lastmodified-seconds": "Markii ugu dambeysay ee la cusbooneysiiyay {{PLURAL:$1|$1 ilbiriqsi|$1 ilbiriqsiyo}} ka hor",
+	"lastmodified-minutes": "Markii ugu dambeysay ee la cusbooneysiiyay {{PLURAL:$1|$1 daqiiqo|$1 daqiiqado}} ka hor",
+	"lastmodified-hours": "Markii ugu dambeysay ee la cusbooneysiiyay {{PLURAL:$1|$1 saacad|$1 saacadood}} ka hor",
+	"lastmodified-days": "Markii ugu dambeysay ee la cusbooneysiiyay {{PLURAL:$1|$1 maalin|$1 maalmood}} ka hor",
+	"lastmodified-months": "Markii ugu dambeysay ee la cusbooneysiiyay {{PLURAL:$1|$1 bil|$1 bilo}} ka hor",
+	"lastmodified-years": "Markii ugu dambeysay ee la cusbooneysiiyay {{PLURAL:$1|$1 sano|$1 sanadood}} ka hor"
+}
